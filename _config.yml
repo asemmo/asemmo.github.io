@@ -2,10 +2,10 @@
 timezone: Europe/Berlin
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://daniellimberger.de" # the base hostname & protocol for your site
+url: "http://amirsemmo.de" # the base hostname & protocol for your site
 
 title: Interactive Graphics Engineer
-author: Daniel Limberger
+author: Amir Semmo
 portrait: "/img/daniel-limberger-aug-2014.jpg"
 
 flickr_user: "131006004@N06"
