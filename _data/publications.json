@@ -1,43 +1,53 @@
-[ { "key"       : "led2012-sky-phenomena",
+[ { "key"       : "kskd2010",
     "bibtex"    : "bib/led2012-sky-phenomena.bib",
     "title"     : "Anisotropic Kuwahara Filtering with Polynomial Weighting Functions",
     "date"      : "2010-06-01",
     "authors"   : [ "Jan Eric Kyprianidis", "Amir Semmo", "Henry Kang", "Jürgen Döllner" ],
-    "published" : "In NPAR Poster Session",
+    "published" : "In NPAR Poster Session / Proceedings EG UK Theory and Practice of Computer Graphics",
     "caption"   : "In this work we present new weighting functions for the anisotropic Kuwahara filter. The anisotropic Kuwahara filter is an edge-preserving filter that is especially useful for creating stylized abstractions from images or videos. It is based on a generalization of the Kuwahara filter that is adapted to the local shape of features. For the smoothing process, the anisotropic Kuwahara filter uses weighting functions that use convolution in their definition. For an efficient implementation, these weighting functions are therefore usually sampled into a texture map. By contrast, our new weighting functions do not require convolution and can be efficiently computed directly during the filtering in real-time. We show that our approach creates output of similar quality as the original anisotropic Kuwahara filter and present an evaluation scheme to compute the new weighting functions efficiently by using rotational symmetries.",
     "thumbnail" : "/img/2012-vmv-day-and-night-sky.jpg",
     "downloads" : [
-      { "href"  : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2010/KSKD10a/jkyprian-npar2010.pdf",
-        "desc"  : "Paper (PDF)"
-      } ],
+    { "href"  : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2010/KSKD10a/jkyprian-npar2010.pdf",
+      "desc"  : "Paper (PDF)"
+    } ],
     },
 	
-	{ "key"       : "led2012-sky-phenomena",
+  { "key"       : "wsash2010",
     "bibtex"    : "bib/led2012-sky-phenomena.bib",
-    "title"     : "Anisotropic Kuwahara Filtering with Polynomial Weighting Functions",
+    "title"     : "ContextLua: Dynamic Behavioral Variations in Computer Games",
     "date"      : "2010-06-01",
-    "authors"   : [ "Jan Eric Kyprianidis", "Amir Semmo", "Henry Kang", "Jürgen Döllner" ],
-    "published" : "In NPAR Poster Session",
-    "caption"   : "In this work we present new weighting functions for the anisotropic Kuwahara filter. The anisotropic Kuwahara filter is an edge-preserving filter that is especially useful for creating stylized abstractions from images or videos. It is based on a generalization of the Kuwahara filter that is adapted to the local shape of features. For the smoothing process, the anisotropic Kuwahara filter uses weighting functions that use convolution in their definition. For an efficient implementation, these weighting functions are therefore usually sampled into a texture map. By contrast, our new weighting functions do not require convolution and can be efficiently computed directly during the filtering in real-time. We show that our approach creates output of similar quality as the original anisotropic Kuwahara filter and present an evaluation scheme to compute the new weighting functions efficiently by using rotational symmetries.",
+    "authors"   : [ "Benjamin Hosain Wasty", "Amir Semmo", "Malte Appeltauer", "Bastian Steinert", "Robert Hirschfeld" ],
+    "published" : "In Proceedings of the 2nd International Workshop on Context-Oriented Programming",
+    "caption"   : "Behavioral variations are central to modern computer games as they are making the gameplay a more interesting user experience. However, these variations significantly add to the implementation complexity. We discuss the domain of computer games with respect to dynamic behavioral variations and argue that context-oriented programming is of special interest for this domain. This motivates our extension to the dynamic scripting language Lua, which is frequently used in the development of computer games. Our newly provided programming constructs allow game developers to use layers for defining and activating variations of the basic gameplay.",
     "thumbnail" : "/img/2012-vmv-day-and-night-sky.jpg",
-    "flickr"    : "72157650186586300",
     "downloads" : [
-      { "href"  : "http://dx.doi.org/10.2312/PE/VMV/VMV12/055-062",
-        "desc"  : "DOI"
-      },
-      { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAMi1maGtNOV9GTU0/view",
-        "desc"  : "Paper (PDF, 5.7 MiB)"
-      },
-      { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAeEg2NGtKV3NLWk0/view",
-        "desc"  : "Slides (PDF, 3.0 MiB)"
-      },
-      { "href"  : "https://www.youtube.com/watch?v=t8ibsEl0kAI",
-        "desc"  : "Video (YouTube)",
-        "popup" : "youtube"
-      },
-      { "href"  : "https://code.google.com/p/osghimmel/",
-        "desc"  : "Google Code"
-      } ],
+	{ "href"    : "http://dx.doi.org/10.1145/1930021.1930026",
+      "desc"    : "DOI"
+    },
+    { "href"  : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2010/KSKD10a/jkyprian-npar2010.pdf",
+      "desc"  : "Paper (PDF)"
+    } ],
+    },
+	
+  { "key"       : "tsphdeh2010",
+    "bibtex"    : "bib/led2012-sky-phenomena.bib",
+    "title"     : "Communication of Digital Cultural Heritage in Public Spaces by the Example of Roman Cologne",
+    "date"      : "2010-11-01",
+    "authors"   : [ "Matthias Trapp", "Amir Semmo", "Rafael Pokorski", "Claus-Daniel Herrmann", "Jürgen Döllner", "Michael Eichhorn", "Michael Heinzelmann" ],
+    "published" : "In Proceedings of 3rd EuroMed Conference",
+    "caption"   : "The communication of cultural heritage in public spaces such as museums or exhibitions, gain more and more importance during the last years. The possibilities of interactive 3D applications open a new degree of freedom beyond the mere presentation of static visualizations, such as pre-produced video or image data. A user is now able to directly interact with 3D virtual environments that enable the depiction and exploration of digital cultural heritage artefacts in real-time. However, such technology requires concepts and strategies for guiding a user throughout these scenarios, since varying levels of experiences within interactive media can be assumed. This paper presents a concept as well as implementation for communication of digital cultural heritage in public spaces, by example of the project Roman Cologne. It describes the results achieved by an interdisciplinary team of archaeologists, designers, and computer graphics engineers with the aim to virtually reconstruct an interactive high-detail 3D city model of Roman Cologne.",
+    "thumbnail" : "/img/2012-vmv-day-and-night-sky.jpg",
+    "downloads" : [
+    { "href"  : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2010/TSPHDEH10/EuroMed2010Coloniad3D_CRC_HQ.pdf",
+      "desc"  : "Paper (PDF)"
+    },
+    { "href"  : "hhttp://www.authorstream.com/Presentation/autopilot-645625-colonia3d/",
+      "desc"  : "Slides (Authorstream)"
+    },
+    { "href"  : "http://www.youtube.com/watch?v=HoC_mmy51CE",
+      "desc"  : "Video (YouTube)",
+      "video" : "youtube"
+    } ],
     },
 
     { "key"       : "lwtd2013-web-based-swmaps",
