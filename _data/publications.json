@@ -48,15 +48,5 @@
       "desc"  : "Video (YouTube)",
       "video" : "youtube"
     } ],
-    },
-	
-  {	"key"       : "skd2010",
-    "bibtex"    : "bib/led2012-sky-phenomena.bib",
-    "title"     : "Automated Image-Based Abstraction of Aerial Images",
-    "date"      : "2010-03-01",
-    "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
-    "published" : "In Proceedings of 13th AGILE International Conference on Geographic Information Science",
-    "caption"   : "Aerial images represent a fundamental type of geodata with a broad range of applications in GIS and geovisualization. The perception and cognitive processing of aerial images by the human, however, still is faced with the specific limitations of photorealistic depictions such as low contrast areas, unsharp object borders as well as visual noise. In this paper we present a novel technique to automatically abstract aerial images that enhances visual clarity and generalizes the contents of aerial images to improve their perception and recognition. The technique applies non-photorealistic image processing by smoothing local image regions with low contrast and emphasizing edges in image regions with high contrast. To handle the abstraction of large images, we introduce an image tiling procedure that is optimized for post-processing images on GPUs and avoids visible artifacts across junctions. This is technically achieved by filtering additional connection tiles that overlap the main tiles of the input image. The technique also allows the generation of different levels of abstraction for aerial images by computing a mipmap pyramid, where each of the mipmap levels is filtered with adapted abstraction parameters. These mipmaps can then be used to perform level-of-detail rendering of abstracted aerial images. Finally, the paper contributes a study to aerial image abstraction by analyzing the results of the abstraction process on distinctive visible elements in common aerial image types. In particular, we have identified a high abstraction straction potential in landscape images and a higher benefit from edge enhancement in urban environments.",
-    "thumbnail" : "/img/2012-vmv-day-and-night-sky.jpg"
     }
   } ]
