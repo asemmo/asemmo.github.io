@@ -75,21 +75,5 @@
       "published" : "In Proceedings 9. Konferenz Kultur und Informatik -- Multimediale Systeme",
       "caption"   : "Dieser Beitrag stellt die Ergebnisse des interdisziplinären Projektes Colonia3D - Visualisierung des Römischen Kölns vor. Die digitale 3D Rekonstruktion des antiken Köln ist das Ergebnis eines gemeinsamen Forschungsprojekts des Archäologischen Instituts der Universität zu Köln, der Köln International School of Design (KISD) der Fachhochschule Köln, des Hasso-Plattner Instituts an der Universität Potsdam und des Römisch Germanischen Museums (RGM) Köln. Der Beitrag präsentiert die wesentlichen Konzepte dieses interaktiven, auf Museen ausgerichteten 3D-Informationssystems, beschreibt verschiedene Präsentationsmodi und deren technische Umsetzung. Er diskutiert Vorgehensweisen und Interaktionskonzepte, die den Benutzer während der Erkundung und Bewegung im virtuellen 3D-Stadtmodell unterstützen. Weiter werden die Techniken für den Austausch, die Aufbereitung und die Optimierung komplexer 3D-Datensätze beschrieben sowie Potenziale für digitale Museen und Ausstellungen skizziert. Der vorgestellte Ansatz stellt insbesondere eine IT-Lösung für einen vereinfachten, räumlich-kontextintegrierten informellen Wissenszugang zu archäologischer Fachinformation dar.",
       "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg"
-    },
-
-    { "key"       : "std2011",
-      "bibtex"    : "bib/ld2014-parameter-painting.bib",
-      "title"     : "Ansaetze zur kartographischen Gestaltung von 3D-Stadtmodellen",
-      "date"      : "2011-04-01",
-      "authors"   : [ "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "In Proceedings 31. Wissenschaftlich-Technische Jahrestagung der DGPF",
-      "caption"   : "Interaktive virtuelle 3D-Stadtmodelle haben sich zu einem bewährten Medium für die effektive und effiziente Kommunikation von Geoinformation entwickelt. Sie präsentieren eine spezialisierte Form geovirtueller Umgebungen und sind gekennzeichnet durch ein zugrunde liegendes 3D-Geländemodell, einer darin befindlichen 3D-Bebauung sowie des dazu komplementären Straßen-, Grünflächen- und Naturraumes. 3D-Stadtmodell-Systeme ermöglichen es dem Nutzer, sich im Modell interaktiv zu bewegen und sie stellen die Grundfunktionen für die Exploration, Analyse, Präsentation und das Editieren der raumbezogenen Information bereit. Besonders im Gebiet der kartenähnlichen und kartenverwandten 3D-Darstellungen stellen u.a. automatische Verfahren und Techniken zur Stilisierung und Abstraktion von Objekten eines 3D Stadtmodell ein Hauptproblem für die interaktive 3D-Bildsynthese dar. Hier spielt insbesondere die Abstraktion und Illustration potentiell wichtiger Information und somit die Reduzierung der kognitiven Belastung des Nutzers eine tragende Rolle. Diesbezüglich sind Verfahren und Techniken zur nicht-photorealistischen Bildsynthese ein bewährtes Mittel der Computergrafik, deren direkte Anwendung auf ein komplettes 3D-Stadtmodell jedoch häufig monotone sowie gestalterisch und kartographisch stark eingeschränkte Resultate liefert. Eine effiziente und kontextsensitive Kommunikation von 3D-Geoinformation bedarf jedoch der Kopplung von Objektsemantik und Abstraktionsverfahren. Diese Arbeit präsentiert ein Konzept und dessen Umsetzung, das die Auswahl und Parametrisierung von nicht-photorealistischen Darstellungstechniken auf Basis von Objektsemantiken erlaubt (Abbildung 1). Dies ermöglicht die Zuweisung unterschiedlicher automatischer Abstraktionstechniken zu Objekten und Objektgruppen. Der vorgestellte Ansatz ist echtzeitfähig und erlaubt eine interaktive Klassifikation von Objekten und Features zur Laufzeit, wodurch sich u.a. Szenarien zur interaktiven Exploration von thematisch-stilisierten Features bzw. feature-bezogenen Daten visualisieren lassen. Dieser Ansatz eröffnet Möglichkeiten für eine gezielte und systematische kartographische Gestaltung von 3D-Stadtmodellen sowie deren echtzeitfähige Implementierung durch entsprechende 3D-Visualisierungsdienste.",
-      "thumbnail" : "/img/2014-expressive-painting-per-pixel-parametrization.jpg",
-      "flickr"    : "72157650124474077",
-      "downloads" : [
-      { "href"    : "https://drive.google.com/file/d/0B9sUajZRijJAZm1GSHhKdHNvdjg/view",
-        "desc"    : "Poster (PDF, 19.1 MiB)"
-      } ],
-	}
-
+    }
   } ]
