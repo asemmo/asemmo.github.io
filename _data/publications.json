@@ -69,17 +69,17 @@
 
     { "key"       : "tsd2011",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
-      "title"     : "Interactive Software Maps for Web-Based Source Code Analysis",
+      "title"     : "Colonia3D",
       "date"      : "2011-05-01",
       "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
-      "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
+      "published" : "In Proceedings 9. Konferenz Kultur und Informatik -- Multimediale Systeme",
       "caption"   : "Dieser Beitrag stellt die Ergebnisse des interdisziplinären Projektes Colonia3D - Visualisierung des Römischen Kölns vor. Die digitale 3D Rekonstruktion des antiken Köln ist das Ergebnis eines gemeinsamen Forschungsprojekts des Archäologischen Instituts der Universität zu Köln, der Köln International School of Design (KISD) der Fachhochschule Köln, des Hasso-Plattner Instituts an der Universität Potsdam und des Römisch Germanischen Museums (RGM) Köln. Der Beitrag präsentiert die wesentlichen Konzepte dieses interaktiven, auf Museen ausgerichteten 3D-Informationssystems, beschreibt verschiedene Präsentationsmodi und deren technische Umsetzung. Er diskutiert Vorgehensweisen und Interaktionskonzepte, die den Benutzer während der Erkundung und Bewegung im virtuellen 3D-Stadtmodell unterstützen. Weiter werden die Techniken für den Austausch, die Aufbereitung und die Optimierung komplexer 3D-Datensätze beschrieben sowie Potenziale für digitale Museen und Ausstellungen skizziert. Der vorgestellte Ansatz stellt insbesondere eine IT-Lösung für einen vereinfachten, räumlich-kontextintegrierten informellen Wissenszugang zu archäologischer Fachinformation dar.",
       "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg"
     },
 
     { "key"       : "std2011",
       "bibtex"    : "bib/ld2014-parameter-painting.bib",
-      "title"     : "Ansätze zur kartographischen Gestaltung von 3D-Stadtmodellen",
+      "title"     : "Ansaetze zur kartographischen Gestaltung von 3D-Stadtmodellen",
       "date"      : "2011-04-01",
       "authors"   : [ "Daniel Limberger", "Jürgen Döllner" ],
       "published" : "In Proceedings 31. Wissenschaftlich-Technische Jahrestagung der DGPF",
