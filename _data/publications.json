@@ -69,7 +69,7 @@
 
     { "key"       : "tsd2011",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
-      "title"     : "Interactive Software Maps for Web-Based Source Code Analysis",
+      "title"     : "Colonia3D",
       "date"      : "2011-05-01",
       "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
       "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
@@ -81,7 +81,7 @@
       "bibtex"    : "bib/ld2014-parameter-painting.bib",
       "title"     : "Ansätze zur kartographischen Gestaltung von 3D-Stadtmodellen",
       "date"      : "2011-04-01",
-      "authors"   : [ "Daniel Limberger", "Jürgen Döllner" ],
+      "authors"   : [ "Amir Semmo", "Matthias, Trapp", "Jürgen Döllner" ],
       "published" : "In Proceedings 31. Wissenschaftlich-Technische Jahrestagung der DGPF",
       "caption"   : "Interaktive virtuelle 3D-Stadtmodelle haben sich zu einem bewährten Medium für die effektive und effiziente Kommunikation von Geoinformation entwickelt. Sie präsentieren eine spezialisierte Form geovirtueller Umgebungen und sind gekennzeichnet durch ein zugrunde liegendes 3D-Geländemodell, einer darin befindlichen 3D-Bebauung sowie des dazu komplementären Straßen-, Grünflächen- und Naturraumes. 3D-Stadtmodell-Systeme ermöglichen es dem Nutzer, sich im Modell interaktiv zu bewegen und sie stellen die Grundfunktionen für die Exploration, Analyse, Präsentation und das Editieren der raumbezogenen Information bereit. Besonders im Gebiet der kartenähnlichen und kartenverwandten 3D-Darstellungen stellen u.a. automatische Verfahren und Techniken zur Stilisierung und Abstraktion von Objekten eines 3D Stadtmodell ein Hauptproblem für die interaktive 3D-Bildsynthese dar. Hier spielt insbesondere die Abstraktion und Illustration potentiell wichtiger Information und somit die Reduzierung der kognitiven Belastung des Nutzers eine tragende Rolle. Diesbezüglich sind Verfahren und Techniken zur nicht-photorealistischen Bildsynthese ein bewährtes Mittel der Computergrafik, deren direkte Anwendung auf ein komplettes 3D-Stadtmodell jedoch häufig monotone sowie gestalterisch und kartographisch stark eingeschränkte Resultate liefert. Eine effiziente und kontextsensitive Kommunikation von 3D-Geoinformation bedarf jedoch der Kopplung von Objektsemantik und Abstraktionsverfahren. Diese Arbeit präsentiert ein Konzept und dessen Umsetzung, das die Auswahl und Parametrisierung von nicht-photorealistischen Darstellungstechniken auf Basis von Objektsemantiken erlaubt (Abbildung 1). Dies ermöglicht die Zuweisung unterschiedlicher automatischer Abstraktionstechniken zu Objekten und Objektgruppen. Der vorgestellte Ansatz ist echtzeitfähig und erlaubt eine interaktive Klassifikation von Objekten und Features zur Laufzeit, wodurch sich u.a. Szenarien zur interaktiven Exploration von thematisch-stilisierten Features bzw. feature-bezogenen Daten visualisieren lassen. Dieser Ansatz eröffnet Möglichkeiten für eine gezielte und systematische kartographische Gestaltung von 3D-Stadtmodellen sowie deren echtzeitfähige Implementierung durch entsprechende 3D-Visualisierungsdienste.",
       "thumbnail" : "/img/2014-expressive-painting-per-pixel-parametrization.jpg",
@@ -115,7 +115,7 @@
       "date"      : "2012-11-01",
       "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
-      "caption"   : "VDigital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
+      "caption"   : "Digital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
       "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
 	  "downloads" : [
       { "href"    : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/PSTD_2012_SOMAP.pdf",
@@ -124,5 +124,98 @@
 	  { "href"  : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/somap2012_pasewaldt_towards_comprehensible_3D_maps.pdf",
         "desc"  : "Slides (PDF)"
       } ]
-	  
-  } ]
+	},
+	
+    { "key"       : "stkd2012",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Interactive Visualization of Generalized Virtual 3D City Models using Level-of-Abstraction Transitions",
+      "date"      : "2012-06-01",
+      "authors"   : [ "Amir Semmo", "Matthias Trapp", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
+      "published" : "In Computer Graphics Forum (Proceedings EuroVis 2012)",
+      "caption"   : "Digital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1111/j.1467-8659.2012.03081.x",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/STKD12/asemmo-eurovis2012.pdf",
+        "desc"    : "Paper (PDF)"
+      }, 
+	  { "href"  : "http://www.youtube.com/watch?v=VXqtw44KxY4",
+        "desc"  : "Video (Youtube)"
+      } ]
+	},
+	
+	
+    { "key"       : "tsphdeh2012",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Colonia 3D - Communication of Virtual 3D Reconstructions in Public Spaces",
+      "date"      : "2012-01-01",
+      "authors"   : [ "Matthias Trapp", "Amir Semmo", "Rafael Pokorski", "Claus-Daniel Herrmann", "Jürgen Döllner", "Michael Eichhorn", "Michael Heinzelmann" ],
+      "published" : "In International Journal of Heritage in the Digital Era (IJHDE)",
+      "caption"   : "The communication of cultural heritage in public spaces such as museums or exhibitions, gain more and more importance during the last years. The possibilities of interactive 3D applications open a new degree of freedom beyond the mere presentation of static visualizations, such as pre-produced video or image data. A user is now able to directly interact with 3D virtual environments that enable the depiction and exploration of digital cultural heritage artifacts in real-time. However, such technology requires concepts and strategies for guiding a user throughout these scenarios, since varying levels of experiences within interactive media can be assumed. This paper presents a concept as well as implementation for communication of digital cultural heritage in public spaces, by example of the project Roman Cologne. It describes the results achieved by an interdisciplinary team of archaeologists, designers, and computer graphics engineers with the aim to virtually reconstruct an interactive high-detail 3D city model of Roman Cologne.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1260/2047-4970.1.1.45",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://multi-science.metapress.com/content/b4wn417605744380/fulltext.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "estd2013",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Evaluating the Perceptual Impact of Rendering Techniques on Thematic Color Mappings in 3D Virtual Environments",
+      "date"      : "2012-06-01",
+      "authors"   : [ "Juri Engel", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "In Proceedings 18th International Workshop on Vision, Modeling and Visualization (VMV 2013)",
+      "caption"   : "Using colors for thematic mapping is a fundamental approach in visualization, and has become essential for 3D virtual environments to effectively communicate multidimensional, thematic information. Preserving depth cues within these environments to emphasize spatial relations between geospatial features remains an important issue.A variety of rendering techniques have been developed to preserve depth cues in 3D information visualization, including shading, global illumination, and image stylization. However, these techniques alter color values, which may lead to ambiguity in a color mapping and loss of information. Depending on the applied rendering techniques and color mapping, this loss should be reduced while still preserving depth cues when communicating thematic information. This paper presents the results of a quantitative and qualitative user study that evaluates the impact of rendering techniques on information and spatial perception when using visualization of thematic data in 3D virtual environments. We report the results of this study with respect to four perception-related tasks, showing significant differences in error rate and task completion time for different rendering techniques and color mappings.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.2312/PE.VMV.VMV13.025-032",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2013/ESTD2013/jengel-vmv2013-authors-version-hq.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "ltsd2013",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Interactive Projective Texturing for Non-Photorealistic Shading of Technical 3D Models",
+      "date"      : "2013-09-01",
+      "authors"   : [ "Roland Lux", "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "In Proceedings of 11th Theory and Practice of Computer Graphics 2013 Conference (TP.CG.2013)",
+      "caption"   : "This paper presents a novel interactive rendering technique for creating and editing shadings for man-made objects in technical 3D visualizations. In contrast to shading approaches that use intensities computed based on surface normals (e.g., Phong, Gooch, Toon shading), the presented approach uses one-dimensional gradient textures, which can be parametrized and interactively manipulated based on per-object bounding volume approximations. The fully hardware-accelerated rendering technique is based on projective texture mapping and customizable intensity transfer functions. A provided performance evaluation shows comparable results to traditional normal-based shading approaches. The work also introduce simple direct-manipulation metaphors that enables interactive user control of the gradient texture alignment and intensity transfer functions.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+      { "href"    : "http://www.youtube.com/watch?v=PmBTK8TbpPA",
+        "desc"    : "Vido (Youtube)"
+      } ]
+	},
+
+    { "key"       : "sktd2013",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Real-Time Rendering of Water Surfaces with Cartography-Oriented Design",
+      "date"      : "2013-07-01",
+      "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "In Proceedings 18th International Workshop on Vision, Modeling and Visualization (VMV 2013)",
+      "caption"   : "Using colors for thematic mapping is a fundamental approach in visualization, and has become essential for 3D virtual environments to effectively communicate multidimensional, thematic information. Preserving depth cues within these environments to emphasize spatial relations between geospatial features remains an important issue.A variety of rendering techniques have been developed to preserve depth cues in 3D information visualization, including shading, global illumination, and image stylization. However, these techniques alter color values, which may lead to ambiguity in a color mapping and loss of information. Depending on the applied rendering techniques and color mapping, this loss should be reduced while still preserving depth cues when communicating thematic information. This paper presents the results of a quantitative and qualitative user study that evaluates the impact of rendering techniques on information and spatial perception when using visualization of thematic data in 3D virtual environments. We report the results of this study with respect to four perception-related tasks, showing significant differences in error rate and task completion time for different rendering techniques and color mappings.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1145/2487276.2487277",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2013/SKTD13/asemmo-cae2013-authors-version-hq.pdf",
+        "desc"    : "Paper (PDF)"
+      },
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2013/SKTD13/asemmo-cae2013-slides.pdf",
+        "desc"    : "Presentation Slides (PDF)"
+      },
+      { "href"    : "http://www.youtube.com/watch?v=DFjjcMRWWoE",
+        "desc"    : "Video (Youtube)"
+      } ]
+	}
+
+ ]
