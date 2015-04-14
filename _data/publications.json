@@ -49,43 +49,81 @@
       "video" : "youtube"
     } ],
     },
-
-    { "key"       : "lwtd2013-web-based-swmaps",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
-      "title"     : "Interactive Software Maps for Web-Based Source Code Analysis",
-      "date"      : "2013-05-01",
-      "authors"   : [ "Daniel Limberger", "Benjamin Wasty", "Jonas Trümper", "Jürgen Döllner" ],
-      "published" : "In Proceedings of the International Web3D Conference",
-      "caption"   : "Software maps -- linking rectangular 3D-Treemaps, software system structure, and performance indicators -- are commonly used to support informed decision making in software-engineering processes. We present a web-based rendering system for software maps that achieves both fast client-side page load time and interactive frame rates even with large software maps. We significantly reduce page load time by efficiently encoding hierarchy and geometry data for the net transport. Apart from that, appropriate interaction, layouting, and labeling techniques as well as common image enhancements aid evaluation of project-related quality aspects.",
-      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
-      "flickr"    : "72157650179270797",
-      "downloads"   : [
-      { "href"    : "http://doi.acm.org/10.1145/2466533.2466550",
-        "desc"    : "DOI"
-      },
-      { "href"    : "https://drive.google.com/file/d/0B9sUajZRijJAYTQwM3NlajlRZEE/view",
-        "desc"    : "Paper (PDF, 3.0 MiB)"
-      },
-      { "href"    : "https://drive.google.com/file/d/0B9sUajZRijJAU2ZqbENPN3BFUXc/view",
-        "desc"    : "Slides (PDF, 14.9 MiB)"
-      },
-      { "href"    : "https://www.youtube.com/watch?v=AaHJRVQ3Z1E",
-        "desc"    : "Video (YouTube)",
-        "video"   : "youtube"
-      } ],
+	
+  {	"key"       : "skd2010",
+    "bibtex"    : "bib/led2012-sky-phenomena.bib",
+    "title"     : "Automated Image-Based Abstraction of Aerial Images",
+    "date"      : "2010-03-01",
+    "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
+    "published" : "In Proceedings of 13th AGILE International Conference on Geographic Information Science",
+    "caption"   : "Aerial images represent a fundamental type of geodata with a broad range of applications in GIS and geovisualization. The perception and cognitive processing of aerial images by the human, however, still is faced with the specific limitations of photorealistic depictions such as low contrast areas, unsharp object borders as well as visual noise. In this paper we present a novel technique to automatically abstract aerial images that enhances visual clarity and generalizes the contents of aerial images to improve their perception and recognition. The technique applies non-photorealistic image processing by smoothing local image regions with low contrast and emphasizing edges in image regions with high contrast. To handle the abstraction of large images, we introduce an image tiling procedure that is optimized for post-processing images on GPUs and avoids visible artifacts across junctions. This is technically achieved by filtering additional connection tiles that overlap the main tiles of the input image. The technique also allows the generation of different levels of abstraction for aerial images by computing a mipmap pyramid, where each of the mipmap levels is filtered with adapted abstraction parameters. These mipmaps can then be used to perform level-of-detail rendering of abstracted aerial images. Finally, the paper contributes a study to aerial image abstraction by analyzing the results of the abstraction process on distinctive visible elements in common aerial image types. In particular, we have identified a high abstraction straction potential in landscape images and a higher benefit from edge enhancement in urban environments.",
+    "thumbnail" : "/img/2012-vmv-day-and-night-sky.jpg",
+    "downloads" : [
+    { "href"    : "http://dx.doi.org/10.1007/978-3-642-12326-9_19",
+      "desc"    : "DOI"
+    },
+	{ "href"  : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2010/SKD10/asemmo-agile2010.pdf",
+      "desc"  : "Paper (PDF)"
+    } ],
     },
 
-    { "key"       : "ld2014-parameter-painting",
+    { "key"       : "tsd2011",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Interactive Software Maps for Web-Based Source Code Analysis",
+      "date"      : "2011-05-01",
+      "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
+      "caption"   : "Dieser Beitrag stellt die Ergebnisse des interdisziplinären Projektes Colonia3D - Visualisierung des Römischen Kölns vor. Die digitale 3D Rekonstruktion des antiken Köln ist das Ergebnis eines gemeinsamen Forschungsprojekts des Archäologischen Instituts der Universität zu Köln, der Köln International School of Design (KISD) der Fachhochschule Köln, des Hasso-Plattner Instituts an der Universität Potsdam und des Römisch Germanischen Museums (RGM) Köln. Der Beitrag präsentiert die wesentlichen Konzepte dieses interaktiven, auf Museen ausgerichteten 3D-Informationssystems, beschreibt verschiedene Präsentationsmodi und deren technische Umsetzung. Er diskutiert Vorgehensweisen und Interaktionskonzepte, die den Benutzer während der Erkundung und Bewegung im virtuellen 3D-Stadtmodell unterstützen. Weiter werden die Techniken für den Austausch, die Aufbereitung und die Optimierung komplexer 3D-Datensätze beschrieben sowie Potenziale für digitale Museen und Ausstellungen skizziert. Der vorgestellte Ansatz stellt insbesondere eine IT-Lösung für einen vereinfachten, räumlich-kontextintegrierten informellen Wissenszugang zu archäologischer Fachinformation dar.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+    },
+
+    { "key"       : "std2011",
       "bibtex"    : "bib/ld2014-parameter-painting.bib",
-      "title"     : "Painting Per-Pixel Parametrization for Interactive Image Filtering",
-      "date"      : "2014-08-01",
+      "title"     : "Ansätze zur kartographischen Gestaltung von 3D-Stadtmodellen",
+      "date"      : "2011-04-01",
       "authors"   : [ "Daniel Limberger", "Jürgen Döllner" ],
-      "published" : "In Expressive Poster Session",
-      "caption"   : "We present a photo-editing method that enables per-pixel parameter manipulation of image filtering by means of interactive painting. Predefined as well as custom image filters are exposed to the user, as a parametrizable composition of image operations. Brushes, as a sequences of actions mapping user inputs (in terms of brush shape, flow, pressure, etc.) to arbitrary functions or convolution operators, are used to draw within the parameter space. Our tool demonstrates that interactive painting can be used to, e.g., locally tweak inadequate parametrization and, furthermore, provides a blueprint for an open, collaborative photo-editing platform.",
+      "published" : "In Proceedings 31. Wissenschaftlich-Technische Jahrestagung der DGPF",
+      "caption"   : "Interaktive virtuelle 3D-Stadtmodelle haben sich zu einem bewährten Medium für die effektive und effiziente Kommunikation von Geoinformation entwickelt. Sie präsentieren eine spezialisierte Form geovirtueller Umgebungen und sind gekennzeichnet durch ein zugrunde liegendes 3D-Geländemodell, einer darin befindlichen 3D-Bebauung sowie des dazu komplementären Straßen-, Grünflächen- und Naturraumes. 3D-Stadtmodell-Systeme ermöglichen es dem Nutzer, sich im Modell interaktiv zu bewegen und sie stellen die Grundfunktionen für die Exploration, Analyse, Präsentation und das Editieren der raumbezogenen Information bereit. Besonders im Gebiet der kartenähnlichen und kartenverwandten 3D-Darstellungen stellen u.a. automatische Verfahren und Techniken zur Stilisierung und Abstraktion von Objekten eines 3D Stadtmodell ein Hauptproblem für die interaktive 3D-Bildsynthese dar. Hier spielt insbesondere die Abstraktion und Illustration potentiell wichtiger Information und somit die Reduzierung der kognitiven Belastung des Nutzers eine tragende Rolle. Diesbezüglich sind Verfahren und Techniken zur nicht-photorealistischen Bildsynthese ein bewährtes Mittel der Computergrafik, deren direkte Anwendung auf ein komplettes 3D-Stadtmodell jedoch häufig monotone sowie gestalterisch und kartographisch stark eingeschränkte Resultate liefert. Eine effiziente und kontextsensitive Kommunikation von 3D-Geoinformation bedarf jedoch der Kopplung von Objektsemantik und Abstraktionsverfahren. Diese Arbeit präsentiert ein Konzept und dessen Umsetzung, das die Auswahl und Parametrisierung von nicht-photorealistischen Darstellungstechniken auf Basis von Objektsemantiken erlaubt (Abbildung 1). Dies ermöglicht die Zuweisung unterschiedlicher automatischer Abstraktionstechniken zu Objekten und Objektgruppen. Der vorgestellte Ansatz ist echtzeitfähig und erlaubt eine interaktive Klassifikation von Objekten und Features zur Laufzeit, wodurch sich u.a. Szenarien zur interaktiven Exploration von thematisch-stilisierten Features bzw. feature-bezogenen Daten visualisieren lassen. Dieser Ansatz eröffnet Möglichkeiten für eine gezielte und systematische kartographische Gestaltung von 3D-Stadtmodellen sowie deren echtzeitfähige Implementierung durch entsprechende 3D-Visualisierungsdienste.",
       "thumbnail" : "/img/2014-expressive-painting-per-pixel-parametrization.jpg",
       "flickr"    : "72157650124474077",
       "downloads" : [
       { "href"    : "https://drive.google.com/file/d/0B9sUajZRijJAZm1GSHhKdHNvdjg/view",
         "desc"    : "Poster (PDF, 19.1 MiB)"
       } ],
+	}, 
+
+    { "key"       : "shtd2012",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Concepts for Cartography-Oriented Visualization of Virtual 3D City Models",
+      "date"      : "2012-06-01",
+      "authors"   : [ "Amir Semmo", "Dieter Hildebrandt, "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
+      "caption"   : "Virtual 3D city models serve as an effective medium with manifold applications in geoinformation systems and services. To date, most 3D city models are visualized using photorealistic graphics. But an effective communication of geoinformation significantly depends on how important information is designed and cognitively processed in the given application context. One possibility to visually emphasize important information is based on non-photorealistic rendering, which comprehends artistic depiction styles and is characterized by its expressiveness and communication aspects. However, a direct application of non-photorealistic rendering techniques primarily results in monotonic visualization that lacks cartographic design aspects. In this work, we present concepts for cartography-oriented visualization of virtual 3D city models. These are based on coupling non-photorealistic rendering techniques and semantics-based information for a user, context, and media-dependent representation of thematic information. This work highlights challenges for cartography-oriented visualization of 3D geovirtual environments, presents stylization techniques and discusses their applications and ideas for a standardized visualization. In particular, the presented concepts enable a real-time and dynamic visualization of thematic geoinformation.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1127/1432-8364/2012/0131",
+      "desc"    : "DOI"
+      },
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/SHTD2012/asemmo-PFG2012.pdf",
+        "desc"    : "Paper (PDF)"
+      } ],
+    },
+
+    { "key"       : "shtd2012",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Towards Comprehensible Digital 3D Maps",
+      "date"      : "2012-11-01",
+      "authors"   : [ "Sebastian Pasewaldt, "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
+      "caption"   : "VDigital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+      { "href"    : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/PSTD_2012_SOMAP.pdf",
+        "desc"    : "Paper (PDF)"
+      } 
+	  { "href"  : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/somap2012_pasewaldt_towards_comprehensible_3D_maps.pdf",
+        "desc"  : "Slides (PDF)"
+      } ],
+    },
+
   } ]
