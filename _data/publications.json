@@ -200,7 +200,7 @@
       "title"     : "Real-Time Rendering of Water Surfaces with Cartography-Oriented Design",
       "date"      : "2013-07-01",
       "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "In Proceedings 18th International Workshop on Vision, Modeling and Visualization (VMV 2013)",
+      "published" : "In Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
       "caption"   : "Using colors for thematic mapping is a fundamental approach in visualization, and has become essential for 3D virtual environments to effectively communicate multidimensional, thematic information. Preserving depth cues within these environments to emphasize spatial relations between geospatial features remains an important issue.A variety of rendering techniques have been developed to preserve depth cues in 3D information visualization, including shading, global illumination, and image stylization. However, these techniques alter color values, which may lead to ambiguity in a color mapping and loss of information. Depending on the applied rendering techniques and color mapping, this loss should be reduced while still preserving depth cues when communicating thematic information. This paper presents the results of a quantitative and qualitative user study that evaluates the impact of rendering techniques on information and spatial perception when using visualization of thematic data in 3D virtual environments. We report the results of this study with respect to four perception-related tasks, showing significant differences in error rate and task completion time for different rendering techniques and color mappings.",
       "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
 	  "downloads" : [
@@ -216,6 +216,75 @@
       { "href"    : "http://www.youtube.com/watch?v=DFjjcMRWWoE",
         "desc"    : "Video (Youtube)"
       } ]
-	}
+	},
 
+    { "key"       : "sd2014",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "An Interaction Framework for Level-of-Abstraction Visualization of 3D Geovirtual Environments",
+      "date"      : "2014-11-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "In Proceedings 2nd ACM SIGSPATIAL Workshop on MapInteraction",
+      "caption"   : "3D geovirtual environments constitute effective media for the analysis and communication of complex geospatial data. Today, these environments are often visualized using static graphical variants (e.g., 2D maps, 3D photorealistic) from which a user is able to choose from. To serve the different interests of users in specific information, however, the spatial and thematic granularity at which model contents are represented (i.e., level of abstraction) should be dynamically adapted to the user's context, which requires specialized interaction techniques for parameterization. In this work, we present a framework that enables interaction interfaces to parameterize the level-of-abstraction visualization according to spatial, semantic, and thematic data. The framework is implemented in a visualization system that provides image-based rendering techniques for context-aware abstraction and highlighting. Using touch and natural language interfaces, we demonstrate its versatile application to geospatial tasks, including exploration, navigation, and orientation.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2014/SD2014_3/asemmo-mapinteract2014-authors-version.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "sd2014_2",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Oil Paint Filtering Using Color Palettes For Colorization",
+      "date"      : "2014-08-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "In Expressive Poster Session",
+      "caption"   : "We present a novel technique for oil paint filtering that uses color palettes for colorization. First, dominant feature-aware colors are derived from the input image via entropy-based metrics. Seed pixels are then determined and propagated to the remaining pixels by adopting the optimization framework of Levin et al. [2004] for feature-aware colorization. Finally, the quantized output is combined with flow-based highlights and contour lines to simulate paint texture. Our technique leads to homogeneous outputs in the color domain and enables interactive control over color definitions.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2014/SD2014_2/expressive_2014_semmo.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "pstd2014",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Multi-Perspective 3D Panoramas",
+      "date"      : "2014-08-01",
+      "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "In International Journal of Geographical Information Science (IJGIS)",
+      "caption"   : "This article presents multi-perspective 3D panoramas that focus on visualizing 3D geovirtual environments (3D GeoVEs) for navigation and exploration tasks. Their key element, a multi-perspective view, seamlessly combines what is seen from multiple viewpoints into a single image. This approach facilitates thepresentation of information for virtual 3D city and landscape models, particularly by reducing occlusions, increasing screen-space utilization, and providing additional context within a single image. We complement multi-perspective views with cartographic visualization techniques to stylize features according to their semantics and highlight important or prioritized information. When combined, both techniques constitute the core implementation of interactive, multi-perspective 3D panoramas. They offer a large number of effective means for visual communication of 3D spatial information, a high degree of customization with respect to cartographic design, and manifold applications in different domains. We discuss design decisions of 3D panoramas for the exploration of and navigation in 3D GeoVEs. We also discuss a preliminary user study that indicates that 3D panoramas are a promising approach for navigation systems using 3D GeoVEs.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1080/13658816.2014.922686",
+        "desc"    : "DOI"
+      } ]
+	},
+
+    { "key"       : "tsd2015",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Interactive Rendering and Stylization of Transportation Networks Using Distance Fields",
+      "date"      : "2015-04-01",
+      "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "In Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP)",
+      "caption"   : "Transportation networks, such as streets, railroads or metro systems, constitute primary elements in cartography for reckoning and navigation. In recent years, they have become an increasingly important part of 3D virtual environments for the interactive analysis and communication of complex hierarchical information, for example in routing, logistics optimization, and disaster management. A variety of rendering techniques have been proposed that deal with integrating transportation networks within these environments, but have so far neglected the many challenges of an interactive design process to adapt their spatial and thematic granularity (i.e., level-of-detail and level-of-abstraction) according to a user's context. This paper presents an efficient real-time rendering technique for the view-dependent rendering of geometrically complex transportation networks within 3D virtual environments. Our technique is based on distance fields using deferred texturing that shifts the design process to the shading stage for real-time stylization. We demonstrate and discuss our approach by means of street networks using cartographic design principles for context-aware stylization, including view-dependent scaling for clutter reduction, contour-lining to provide figure-ground, handling of street crossings via shading-based blending, and task-dependent colorization. Finally, we present potential usage scenarios and applications together with a performance evaluation of our implementation.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg"
+	},
+
+    { "key"       : "sd2015",
+      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "title"     : "Interactive Image Filtering for Level-of-Abstraction Texturing of Virtual 3D Scenes",
+      "date"      : "2015-04-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "In Computers & Graphics",
+      "caption"   : "Texture mapping is a key technology in computer graphics. For the visual design of 3D scenes, in particular, effective texturing depends significantly on how important contents are expressed, e.g., by preserving global salient structures, and how their depiction is cognitively processed by the user in an application context. Edge-preserving image filtering is one key approach to address these concerns. Much research has focused on applying image filters in a post-process stage to generate artistically stylized depictions. However, these approaches generally do not preserve depth cues, which are important for the perception of 3D visualization (e.g., texture gradient). To this end, filtering is required that processes texture data coherently with respect to linear perspective and spatial relationships. In this work, we present an approach for texturing 3D scenes with perspective coherence by arbitrary image filters. We propose decoupled deferred texturing with (1) caching strategies to interactively perform image filtering prior to texture mapping and (2) for each mipmap level separately to enable a progressive level of abstraction, using (3) direct interaction interfaces to parameterize the visualization according to spatial, semantic, and thematic data. We demonstrate the potentials of our method by several applications using touch or natural language inputs to serve the different interests of users in specific information, including illustrative visualization, focus+context visualization, geometric detail removal, and semantic depth of field. The approach supports frame-to-frame coherence, order-independent transparency, multitexturing, and content-based filtering. In addition, it seamlessly integrates into real-time rendering pipelines, and is extensible for custom interaction techniques.",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.02.001",
+        "desc"    : "DOI"
+      },
+	  { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2015/SD2015/asemmo-cag2015-authors-version.pdf",
+        "desc"    : "Paper (PDF)"
+      }	]
+	}
+	
  ]
