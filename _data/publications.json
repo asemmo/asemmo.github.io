@@ -90,40 +90,6 @@
       { "href"    : "https://drive.google.com/file/d/0B9sUajZRijJAZm1GSHhKdHNvdjg/view",
         "desc"    : "Poster (PDF, 19.1 MiB)"
       } ],
-	}, 
-
-    { "key"       : "shtd2012",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
-      "title"     : "Concepts for Cartography-Oriented Visualization of Virtual 3D City Models",
-      "date"      : "2012-06-01",
-      "authors"   : [ "Amir Semmo", "Dieter Hildebrandt, "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
-      "caption"   : "Virtual 3D city models serve as an effective medium with manifold applications in geoinformation systems and services. To date, most 3D city models are visualized using photorealistic graphics. But an effective communication of geoinformation significantly depends on how important information is designed and cognitively processed in the given application context. One possibility to visually emphasize important information is based on non-photorealistic rendering, which comprehends artistic depiction styles and is characterized by its expressiveness and communication aspects. However, a direct application of non-photorealistic rendering techniques primarily results in monotonic visualization that lacks cartographic design aspects. In this work, we present concepts for cartography-oriented visualization of virtual 3D city models. These are based on coupling non-photorealistic rendering techniques and semantics-based information for a user, context, and media-dependent representation of thematic information. This work highlights challenges for cartography-oriented visualization of 3D geovirtual environments, presents stylization techniques and discusses their applications and ideas for a standardized visualization. In particular, the presented concepts enable a real-time and dynamic visualization of thematic geoinformation.",
-      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
-	  "downloads" : [
-	  { "href"    : "http://dx.doi.org/10.1127/1432-8364/2012/0131",
-        "desc"    : "DOI"
-      },
-      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/SHTD2012/asemmo-PFG2012.pdf",
-        "desc"    : "Paper (PDF)"
-      } ],
-    },
-
-    { "key"       : "shtd2012",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
-      "title"     : "Towards Comprehensible Digital 3D Maps",
-      "date"      : "2012-11-01",
-      "authors"   : [ "Sebastian Pasewaldt, "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
-      "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
-      "caption"   : "VDigital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
-      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
-	  "downloads" : [
-      { "href"    : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/PSTD_2012_SOMAP.pdf",
-        "desc"    : "Paper (PDF)"
-      } 
-	  { "href"  : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/somap2012_pasewaldt_towards_comprehensible_3D_maps.pdf",
-        "desc"  : "Slides (PDF)"
-      } ],
-    }
+	}
 
   } ]
