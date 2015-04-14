@@ -29,4 +29,12 @@
   { "date"      : "2013-05-01 00:00:00",
     "title"     : "Colonia3D",
     "location"  : "Kultur und Informatik Conference, Berlin, Germany"
+  },
+  { "date"      : "2011-04-01 00:00:00",
+    "title"     : "Ansaetze zur kartographischen Gestaltung von 3D-Stadtmodellen",
+    "location"  : "1. Wissenschaftlich-Technische Jahrestagung der DGPF, Mainz, Germany"
+  },
+  { "date"      : "2010-05-01 00:00:00",
+    "title"     : "Automated Image-Based Abstraction of Aerial Images",
+    "location"  : "AGILE International Conference on Geographic Information Science, Guimaraes, Portugal"
   } ]
