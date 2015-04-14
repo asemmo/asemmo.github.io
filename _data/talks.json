@@ -1,4 +1,40 @@
 [ { "date"      : "2015-08-01 00:00:00",
     "title"     : "Cartography-Oriented Design of 3D Geospatial Information Visualization - Overview and Techniques",
     "location"  : "to be held at International Cartographic Conference 2015, Rio de Janeiro, Brazil"
+  },
+  { "date"      : "2014-11-01 00:00:00",
+    "title"     : "An Interaction Framework for Level-of-Abstraction Visualization of 3D Geovirtual Environments",
+    "location"  : "ACM SIGSPATIAL MapInteract 2014, Dallas, TX, USA"
+  },
+  { "date"      : "2014-08-01 00:00:00",
+    "title"     : "Image Filtering for Interactive Level-of-Abstraction Visualization of 3D Scenes",
+    "location"  : "Expressive 2014, Vancouver, Canada"
+  },
+  { "date"      : "2013-09-01 00:00:00",
+    "title"     : "Evaluating the Perceptual Impact of Rendering Techniques on Thematic Color Mappings in 3D Virtual Environments",
+    "location"  : "International Workshop on Vision, Modeling and Visualization (VMV) 2013, Lugano, Switzerland"
+  },
+  { "date"      : "2013-07-01 00:00:00",
+    "title"     : "Real-Time Rendering of Water Surfaces with Cartography-Oriented Design",
+    "location"  : "Expressive 2013, Anaheim, CA, USA"
+  },
+  { "date"      : "2012-06-01 00:00:00",
+    "title"     : "Cartography-Oriented Visualization of Virtual 3D City Models based on Level-of-Abstraction Transitions",
+    "location"  : "Hasso Plattner Institute / Research School, Potsdam, Germany"
+  },
+  { "date"      : "2013-06-01 00:00:00",
+    "title"     : "Interactive Visualization of Generalized Virtual 3D City Models using Level-of-Abstraction Transitions",
+    "location"  : "Eurographics Conference on Visualization (EuroVis) 2012, Vienna, Austria"
+  },
+  { "date"      : "2013-05-01 00:00:00",
+    "title"     : "Colonia3D",
+    "location"  : "Kultur und Informatik Conference, Berlin, Germany"
+  },
+  { "date"      : "2011-04-01 00:00:00",
+    "title"     : "Ansätze zur kartographischen Gestaltung von 3D-Stadtmodellen",
+    "location"  : "1. Wissenschaftlich-Technische Jahrestagung der DGPF, Mainz, Germany"
+  },
+  { "date"      : "2010-05-01 00:00:00",
+    "title"     : "Automated Image-Based Abstraction of Aerial Images",
+    "location"  : "AGILE International Conference on Geographic Information Science, Guimarães, Portugal"
   } ]
