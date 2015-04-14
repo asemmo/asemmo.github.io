@@ -74,7 +74,7 @@
       "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
       "published" : "In Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
       "caption"   : "Dieser Beitrag stellt die Ergebnisse des interdisziplinären Projektes Colonia3D - Visualisierung des Römischen Kölns vor. Die digitale 3D Rekonstruktion des antiken Köln ist das Ergebnis eines gemeinsamen Forschungsprojekts des Archäologischen Instituts der Universität zu Köln, der Köln International School of Design (KISD) der Fachhochschule Köln, des Hasso-Plattner Instituts an der Universität Potsdam und des Römisch Germanischen Museums (RGM) Köln. Der Beitrag präsentiert die wesentlichen Konzepte dieses interaktiven, auf Museen ausgerichteten 3D-Informationssystems, beschreibt verschiedene Präsentationsmodi und deren technische Umsetzung. Er diskutiert Vorgehensweisen und Interaktionskonzepte, die den Benutzer während der Erkundung und Bewegung im virtuellen 3D-Stadtmodell unterstützen. Weiter werden die Techniken für den Austausch, die Aufbereitung und die Optimierung komplexer 3D-Datensätze beschrieben sowie Potenziale für digitale Museen und Ausstellungen skizziert. Der vorgestellte Ansatz stellt insbesondere eine IT-Lösung für einen vereinfachten, räumlich-kontextintegrierten informellen Wissenszugang zu archäologischer Fachinformation dar.",
-      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
+      "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg"
     },
 
     { "key"       : "std2011",
@@ -102,7 +102,7 @@
       "thumbnail" : "/img/2013-web3d-interactive-software-maps.jpg",
 	  "downloads" : [
 	  { "href"    : "http://dx.doi.org/10.1127/1432-8364/2012/0131",
-      "desc"    : "DOI"
+        "desc"    : "DOI"
       },
       { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/SHTD2012/asemmo-PFG2012.pdf",
         "desc"    : "Paper (PDF)"
@@ -124,6 +124,6 @@
 	  { "href"  : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/somap2012_pasewaldt_towards_comprehensible_3D_maps.pdf",
         "desc"  : "Slides (PDF)"
       } ],
-    },
+    }
 
   } ]
