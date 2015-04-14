@@ -1,8 +1,6 @@
-{ "email" : "daniel.limberger@hpi.de",
-  "phone" : "(+49) 0331 5509 3907",
+{ "email" : "amir.semmo@hpi.de",
+  "phone" : "(+49) 0331 5509 3909",
 
-  "work_handle" : "cgcostume",
+  "work_handle" : "asemmo",
   "work_handle_info" : "GitHub, Bitbuket, ...",
-  "private_handle" : "costumebrother",
-  "private_handle_info" : "YouTube, Flickr, Steam, ...",
 }
