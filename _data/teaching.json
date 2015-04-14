@@ -15,11 +15,11 @@
         "type"   : "seminar (MA)",
         "role"   : "tutor"
       },
-      { "course" : "Image and Video Processing",
+      { "course" : "Image & Video Processing",
         "type"   : "seminar (BA)",
         "role"   : "tutor"
       },
-      { "course" : "Video Analysis, Abstraction, and Summarization"",
+      { "course" : "Video Analysis, Abstraction, and Summarization",
         "type"   : "project (BA)",
         "role"   : "tutor"
       } ]
