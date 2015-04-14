@@ -28,25 +28,5 @@
       "desc"  : "Paper (PDF)"
     } ],
     },
-	
-  { "key"       : "tsphdeh2010",
-    "bibtex"    : "bib/led2012-sky-phenomena.bib",
-    "title"     : "Communication of Digital Cultural Heritage in Public Spaces by the Example of Roman Cologne",
-    "date"      : "2010-11-01",
-    "authors"   : [ "Matthias Trapp", "Amir Semmo", "Rafael Pokorski", "Claus-Daniel Herrmann", "Jürgen Döllner", "Michael Eichhorn", "Michael Heinzelmann" ],
-    "published" : "In Proceedings of 3rd EuroMed Conference",
-    "caption"   : "The communication of cultural heritage in public spaces such as museums or exhibitions, gain more and more importance during the last years. The possibilities of interactive 3D applications open a new degree of freedom beyond the mere presentation of static visualizations, such as pre-produced video or image data. A user is now able to directly interact with 3D virtual environments that enable the depiction and exploration of digital cultural heritage artefacts in real-time. However, such technology requires concepts and strategies for guiding a user throughout these scenarios, since varying levels of experiences within interactive media can be assumed. This paper presents a concept as well as implementation for communication of digital cultural heritage in public spaces, by example of the project Roman Cologne. It describes the results achieved by an interdisciplinary team of archaeologists, designers, and computer graphics engineers with the aim to virtually reconstruct an interactive high-detail 3D city model of Roman Cologne.",
-    "thumbnail" : "/img/2012-vmv-day-and-night-sky.jpg",
-    "downloads" : [
-    { "href"  : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2010/TSPHDEH10/EuroMed2010Coloniad3D_CRC_HQ.pdf",
-      "desc"  : "Paper (PDF)"
-    },
-    { "href"  : "hhttp://www.authorstream.com/Presentation/autopilot-645625-colonia3d/",
-      "desc"  : "Slides (Authorstream)"
-    },
-    { "href"  : "http://www.youtube.com/watch?v=HoC_mmy51CE",
-      "desc"  : "Video (YouTube)",
-      "video" : "youtube"
-    } ],
-    }
+
   } ]
