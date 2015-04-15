@@ -12,9 +12,9 @@ flickr_user: "131006004@N06"
 flickr_api_key: adb4be93419edab991522b4fa92b7029
 
 description: > # this means to ignore newlines until "baseurl:"
-    Interactive graphics engineer and phd student in the Computer Graphics Systems group at the Hasso Plattner Institute, Potsdam, Germany.
+    Interactive graphics engineer and research assistant in the Computer Graphics Systems group at the Hasso Plattner Institute, Germany.
 subheading: > # this means to ignore newlines until "baseurl:"
-    <span class="text-danger">Interactive graphics engineer</span> and <span class="text-danger">research assistant</span> in the Computer Graphics Systems group at the <a href="http://www.hpi.de" target="_blank">Hasso Plattner Institute</a>, Potsdam, Germany.
+    <span class="text-danger">Interactive graphics engineer</span> and <span class="text-danger">research assistant</span> in the Computer Graphics Systems group at the <a href="http://www.hpi.de" target="_blank">Hasso Plattner Institute</a>, Germany.
 
 # Handling Reading
 safe: true
@@ -22,3 +22,8 @@ encoding: utf-8
 
 # Build settings
 markdown: kramdown
+
+cdn:
+  css:            https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css
+  css_theme:      https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css
+  js:             https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js
