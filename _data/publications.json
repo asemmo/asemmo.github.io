@@ -36,7 +36,7 @@
     },
 	
   {	"key"       : "skd2010",
-    "featured"  : "true",
+    "featured"  : "false",
     "bibtex"    : "bib/led2012-sky-phenomena.bib",
     "title"     : "Automated Image-Based Abstraction of Aerial Images",
     "date"      : "2010-03-01",
@@ -237,7 +237,7 @@
 	},
 
     { "key"       : "sd2014_3",
-      "featured"  : "true",
+      "featured"  : "false",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
       "title"     : "An Interaction Framework for Level-of-Abstraction Visualization of 3D Geovirtual Environments",
       "date"      : "2014-11-01",
