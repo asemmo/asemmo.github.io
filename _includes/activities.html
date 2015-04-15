@@ -11,10 +11,8 @@
     {% assign activities = site.data.activities %}
     {% for t in activities %}
     <div class="row">
-      <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
-        <h4>{{ t.title}}</h4>
-      </div>
-      <div class="col-md-8 col-sm-10">
+      <legend>{{ t.title}}</legend>
+      <div class="col-sm-10">
         {{ t.content}}
       </div>
     </div>
