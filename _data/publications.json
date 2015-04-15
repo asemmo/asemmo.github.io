@@ -36,7 +36,7 @@
     },
 	
   {	"key"       : "skd2010",
-    "featured"  : "false",
+    "featured"  : "true",
     "bibtex"    : "bib/led2012-sky-phenomena.bib",
     "title"     : "Automated Image-Based Abstraction of Aerial Images",
     "date"      : "2010-03-01",
@@ -80,7 +80,7 @@
 	}, 
 
     { "key"       : "shtd2012",
-      "featured"  : "false",
+      "featured"  : "true",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
       "title"     : "Concepts for Cartography-Oriented Visualization of Virtual 3D City Models",
       "date"      : "2012-06-01",
@@ -116,7 +116,7 @@
 	},
 	
     { "key"       : "stkd2012",
-      "featured"  : "false",
+      "featured"  : "true",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
       "title"     : "Interactive Visualization of Generalized Virtual 3D City Models using Level-of-Abstraction Transitions",
       "date"      : "2012-06-01",
@@ -156,7 +156,7 @@
 	},
 
     { "key"       : "estd2013",
-      "featured"  : "false",
+      "featured"  : "true",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
       "title"     : "Evaluating the Perceptual Impact of Rendering Techniques on Thematic Color Mappings in 3D Virtual Environments",
       "date"      : "2012-06-01",
@@ -189,7 +189,7 @@
 	},
 
     { "key"       : "sktd2013",
-      "featured"  : "false",
+      "featured"  : "true",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
       "title"     : "Real-Time Rendering of Water Surfaces with Cartography-Oriented Design",
       "date"      : "2013-07-01",
@@ -213,7 +213,7 @@
 	},
 
     { "key"       : "sd2014",
-      "featured"  : "false",
+      "featured"  : "true",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
       "title"     : "Image Filtering for Interactive Level-of-Abstraction Visualization of 3D Scenes",
       "date"      : "2014-07-01",
@@ -267,7 +267,7 @@
 	},
 
     { "key"       : "pstd2014",
-      "featured"  : "false",
+      "featured"  : "true",
       "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
       "title"     : "Multi-Perspective 3D Panoramas",
       "date"      : "2014-08-01",
