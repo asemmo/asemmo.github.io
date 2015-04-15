@@ -8,7 +8,7 @@
     "caption"   : "In this work we present new weighting functions for the anisotropic Kuwahara filter. The anisotropic Kuwahara filter is an edge-preserving filter that is especially useful for creating stylized abstractions from images or videos. It is based on a generalization of the Kuwahara filter that is adapted to the local shape of features. For the smoothing process, the anisotropic Kuwahara filter uses weighting functions that use convolution in their definition. For an efficient implementation, these weighting functions are therefore usually sampled into a texture map. By contrast, our new weighting functions do not require convolution and can be efficiently computed directly during the filtering in real-time. We show that our approach creates output of similar quality as the original anisotropic Kuwahara filter and present an evaluation scheme to compute the new weighting functions efficiently by using rotational symmetries.",
     "thumbnail" : "/img/2010-kskd.jpg",
     "downloads" : [
-    { "href"  : "https://www.researchgate.net/profile/Amir_Semmo/publication/220862124_Anisotropic_Kuwahara_Filtering_with_Polynomial_Weighting_Functions/links/53feda9e0cf23bb019be63c7.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+    { "href"  : "http://www.researchgate.net/profile/Amir_Semmo/publication/220862124_Anisotropic_Kuwahara_Filtering_with_Polynomial_Weighting_Functions/links/53feda9e0cf23bb019be63c7.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
       "desc"  : "Paper (PDF)"
     } ]
     },
@@ -23,7 +23,7 @@
     "caption"   : "The communication of cultural heritage in public spaces such as museums or exhibitions, gain more and more importance during the last years. The possibilities of interactive 3D applications open a new degree of freedom beyond the mere presentation of static visualizations, such as pre-produced video or image data. A user is now able to directly interact with 3D virtual environments that enable the depiction and exploration of digital cultural heritage artefacts in real-time. However, such technology requires concepts and strategies for guiding a user throughout these scenarios, since varying levels of experiences within interactive media can be assumed. This paper presents a concept as well as implementation for communication of digital cultural heritage in public spaces, by example of the project Roman Cologne. It describes the results achieved by an interdisciplinary team of archaeologists, designers, and computer graphics engineers with the aim to virtually reconstruct an interactive high-detail 3D city model of Roman Cologne.",
     "thumbnail" : "/img/2010-tsphdeh.jpg",
     "downloads" : [
-    { "href"  : "https://www.researchgate.net/profile/Michael_Eichhorn/publication/221197093_Communication_of_Digital_Cultural_Heritage_in_Public_Spaces_by_the_Example_of_Roman_Cologne/links/09e415072e1bedfe2d000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+    { "href"  : "http://www.researchgate.net/profile/Michael_Eichhorn/publication/221197093_Communication_of_Digital_Cultural_Heritage_in_Public_Spaces_by_the_Example_of_Roman_Cologne/links/09e415072e1bedfe2d000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
       "desc"  : "Paper (PDF)"
     },
     { "href"  : "hhttp://www.authorstream.com/Presentation/autopilot-645625-colonia3d/",
@@ -48,7 +48,7 @@
     { "href"    : "http://dx.doi.org/10.1007/978-3-642-12326-9_19",
       "desc"    : "DOI"
     },
-	{ "href"  : "https://www.researchgate.net/profile/Amir_Semmo/publication/251153785_Automated_Image-Based_Abstraction_of_Aerial_Images/links/54d0c69e0cf20323c21978ff.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+	{ "href"  : "http://www.researchgate.net/profile/Amir_Semmo/publication/251153785_Automated_Image-Based_Abstraction_of_Aerial_Images/links/54d0c69e0cf20323c21978ff.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
       "desc"  : "Paper (PDF)"
     } ]
     },
@@ -63,7 +63,7 @@
       "caption"   : "Dieser Beitrag stellt die Ergebnisse des interdisziplinären Projektes Colonia3D - Visualisierung des Römischen Kölns vor. Die digitale 3D Rekonstruktion des antiken Köln ist das Ergebnis eines gemeinsamen Forschungsprojekts des Archäologischen Instituts der Universität zu Köln, der Köln International School of Design (KISD) der Fachhochschule Köln, des Hasso-Plattner Instituts an der Universität Potsdam und des Römisch Germanischen Museums (RGM) Köln. Der Beitrag präsentiert die wesentlichen Konzepte dieses interaktiven, auf Museen ausgerichteten 3D-Informationssystems, beschreibt verschiedene Präsentationsmodi und deren technische Umsetzung. Er diskutiert Vorgehensweisen und Interaktionskonzepte, die den Benutzer während der Erkundung und Bewegung im virtuellen 3D-Stadtmodell unterstützen. Weiter werden die Techniken für den Austausch, die Aufbereitung und die Optimierung komplexer 3D-Datensätze beschrieben sowie Potenziale für digitale Museen und Ausstellungen skizziert. Der vorgestellte Ansatz stellt insbesondere eine IT-Lösung für einen vereinfachten, räumlich-kontextintegrierten informellen Wissenszugang zu archäologischer Fachinformation dar.",
       "thumbnail" : "/img/2011-tsd.jpg",
 	  "downloads" : [
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/225091338_Colonia3D/links/0912f503b61ff75407000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/225091338_Colonia3D/links/0912f503b61ff75407000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       } ]
     },
@@ -78,7 +78,7 @@
       "caption"   : "Interaktive virtuelle 3D-Stadtmodelle haben sich zu einem bewährten Medium für die effektive und effiziente Kommunikation von Geoinformation entwickelt. Sie präsentieren eine spezialisierte Form geovirtueller Umgebungen und sind gekennzeichnet durch ein zugrunde liegendes 3D-Geländemodell, einer darin befindlichen 3D-Bebauung sowie des dazu komplementären Straßen-, Grünflächen- und Naturraumes. 3D-Stadtmodell-Systeme ermöglichen es dem Nutzer, sich im Modell interaktiv zu bewegen und sie stellen die Grundfunktionen für die Exploration, Analyse, Präsentation und das Editieren der raumbezogenen Information bereit. Besonders im Gebiet der kartenähnlichen und kartenverwandten 3D-Darstellungen stellen u.a. automatische Verfahren und Techniken zur Stilisierung und Abstraktion von Objekten eines 3D Stadtmodell ein Hauptproblem für die interaktive 3D-Bildsynthese dar. Hier spielt insbesondere die Abstraktion und Illustration potentiell wichtiger Information und somit die Reduzierung der kognitiven Belastung des Nutzers eine tragende Rolle. Diesbezüglich sind Verfahren und Techniken zur nicht-photorealistischen Bildsynthese ein bewährtes Mittel der Computergrafik, deren direkte Anwendung auf ein komplettes 3D-Stadtmodell jedoch häufig monotone sowie gestalterisch und kartographisch stark eingeschränkte Resultate liefert. Eine effiziente und kontextsensitive Kommunikation von 3D-Geoinformation bedarf jedoch der Kopplung von Objektsemantik und Abstraktionsverfahren. Diese Arbeit präsentiert ein Konzept und dessen Umsetzung, das die Auswahl und Parametrisierung von nicht-photorealistischen Darstellungstechniken auf Basis von Objektsemantiken erlaubt (Abbildung 1). Dies ermöglicht die Zuweisung unterschiedlicher automatischer Abstraktionstechniken zu Objekten und Objektgruppen. Der vorgestellte Ansatz ist echtzeitfähig und erlaubt eine interaktive Klassifikation von Objekten und Features zur Laufzeit, wodurch sich u.a. Szenarien zur interaktiven Exploration von thematisch-stilisierten Features bzw. feature-bezogenen Daten visualisieren lassen. Dieser Ansatz eröffnet Möglichkeiten für eine gezielte und systematische kartographische Gestaltung von 3D-Stadtmodellen sowie deren echtzeitfähige Implementierung durch entsprechende 3D-Visualisierungsdienste.",
       "thumbnail" : "/img/2011-std.jpg",
       "downloads" : [
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/225091333_Anstze_zur_kartographischen_Gestaltung_von_3D-Stadtmodellen/links/0fcfd503b640bd858f000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/225091333_Anstze_zur_kartographischen_Gestaltung_von_3D-Stadtmodellen/links/0fcfd503b640bd858f000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       } ]
 	}, 
@@ -96,7 +96,7 @@
 	  { "href"    : "http://dx.doi.org/10.1127/1432-8364/2012/0131",
         "desc"    : "DOI"
       },
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/236892939_Concepts_for_Cartography-Oriented_Visualization_of_Virtual_3D_City_Models/links/00b4951ed2e74cf0d3000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/236892939_Concepts_for_Cartography-Oriented_Visualization_of_Virtual_3D_City_Models/links/00b4951ed2e74cf0d3000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       } ]
     },
@@ -111,7 +111,7 @@
       "caption"   : "Digital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
       "thumbnail" : "/img/2012-pstd.jpg",
 	  "downloads" : [
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/236892941_Towards_Comprehensible_Digital_3D_Maps/links/00b4951ed34ae0f586000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/236892941_Towards_Comprehensible_Digital_3D_Maps/links/00b4951ed34ae0f586000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       }, 
 	  { "href"  : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/somap2012_pasewaldt_towards_comprehensible_3D_maps.pdf",
@@ -132,7 +132,7 @@
 	  { "href"    : "http://dx.doi.org/10.1111/j.1467-8659.2012.03081.x",
         "desc"    : "DOI"
       },
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/236892943_Interactive_Visualization_of_Generalized_Virtual_3D_City_Models_using_Level-of-Abstraction_Transitions/links/0c96051c9c390e6ef2000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/236892943_Interactive_Visualization_of_Generalized_Virtual_3D_City_Models_using_Level-of-Abstraction_Transitions/links/0c96051c9c390e6ef2000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       }, 
 	  { "href"  : "http://www.youtube.com/watch?v=VXqtw44KxY4",
@@ -154,7 +154,7 @@
 	  { "href"    : "http://dx.doi.org/10.1260/2047-4970.1.1.45",
         "desc"    : "DOI"
       },
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/262566519_Colonia_3D_-_Communication_of_Virtual_3D_Reconstructions_in_Public_Spaces/links/0deec53982e1459622000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/262566519_Colonia_3D_-_Communication_of_Virtual_3D_Reconstructions_in_Public_Spaces/links/0deec53982e1459622000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       } ]
 	},
@@ -172,7 +172,7 @@
 	  { "href"    : "http://dx.doi.org/10.2312/PE.VMV.VMV13.025-032",
         "desc"    : "DOI"
       },
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/255681574_Evaluating_the_Perceptual_Impact_of_Rendering_Techniques_on_Thematic_Color_Mappings_in_3D_Virtual_Environments/links/00b49524aa9a344135000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/255681574_Evaluating_the_Perceptual_Impact_of_Rendering_Techniques_on_Thematic_Color_Mappings_in_3D_Virtual_Environments/links/00b49524aa9a344135000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       } ]
 	},
@@ -190,7 +190,7 @@
       { "href"    : "http://www.youtube.com/watch?v=PmBTK8TbpPA",
         "desc"    : "Vido (Youtube)"
       },
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/250615200_Interactive_Projective_Texturing_for_Non-Photorealistic_Shading_of_Technical_3D_Models/links/02e7e5230558a1e470000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/250615200_Interactive_Projective_Texturing_for_Non-Photorealistic_Shading_of_Technical_3D_Models/links/02e7e5230558a1e470000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       } ]
 	},
@@ -208,7 +208,7 @@
 	  { "href"    : "http://dx.doi.org/10.1145/2487276.2487277",
         "desc"    : "DOI"
       },
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/241686838_Real-Time_Rendering_of_Water_Surfaces_with_Cartography-Oriented_Design/links/0deec51c9c3079b2b4000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/241686838_Real-Time_Rendering_of_Water_Surfaces_with_Cartography-Oriented_Design/links/0deec51c9c3079b2b4000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       },
       { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2013/SKTD13/asemmo-cae2013-slides.pdf",
@@ -232,10 +232,10 @@
 	  { "href"    : "http://dx.doi.org/10.1145/2630099.2630101",
         "desc"    : "DOI"
       },
-      { "href"    : "https://www.researchgate.net/profile/Amir_Semmo/publication/264324992_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes/links/53d8df1e0cf2631430c36da2.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/264324992_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes/links/53d8df1e0cf2631430c36da2.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       },
-	  { "href"    : "https://www.researchgate.net/profile/Amir_Semmo/publication/264325270_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes_-_Additional_Material/links/53d8df670cf2e38c6331b7b8.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+	  { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/264325270_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes_-_Additional_Material/links/53d8df670cf2e38c6331b7b8.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Additional Material (PDF)"
       },
       { "href"    : "http://www.youtube.com/watch?v=Vqh3OQbWPpI",
@@ -253,7 +253,7 @@
       "caption"   : "3D geovirtual environments constitute effective media for the analysis and communication of complex geospatial data. Today, these environments are often visualized using static graphical variants (e.g., 2D maps, 3D photorealistic) from which a user is able to choose from. To serve the different interests of users in specific information, however, the spatial and thematic granularity at which model contents are represented (i.e., level of abstraction) should be dynamically adapted to the user's context, which requires specialized interaction techniques for parameterization. In this work, we present a framework that enables interaction interfaces to parameterize the level-of-abstraction visualization according to spatial, semantic, and thematic data. The framework is implemented in a visualization system that provides image-based rendering techniques for context-aware abstraction and highlighting. Using touch and natural language interfaces, we demonstrate its versatile application to geospatial tasks, including exploration, navigation, and orientation.",
       "thumbnail" : "/img/2014-sd_3.jpg",
 	  "downloads" : [
-      { "href"    : "https://www.researchgate.net/profile/Amir_Semmo/publication/269762694_An_Interaction_Framework_for_Level-of-Abstraction_Visualization_of_3D_Geovirtual_Environments/links/54eee2f00cf2e2830865bb5a.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/269762694_An_Interaction_Framework_for_Level-of-Abstraction_Visualization_of_3D_Geovirtual_Environments/links/54eee2f00cf2e2830865bb5a.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       } ]
 	},
@@ -286,7 +286,7 @@
 	  { "href"    : "http://dx.doi.org/10.1080/13658816.2014.922686",
         "desc"    : "DOI"
       },
-      { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/262566376_Multi-Perspective_3D_Panoramas/links/0f31753b2a3de554d4000000.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/262566376_Multi-Perspective_3D_Panoramas/links/0f31753b2a3de554d4000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       }	  ]
 	},
@@ -301,7 +301,7 @@
       "caption"   : "Transportation networks, such as streets, railroads or metro systems, constitute primary elements in cartography for reckoning and navigation. In recent years, they have become an increasingly important part of 3D virtual environments for the interactive analysis and communication of complex hierarchical information, for example in routing, logistics optimization, and disaster management. A variety of rendering techniques have been proposed that deal with integrating transportation networks within these environments, but have so far neglected the many challenges of an interactive design process to adapt their spatial and thematic granularity (i.e., level-of-detail and level-of-abstraction) according to a user's context. This paper presents an efficient real-time rendering technique for the view-dependent rendering of geometrically complex transportation networks within 3D virtual environments. Our technique is based on distance fields using deferred texturing that shifts the design process to the shading stage for real-time stylization. We demonstrate and discuss our approach by means of street networks using cartographic design principles for context-aware stylization, including view-dependent scaling for clutter reduction, contour-lining to provide figure-ground, handling of street crossings via shading-based blending, and task-dependent colorization. Finally, we present potential usage scenarios and applications together with a performance evaluation of our implementation.",
       "thumbnail" : "/img/2015-tsd.jpg",
 	  "downloads" : [
-	  { "href"    : "https://www.researchgate.net/profile/Matthias_Trapp/publication/269697434_Interactive_Rendering_and_Stylization_of_Transportation_Networks_Using_Distance_Fields/links/5506a7d50cf2d60c0e6d3a09.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+	  { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/269697434_Interactive_Rendering_and_Stylization_of_Transportation_Networks_Using_Distance_Fields/links/5506a7d50cf2d60c0e6d3a09.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       }	]
 	},
@@ -319,7 +319,7 @@
 	  { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.02.001",
         "desc"    : "DOI"
       },
-	  { "href"    : "https://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf?ev=pub_int_doc_dl&origin=publication_detail&inViewer=true",
+	  { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf?ev=pub_ext_doc_dl&origin=publication_detail&inViewer=true",
         "desc"    : "Paper (PDF)"
       }	]
 	}
