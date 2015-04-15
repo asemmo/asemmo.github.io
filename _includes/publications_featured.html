@@ -10,7 +10,7 @@
     </div>
     {% assign publications = site.data.publications | sort:"date" %}
     {% for p in publications reversed %}
-	{% if p.featured and p.featured == "true" %}
+	{% if p.featured == "true" %}
     <div class="row{% if p != publications.first %} not-last{% endif %}">
       <div class="col-sm-3">
         {% include thumbnail.html %}
