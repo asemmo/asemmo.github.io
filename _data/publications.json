@@ -1,6 +1,6 @@
   [ { "key"       : "kskd2010",
     "featured"  : "false",
-    "bibtex"    : "bib/led2012-sky-phenomena.bib",
+    "bibtex"    : "bib/2010-kskd.bib",
     "title"     : "Anisotropic Kuwahara Filtering with Polynomial Weighting Functions",
     "date"      : "2010-06-01",
     "authors"   : [ "Jan Eric Kyprianidis", "Amir Semmo", "Henry Kang", "Jürgen Döllner" ],
@@ -15,7 +15,7 @@
 	
   { "key"       : "tsphdeh2010",
     "featured"  : "false",
-    "bibtex"    : "bib/led2012-sky-phenomena.bib",
+    "bibtex"    : "bib/2010-tsphdeh.bib",
     "title"     : "Communication of Digital Cultural Heritage in Public Spaces by the Example of Roman Cologne",
     "date"      : "2010-11-01",
     "authors"   : [ "Matthias Trapp", "Amir Semmo", "Rafael Pokorski", "Claus-Daniel Herrmann", "Jürgen Döllner", "Michael Eichhorn", "Michael Heinzelmann" ],
@@ -37,7 +37,7 @@
 	
   {	"key"       : "skd2010",
     "featured"  : "false",
-    "bibtex"    : "bib/led2012-sky-phenomena.bib",
+    "bibtex"    : "bib/2010-skd.bib",
     "title"     : "Automated Image-Based Abstraction of Aerial Images",
     "date"      : "2010-03-01",
     "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
@@ -55,7 +55,7 @@
 
     { "key"       : "tsd2011",
       "featured"  : "false",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2011-tsd.bib",
       "title"     : "Colonia3D",
       "date"      : "2011-05-01",
       "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
@@ -66,7 +66,7 @@
 
     { "key"       : "std2011",
       "featured"  : "false",
-      "bibtex"    : "bib/ld2014-parameter-painting.bib",
+      "bibtex"    : "bib/2011-std.bib",
       "title"     : "Ansätze zur kartographischen Gestaltung von 3D-Stadtmodellen",
       "date"      : "2011-04-01",
       "authors"   : [ "Amir Semmo", "Matthias, Trapp", "Jürgen Döllner" ],
@@ -81,7 +81,7 @@
 
     { "key"       : "shtd2012",
       "featured"  : "true",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2012-shtd.bib",
       "title"     : "Concepts for Cartography-Oriented Visualization of Virtual 3D City Models",
       "date"      : "2012-06-01",
       "authors"   : [ "Amir Semmo", "Dieter Hildebrandt", "Matthias Trapp", "Jürgen Döllner" ],
@@ -99,7 +99,7 @@
 
     { "key"       : "pstd2012",
       "featured"  : "false",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2012-pstd.bib",
       "title"     : "Towards Comprehensible Digital 3D Maps",
       "date"      : "2012-11-01",
       "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
@@ -117,7 +117,7 @@
 	
     { "key"       : "stkd2012",
       "featured"  : "true",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2012-stkd.bib",
       "title"     : "Interactive Visualization of Generalized Virtual 3D City Models using Level-of-Abstraction Transitions",
       "date"      : "2012-06-01",
       "authors"   : [ "Amir Semmo", "Matthias Trapp", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
@@ -139,7 +139,7 @@
 	
     { "key"       : "tsphdeh2012",
       "featured"  : "false",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2012-tsphdeh.bib",
       "title"     : "Colonia 3D - Communication of Virtual 3D Reconstructions in Public Spaces",
       "date"      : "2012-01-01",
       "authors"   : [ "Matthias Trapp", "Amir Semmo", "Rafael Pokorski", "Claus-Daniel Herrmann", "Jürgen Döllner", "Michael Eichhorn", "Michael Heinzelmann" ],
@@ -157,7 +157,7 @@
 
     { "key"       : "estd2013",
       "featured"  : "true",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2013-estd.bib",
       "title"     : "Evaluating the Perceptual Impact of Rendering Techniques on Thematic Color Mappings in 3D Virtual Environments",
       "date"      : "2012-06-01",
       "authors"   : [ "Juri Engel", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
@@ -175,7 +175,7 @@
 
     { "key"       : "ltsd2013",
       "featured"  : "false",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2013-ltsd.bib",
       "title"     : "Interactive Projective Texturing for Non-Photorealistic Shading of Technical 3D Models",
       "date"      : "2013-09-01",
       "authors"   : [ "Roland Lux", "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
@@ -190,7 +190,7 @@
 
     { "key"       : "sktd2013",
       "featured"  : "true",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2013-sktd.bib",
       "title"     : "Real-Time Rendering of Water Surfaces with Cartography-Oriented Design",
       "date"      : "2013-07-01",
       "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Matthias Trapp", "Jürgen Döllner" ],
@@ -214,7 +214,7 @@
 
     { "key"       : "sd2014",
       "featured"  : "true",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2014-sd.bib",
       "title"     : "Image Filtering for Interactive Level-of-Abstraction Visualization of 3D Scenes",
       "date"      : "2014-07-01",
       "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
@@ -237,8 +237,8 @@
 	},
 
     { "key"       : "sd2014_3",
-      "featured"  : "false",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "featured"  : "true",
+      "bibtex"    : "bib/2014-sd_3.bib",
       "title"     : "An Interaction Framework for Level-of-Abstraction Visualization of 3D Geovirtual Environments",
       "date"      : "2014-11-01",
       "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
@@ -253,7 +253,7 @@
 
     { "key"       : "sd2014_2",
       "featured"  : "false",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2014-sd_2.bib",
       "title"     : "Oil Paint Filtering Using Color Palettes For Colorization",
       "date"      : "2014-08-01",
       "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
@@ -268,7 +268,7 @@
 
     { "key"       : "pstd2014",
       "featured"  : "true",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2014-pstd.bib",
       "title"     : "Multi-Perspective 3D Panoramas",
       "date"      : "2014-08-01",
       "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
@@ -283,7 +283,7 @@
 
     { "key"       : "tsd2015",
       "featured"  : "false",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2015-tsd.bib",
       "title"     : "Interactive Rendering and Stylization of Transportation Networks Using Distance Fields",
       "date"      : "2015-04-01",
       "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
@@ -294,7 +294,7 @@
 
     { "key"       : "sd2015",
       "featured"  : "true",
-      "bibtex"    : "bib/lwtd2013-web-based-swmaps.bib",
+      "bibtex"    : "bib/2015-sd.bib",
       "title"     : "Interactive Image Filtering for Level-of-Abstraction Texturing of Virtual 3D Scenes",
       "date"      : "2015-04-01",
       "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
