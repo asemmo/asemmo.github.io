@@ -8,8 +8,8 @@
         <h2 class="page-header">Professional Activities</h2>
       </div>
     </div>
-    {% assign talks = site.data.activities | sort:"date" %}
-    {% for t in activities reversed %}
+    {% assign activities = site.data.activities %}
+    {% for t in activities %}
     <div class="row">
       <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
         <h4>{{ t.title}}</h4>
