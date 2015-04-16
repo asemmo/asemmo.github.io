@@ -1,0 +1,20 @@
+
+<!-- Videos -->
+<section id="videos">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="page-header">Talks</h2>
+      </div>
+    </div>
+    {% assign videos = site.data.videos %}
+    {% for v in videos %}
+    <div class="row">
+      <div class="col-md-8 col-sm-10">
+        <iframe width="560" height="315" src="{{ v.link }} frameborder="0"> </iframe>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
