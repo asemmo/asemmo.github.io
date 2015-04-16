@@ -13,28 +13,6 @@
     } ]
     },
 	
-  { "key"       : "tsphdeh2010",
-    "featured"  : "false",
-    "bibtex"    : "bib/2010-tsphdeh.bib",
-    "title"     : "Communication of Digital Cultural Heritage in Public Spaces by the Example of Roman Cologne",
-    "date"      : "2010-11-01",
-    "authors"   : [ "Matthias Trapp", "Amir Semmo", "Rafael Pokorski", "Claus-Daniel Herrmann", "Jürgen Döllner", "Michael Eichhorn", "Michael Heinzelmann" ],
-    "published" : "Proceedings of 3rd EuroMed Conference",
-    "caption"   : "The communication of cultural heritage in public spaces such as museums or exhibitions, gain more and more importance during the last years. The possibilities of interactive 3D applications open a new degree of freedom beyond the mere presentation of static visualizations, such as pre-produced video or image data. A user is now able to directly interact with 3D virtual environments that enable the depiction and exploration of digital cultural heritage artefacts in real-time. However, such technology requires concepts and strategies for guiding a user throughout these scenarios, since varying levels of experiences within interactive media can be assumed. This paper presents a concept as well as implementation for communication of digital cultural heritage in public spaces, by example of the project Roman Cologne. It describes the results achieved by an interdisciplinary team of archaeologists, designers, and computer graphics engineers with the aim to virtually reconstruct an interactive high-detail 3D city model of Roman Cologne.",
-    "thumbnail" : "/img/2010-tsphdeh.jpg",
-    "downloads" : [
-    { "href"  : "http://www.researchgate.net/profile/Michael_Eichhorn/publication/221197093_Communication_of_Digital_Cultural_Heritage_in_Public_Spaces_by_the_Example_of_Roman_Cologne/links/09e415072e1bedfe2d000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
-      "desc"  : "Paper (PDF)"
-    },
-    { "href"  : "hhttp://www.authorstream.com/Presentation/autopilot-645625-colonia3d/",
-      "desc"  : "Slides (Authorstream)"
-    },
-    { "href"  : "http://www.youtube.com/watch?v=HoC_mmy51CE",
-      "desc"  : "Video (YouTube)",
-      "video" : "youtube"
-    } ]
-    },
-	
   {	"key"       : "skd2010",
     "featured"  : "false",
     "bibtex"    : "bib/2010-skd.bib",
@@ -126,7 +104,7 @@
       "date"      : "2012-06-01",
       "authors"   : [ "Amir Semmo", "Matthias Trapp", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
       "published" : "Computer Graphics Forum (Proceedings EuroVis)",
-      "caption"   : "Digital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
+      "caption"   : "Virtual 3D city models play an important role in the communication of complex geospatial information in a growing number of applications, such as urban planning, navigation, tourist information, and disaster management. In general, homogeneous graphic styles are used for visualization. For instance, photorealism is suitable for detailed presentations, and non-photorealism or abstract stylization is used to facilitate guidance of a viewer's gaze to prioritized information. However, to adapt visualization to different contexts and contents and to support saliency-guided visualization based on user interaction or dynamically changing thematic information, a combination of different graphic styles is necessary. Design and implementation of such combined graphic styles pose a number of challenges, specifically from the perspective of real-time 3D visualization. In this paper, the authors present a concept and an implementation of a system that enables different presentation styles, their seamless integration within a single view, and parametrized transitions between them, which are defined according to tasks, camera view, and image resolution. The paper outlines potential usage scenarios and application fields together with a performance evaluation of the implementation.",
       "thumbnail" : "/img/2012-stkd.jpg",
 	  "downloads" : [
 	  { "href"    : "http://dx.doi.org/10.1111/j.1467-8659.2012.03081.x",
@@ -202,7 +180,7 @@
       "date"      : "2013-07-01",
       "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
-      "caption"   : "Using colors for thematic mapping is a fundamental approach in visualization, and has become essential for 3D virtual environments to effectively communicate multidimensional, thematic information. Preserving depth cues within these environments to emphasize spatial relations between geospatial features remains an important issue.A variety of rendering techniques have been developed to preserve depth cues in 3D information visualization, including shading, global illumination, and image stylization. However, these techniques alter color values, which may lead to ambiguity in a color mapping and loss of information. Depending on the applied rendering techniques and color mapping, this loss should be reduced while still preserving depth cues when communicating thematic information. This paper presents the results of a quantitative and qualitative user study that evaluates the impact of rendering techniques on information and spatial perception when using visualization of thematic data in 3D virtual environments. We report the results of this study with respect to four perception-related tasks, showing significant differences in error rate and task completion time for different rendering techniques and color mappings.",
+      "caption"   : "More than 70% of the Earth's surface is covered by oceans, seas, and lakes, making water surfaces one of the primary elements in geospatial visualization. Traditional approaches in computer graphics simulate and animate water surfaces in the most realistic ways. However, to improve orientation, navigation, and analysis tasks within 3D virtual environments, these surfaces need to be carefully designed to enhance shape perception and land-water distinction. We present an interactive system that renders water surfaces with cartography-oriented design using the conventions of mapmakers. Our approach is based on the observation that hand-drawn maps utilize and align texture features to shorelines with non-linear distance to improve figure-ground perception and express motion. To obtain local orientation and principal curvature directions, first, our system computes distance and feature-aligned distance maps. Given these maps, waterlining, water stippling, contour-hatching, and labeling are applied in real-time with spatial and temporal coherence. The presented methods can be useful for map exploration, landscaping, urban planning, and disaster management, which is demonstrated by various real-world virtual 3D city and landscape models.",
       "thumbnail" : "/img/2013-sktd.jpg",
 	  "downloads" : [
 	  { "href"    : "http://dx.doi.org/10.1145/2487276.2487277",
