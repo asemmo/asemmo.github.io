@@ -14,7 +14,7 @@ flickr_api_key: adb4be93419edab991522b4fa92b7029
 description: > # this means to ignore newlines until "baseurl:"
     Interactive graphics engineer and research assistant in the Computer Graphics Systems group at the Hasso Plattner Institute, Germany.
 subheading: > # this means to ignore newlines until "baseurl:"
-    <span class="text-danger">Interactive graphics engineer</span> and <span class="text-danger">research assistant</span> in the Computer Graphics Systems group at the <a href="http://www.hpi.de" target="_blank">Hasso Plattner Institute</a>, Germany.<br>Specialized on real-time rendering and shading, non-photorealistic rendering, computational aesthetics / cartographic design, and geovisualization.
+    <span class="text-danger">Interactive graphics engineer</span> and <span class="text-danger">research assistant</span> in the Computer Graphics Systems group at the <a href="http://www.hpi.de" target="_blank">Hasso Plattner Institute</a>, Germany.<br><br>Specialized on real-time rendering and shading, non-photorealistic rendering, computational aesthetics / cartographic design, and geovisualization.
 
 # Handling Reading
 safe: true
