@@ -198,7 +198,7 @@
 	},
 
     { "key"       : "sd2014",
-      "featured"  : "true",
+      "featured"  : "false",
       "bibtex"    : "bib/2014-sd.bib",
       "title"     : "Image Filtering for Interactive Level-of-Abstraction Visualization of 3D Scenes",
       "date"      : "2014-07-01",
