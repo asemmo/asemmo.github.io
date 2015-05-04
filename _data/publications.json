@@ -300,17 +300,6 @@
 	  { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       }	]
-	},
-	
-	{ "key"       : "slkd2015",
-      "featured"  : "true",
-      "bibtex"    : "bib/2015-slkd.bib",
-      "title"     : "Image Stylization by Oil Paint Filtering using Color Palettes",
-      "date"      : "2015-06-01",
-      "authors"   : [ "Amir Semmo", "Daniel Limberger", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
-      "published" : "Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
-      "caption"   : "This paper presents an approach for transforming images into an oil paint look. To this end, a color quantization scheme is proposed that performs feature-aware recolorization using the dominant colors of the input image. In addition, an approach for real-time computation of paint textures is presented that builds on the smoothed structure adapted to the main feature contours of the quantized image. Our stylization technique leads to homogeneous outputs in the color domain and enables creative control over the visual output, such as color adjustments and per-pixel parametrizations by means of interactive painting.",
-      "thumbnail" : "/img/2015-slkd.jpg"
 	}
 	
  ]
