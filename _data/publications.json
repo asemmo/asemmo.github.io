@@ -293,16 +293,16 @@
       "published" : "Computers & Graphics",
       "caption"   : "Texture mapping is a key technology in computer graphics. For the visual design of 3D scenes, in particular, effective texturing depends significantly on how important contents are expressed, e.g., by preserving global salient structures, and how their depiction is cognitively processed by the user in an application context. Edge-preserving image filtering is one key approach to address these concerns. Much research has focused on applying image filters in a post-process stage to generate artistically stylized depictions. However, these approaches generally do not preserve depth cues, which are important for the perception of 3D visualization (e.g., texture gradient). To this end, filtering is required that processes texture data coherently with respect to linear perspective and spatial relationships. In this work, we present an approach for texturing 3D scenes with perspective coherence by arbitrary image filters. We propose decoupled deferred texturing with (1) caching strategies to interactively perform image filtering prior to texture mapping and (2) for each mipmap level separately to enable a progressive level of abstraction, using (3) direct interaction interfaces to parameterize the visualization according to spatial, semantic, and thematic data. We demonstrate the potentials of our method by several applications using touch or natural language inputs to serve the different interests of users in specific information, including illustrative visualization, focus+context visualization, geometric detail removal, and semantic depth of field. The approach supports frame-to-frame coherence, order-independent transparency, multitexturing, and content-based filtering. In addition, it seamlessly integrates into real-time rendering pipelines, and is extensible for custom interaction techniques.",
       "thumbnail" : "/img/2015-sd.jpg",
-	  "downloads" : [
-	  { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.02.001",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.02.001",
         "desc"    : "DOI"
       },
-	  { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       }	]
-	},
+    },
 	
-	{ "key"       : "slkd2015",
+      { "key"       : "slkd2015",
       "featured"  : "true",
       "bibtex"    : "bib/2015-slkd.bib",
       "title"     : "Image Stylization by Oil Paint Filtering using Color Palettes",
@@ -310,7 +310,11 @@
       "authors"   : [ "Amir Semmo", "Daniel Limberger", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
       "published" : "Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
       "caption"   : "This paper presents an approach for transforming images into an oil paint look. To this end, a color quantization scheme is proposed that performs feature-aware recolorization using the dominant colors of the input image. In addition, an approach for real-time computation of paint textures is presented that builds on the smoothed structure adapted to the main feature contours of the quantized image. Our stylization technique leads to homogeneous outputs in the color domain and enables creative control over the visual output, such as color adjustments and per-pixel parametrizations by means of interactive painting.",
-      "thumbnail" : "/img/2015-slkd.jpg"
-	}
+      "thumbnail" : "/img/2015-slkd.jpg",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/277531015_Image_Stylization_by_Oil_Paint_Filtering_using_Color_Palettes/links/556c35b208aeccd7773a2f85.pdf?ev=pub_int_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      }	]
+    }
 	
  ]
