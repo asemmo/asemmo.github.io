@@ -222,7 +222,7 @@
 	},
 
     { "key"       : "sd2014_3",
-      "featured"  : "true",
+      "featured"  : "false",
       "bibtex"    : "bib/2014-sd_3.bib",
       "title"     : "An Interaction Framework for Level-of-Abstraction Visualization of 3D Geovirtual Environments",
       "date"      : "2014-11-01",
