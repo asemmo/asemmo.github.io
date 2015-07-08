@@ -297,7 +297,7 @@
       { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.02.001",
         "desc"    : "DOI"
       },
-      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf",
         "desc"    : "Paper (PDF)"
       }	]
     },
