@@ -1,4 +1,8 @@
-[ { "date"      : "2015-08-28 00:00:00",
+[ { "date"      : "2015-11-04 00:00:00",
+    "title"     : "Konzepte und Techniken für das kartographische Design von 3D geovirtuellen Umgebungen",
+    "location"  : "SGK-Herbsttagung, Muttenz, Switzerland"
+  },
+  { "date"      : "2015-08-28 00:00:00",
     "title"     : "Cartography-Oriented Design of 3D Geospatial Information Visualization - Overview and Techniques",
     "location"  : "International Cartographic Conference 2015, Rio de Janeiro, Brazil"
   },
