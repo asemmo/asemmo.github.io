@@ -303,7 +303,7 @@
     },
 	
       { "key"       : "slkd2015",
-      "featured"  : "true",
+      "featured"  : "false",
       "bibtex"    : "bib/2015-slkd.bib",
       "title"     : "Image Stylization by Oil Paint Filtering using Color Palettes",
       "date"      : "2015-06-01",
@@ -349,12 +349,16 @@
       "published" : "Computers & Graphics",
       "caption"   : "This paper presents an interactive system for transforming images into an oil paint look. The system comprises two major stages. First, it derives dominant colors from an input image for feature-aware recolorization and quantization to conform with a global color palette. Afterwards, it employs non-linear filtering based on the smoothed structure adapted to the main feature contours of the quantized image to synthesize a paint texture in real-time. Our filtering approach leads to homogeneous outputs in the color domain and enables creative control over the visual output, such as color adjustments and per-pixel parametrizations by means of interactive painting. To this end, our system introduces a generalized brush-based painting interface that operates within parameter spaces to locally adjust the level of abstraction of the filtering effects. Several results demonstrate the various applications of our filtering approach to different genres of photography.",
       "thumbnail" : "/img/2016-slkd.jpg",
+      "flickr"    : "72157652814171753",
       "downloads" : [
       { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.12.001",
         "desc"    : "DOI"
       },
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/289694790_Image_stylization_by_interactive_oil_paint_filtering/links/56a3bb4b08ae232fb20597b8.pdf",
         "desc"    : "Paper (PDF)"
+      },
+      { "href"  : "https://drive.google.com/file/d/0ByqyK4WwkIzQWk9KRDNMdmxQU0U/view",
+        "desc"  : "Filter Results (Images / ZIP, 191 MiB)"
       }	]
     },
 	
