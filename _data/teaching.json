@@ -1,4 +1,11 @@
-[ { "term" : "2014/15 : Winter Term / Summer Term",
+[ { "term" : "2015/16 : Winter Term / Summer Term",
+    "courses" : 
+    [ { "course" : "Image and Video Processing with OpenGL ES for Mobile Devices",
+        "type"   : "seminar (MA)",
+        "role"   : "tutor"
+      } ]
+  },
+  { "term" : "2014/15 : Winter Term / Summer Term",
     "courses" : 
     [ { "course" : "Geovisualization",
         "type"   : "seminar (MA)",
