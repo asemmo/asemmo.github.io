@@ -1,4 +1,19 @@
-  [ { "key"       : "kskd2010",
+  [ { "key"       : "wsash2010",
+    "featured"  : "false",
+    "bibtex"    : "bib/2010-wsash.bib",
+    "title"     : "ContextLua: Dynamic Behavioral Variations in Computer Games",
+    "date"      : "2010-02-01",
+    "authors"   : [ "Benjamin Hosain Wasty", "Amir Semmo", "Malte Appeltauer", "Bastian Steinert", "Robert Hirschfeld" ],
+    "published" : "Proceedings of 2nd International Workshop on Context-Oriented Programming",
+    "caption"   : "Behavioral variations are central to modern computer games as they are making the gameplay a more interesting user experience. However, these variations significantly add to the implementation complexity. We discuss the domain of computer games with respect to dynamic behavioral variations and argue that context-oriented programming is of special interest for this domain. This motivates our extension to the dynamic scripting language Lua, which is frequently used in the development of computer games. Our newly provided programming constructs allow game developers to use layers for defining and activating variations of the basic gameplay.",
+    "thumbnail" : "/img/2010-wsash.jpg",
+    "downloads" : [
+    { "href"  : "http://dl.acm.org/citation.cfm?id=1930026",
+      "desc"  : "Paper (ACM DL)"
+    } ]
+    },
+  	
+  { "key"       : "kskd2010",
     "featured"  : "false",
     "bibtex"    : "bib/2010-kskd.bib",
     "title"     : "Anisotropic Kuwahara Filtering with Polynomial Weighting Functions",
