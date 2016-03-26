@@ -6,10 +6,11 @@
 		<div class="portfolio-centered">
 			{% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
 			<div class="recentitems portfolio">
-				{% for project in site.categories['project'] limit:include.limit %}
+				{% assign carousel = site.data.carousel %}
+				{% for c in carousel %}
 					<div class="portfolio-item graphic-design">
 						<div class="he-wrap tpl6">
-						<img src="{{ "/img/carousel/" | prepend: site.baseurl }}{{ project.img }}" alt="">
+						<img src="{{ "/img/carousel/" | prepend: site.baseurl }}{{ c.img }}" alt="">
 							<!--
 							<div class="he-view">
 								<div class="bg a0" data-animate="fadeIn">
