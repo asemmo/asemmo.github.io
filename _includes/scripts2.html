@@ -125,9 +125,22 @@
 <script>
 	jQuery(document).ready(function($) {
 		$('.my-slider').unslider({
-			animation: 'fade', autoplay: true, arrows: false, pauseOnHover: true 
+			animation: 'fade', autoplay: true, arrows: false 
 		});	
 	});
+	
+	(function($) {
+		$(".portfolio-item").on({
+			mouseenter: function () {
+				var slider = $('.my-slider').unslider();
+				slider.stop();
+			},
+			mouseleave: function () {
+				var slider = $('.my-slider').unslider();
+				slider.start();
+			}
+}		);
+	})(jQuery);
 </script>
 
 <script>
