@@ -145,3 +145,11 @@ a.thumbnail {
     li{
     display:inline-block;
     }
+	
+	
+	.carouselelement {
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
