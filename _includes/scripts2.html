@@ -132,12 +132,12 @@
 	(function($) {
 		$(".portfolio-item").on({
 			mouseenter: function () {
-				var slider = $('.my-slider').unslider();
-				slider.stop();
+				//var slider = $('.my-slider').unslider();
+				$('.my-slider').stop();
 			},
 			mouseleave: function () {
-				var slider = $('.my-slider').unslider();
-				slider.start();
+				//var slider = $('.my-slider').unslider();
+				$('.my-slider').start();
 			}
 }		);
 	})(jQuery);
