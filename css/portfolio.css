@@ -126,6 +126,8 @@ a.thumbnail {
 #carousellist {
 	display: inline;
     list-style: none;
+	padding: 0px;
+	margin: 0px;
     }
 
     #carousellist > li.sub ul {
