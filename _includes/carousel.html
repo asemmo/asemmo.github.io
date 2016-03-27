@@ -1,11 +1,11 @@
 
 <!-- Carousel -->
 	  <div id="portfoliowrap">
-		<div class="portfolio-centered">
 			{% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
 			<div class="my-slider">
 			<ul id="carousellist" style="width:100%">
 			<li class="sub" style="width:100%">
+			<div class="portfolio-centered">
 				<div class="recentitems portfolio">
 				{% assign carousel = site.data.carousel %}
 				{% for c in carousel %}
@@ -23,8 +23,10 @@
 					</div><!-- end col-12 -->
 				{% endfor %}
 				</div><!-- portfolio -->
+			</div>
 			</li>
 			<li class="sub" style="width:100%">
+			<div class="portfolio-centered">
 				<div class="recentitems portfolio">
 				{% assign carousel = site.data.carousel %}
 				{% for c in carousel %}
@@ -42,8 +44,8 @@
 					</div><!-- end col-12 -->
 				{% endfor %}
 				</div><!-- portfolio -->
+			</div>
 			</li>
 			</ul>
-			</div>
 		</div><!-- portfolio container -->
 	  </div><!--/Portfoliowrap -->
