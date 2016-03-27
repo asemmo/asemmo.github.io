@@ -122,3 +122,26 @@ a.thumbnail {
 	-webkit-appearance: none;
 	font-weight: normal !important;
 }
+
+#carousellist {
+    list-style: none;
+    }
+
+    #carousellist > li.sub ul {
+    list-style: none;
+    position: absolute;
+    top: -1000em;
+    left: 0px;
+    }
+
+    #carousellist li.sub ul li a {
+    display: inline;
+    }
+
+    #carousellist{
+    text-align:left;
+    }
+
+    li{
+    display:inline-block;
+    }
