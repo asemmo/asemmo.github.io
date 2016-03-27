@@ -124,23 +124,21 @@
 </script>
 <script>
 	jQuery(document).ready(function($) {
-		$('.my-slider').unslider({
+		var slider = $('.my-slider').unslider({
 			animation: 'fade', autoplay: true, arrows: false 
-		});	
-	});
-	
-	(function($) {
+		});
+		
+		data = slider.data('unslider');
+		
 		$(".portfolio-item").on({
 			mouseenter: function () {
-				//var slider = $('.my-slider').unslider();
-				$('.my-slider').stop();
+				data.stop();
 			},
 			mouseleave: function () {
-				//var slider = $('.my-slider').unslider();
-				$('.my-slider').start();
+				data.start();
 			}
-}		);
-	})(jQuery);
+		});
+	});
 </script>
 
 <script>
