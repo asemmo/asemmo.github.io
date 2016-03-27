@@ -165,14 +165,353 @@
 		</div><!-- portfolio container -->
 	  </div><!--/Portfoliowrap -->
 
+<!-- Footer -->
+<footer>
+  <div class="col-md-12 text-center">
+    <a href="https://github.com/cgcostume/cgcostume.github.io">Datafolio</a> by Amir Semmo : Created using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, generated and hosted via <a href="https://pages.github.com/" target="_blank">gh-pages</a>. Last updated on <a href="https://github.com/cgcostume/cgcostume.github.io/commits/master" target="_blank">03/27/16</a>.
+  </div>
+</footer>
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+  <!-- The container for the modal slides -->
+  <div class="slides">#</div>
+  <!-- Controls for the borderless lightbox -->
+  <h3 class="title">#</h3>
+  <a class="prev">‹</a><a class="next">›</a><a class="close">×</a><a class="play-pause"></a>
+  <ol class="indicator"></ol>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/retina-1.1.0.js"></script>
+<script src="/js/jquery.hoverdir.js"></script>
+<script src="/js/jquery.hoverex.min.js"></script>
+<script src="/js/jquery.prettyPhoto.js"></script>
+<script src="/js/jquery.isotope.min.js"></script>
+<script src="/js/custom.js"></script>
 <script src="/js/unslider-min.js"></script>
 
+<script>
+// Carousel
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
 <script>
 	jQuery(document).ready(function($) {
 		$('.my-slider').unslider();
 	});
 </script>
+
+
+
+<!-- Scripts -->
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<!-- blueimp gallery -->
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.min.js"></script>
+
+<!-- spin.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/jquery.spin.min.js"></script>
+
+
+<!-- Scrolling Nav JavaScript -->
+<script src="/js/scrolling-nav.js"></script>
+
+<script>
+
+jQuery.fn.selectInner = function()
+{
+  var doc = document;
+  var element = this[0];
+
+  if (doc.body.createTextRange) 
+  {
+  	var range = document.body.createTextRange();
+  	range.moveToElementText(element);
+  	range.select();
+  } 
+  else if (window.getSelection) 
+  {
+  	var selection = window.getSelection();
+  	selection.removeAllRanges();
+
+    var range = document.createRange();
+    range.selectNodeContents(element);
+
+    selection.addRange(range);
+  }
+};
+
+// since there is currently no way to use custom plugins on gh-pages
+// flickr integration is done on demand via javascript
+
+var flickr_api = "https://api.flickr.com/services/rest/";
+var flickr_api_key = "adb4be93419edab991522b4fa92b7029";
+
+function flickr_photo_url(photo)
+{
+  return "https://farm" + photo.farm 
+    + ".staticflickr.com/" + photo.server + "/" 
+    + photo.id + "_" + photo.secret + "_b.jpg";
+}
+
+var blueimp_gallery_cache = [];
+
+function blueimp_gallery(photoset_id)
+{
+  blueimp.Gallery(blueimp_gallery_cache[photoset_id]
+    , { useBootstrapModal : false, event : event, container: '#blueimp-gallery' });  
+}
+
+function blueimp_video(photoset_id)
+{
+  blueimp.Gallery(blueimp_gallery_cache[photoset_id]
+    , { useBootstrapModal : false, event : event, container: '#blueimp-gallery' });  
+}
+
+function flickr_photosets(photoset_id) 
+{
+  if(photoset_id in blueimp_gallery_cache)
+  {
+    blueimp_gallery(photoset_id);
+    return;
+  }
+
+  var spin_attributes = {
+    lines   : 12,
+    length  : 12,
+    width   :  4,
+    radius  : 16,
+    corners :  1,
+    zIndex  :  1,
+  };
+
+  $('#' + photoset_id).spin( spin_attributes);
+
+  $.getJSON(flickr_api, 
+    {
+      method : "flickr.photosets.getPhotos",
+      api_key : flickr_api_key, 
+      photoset_id : photoset_id,
+      format : "json",
+      nojsoncallback : 1
+    })
+
+  .done(function(data) 
+  {
+    var blueimpl_gallery = [];
+
+    $.each(data.photoset.photo, function(i, photo) {
+      blueimpl_gallery.push( { href  : flickr_photo_url(photo), title : photo.title } ) });
+
+    blueimp_gallery_cache[photoset_id] = blueimpl_gallery;
+    blueimp_gallery(photoset_id);
+  })
+  .fail( function(data, textStatus, error) 
+  {
+    alert("flickr.photosets.getPhotos as json failed, status: " + textStatus + ", error: " + error);
+  })
+  .always( function()
+  {
+    var spinner = $('#' + photoset_id).data().spinner;
+    if(spinner)
+      spinner.stop();
+  });
+}
+
+$(document).ready(function() 
+{ 
+  // assign flickr photosets to thumbnails
+  $('.flickr').on('click', function(event) 
+    { 
+      event.preventDefault();
+      flickr_photosets($(this).attr("id")); 
+    });
+
+  // assign bibtex select scripts
+  
+  $('#bibtex-select-wsash2010').on('click', function(event) 
+    { $('#bibtex-tex-wsash2010').selectInner(); });
+  
+  $('#bibtex-select-skd2010').on('click', function(event) 
+    { $('#bibtex-tex-skd2010').selectInner(); });
+  
+  $('#bibtex-select-kskd2010').on('click', function(event) 
+    { $('#bibtex-tex-kskd2010').selectInner(); });
+  
+  $('#bibtex-select-std2011').on('click', function(event) 
+    { $('#bibtex-tex-std2011').selectInner(); });
+  
+  $('#bibtex-select-tsd2011').on('click', function(event) 
+    { $('#bibtex-tex-tsd2011').selectInner(); });
+  
+  $('#bibtex-select-tsphdeh2012').on('click', function(event) 
+    { $('#bibtex-tex-tsphdeh2012').selectInner(); });
+  
+  $('#bibtex-select-estd2013').on('click', function(event) 
+    { $('#bibtex-tex-estd2013').selectInner(); });
+  
+  $('#bibtex-select-stkd2012').on('click', function(event) 
+    { $('#bibtex-tex-stkd2012').selectInner(); });
+  
+  $('#bibtex-select-shtd2012').on('click', function(event) 
+    { $('#bibtex-tex-shtd2012').selectInner(); });
+  
+  $('#bibtex-select-pstd2012').on('click', function(event) 
+    { $('#bibtex-tex-pstd2012').selectInner(); });
+  
+  $('#bibtex-select-sktd2013').on('click', function(event) 
+    { $('#bibtex-tex-sktd2013').selectInner(); });
+  
+  $('#bibtex-select-ltsd2013').on('click', function(event) 
+    { $('#bibtex-tex-ltsd2013').selectInner(); });
+  
+  $('#bibtex-select-sd2014').on('click', function(event) 
+    { $('#bibtex-tex-sd2014').selectInner(); });
+  
+  $('#bibtex-select-pstd2014').on('click', function(event) 
+    { $('#bibtex-tex-pstd2014').selectInner(); });
+  
+  $('#bibtex-select-sd2014_2').on('click', function(event) 
+    { $('#bibtex-tex-sd2014_2').selectInner(); });
+  
+  $('#bibtex-select-sd2014_3').on('click', function(event) 
+    { $('#bibtex-tex-sd2014_3').selectInner(); });
+  
+  $('#bibtex-select-sd2015').on('click', function(event) 
+    { $('#bibtex-tex-sd2015').selectInner(); });
+  
+  $('#bibtex-select-tsd2015').on('click', function(event) 
+    { $('#bibtex-tex-tsd2015').selectInner(); });
+  
+  $('#bibtex-select-slkd2015').on('click', function(event) 
+    { $('#bibtex-tex-slkd2015').selectInner(); });
+  
+  $('#bibtex-select-stjd2015').on('click', function(event) 
+    { $('#bibtex-tex-stjd2015').selectInner(); });
+  
+  $('#bibtex-select-slkd2016').on('click', function(event) 
+    { $('#bibtex-tex-slkd2016').selectInner(); });
+  
+});
+
+// contact form validation
+$("#contact-form").validate(
+{ rules :
+  { name     : { required : true },
+    _replyto : { required : true, email : true },
+    message  : { required : true, maxlength : 1024 } 
+  }, 
+
+  errorClass   : 'error form-control-static text-danger',
+  errorElement : 'div',
+
+  highlight : function(label) 
+  { $(label).closest('.form-group').addClass('has-error'); },
+
+  success : function(label) 
+  { $(label).closest('.form-group').removeClass('has-error');
+    $(label).remove(); },
+
+  submitHandler : function(form) 
+  { $.ajax(
+    { url  : form.action,
+      type : form.method,
+      data : $(form).serializeJSON()
+    });
+  }
+});
+
+</script>
+
 
 </body>
 
