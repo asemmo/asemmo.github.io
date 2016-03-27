@@ -124,6 +124,7 @@ a.thumbnail {
 }
 
 #carousellist {
+	display: inline;
     list-style: none;
     }
 
@@ -145,7 +146,6 @@ a.thumbnail {
     li{
     display:inline-block;
     }
-	
 	
 	.carouselelement {
     display: block;
