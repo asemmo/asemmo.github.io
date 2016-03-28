@@ -84,8 +84,8 @@ a.thumbnail {
 {
 	height:100%;
 	width:100%;
-	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
+	background-color:#ffffff;
+	background-color:rgba(#ffffff,.9);
 	text-align:center;
 }
 
