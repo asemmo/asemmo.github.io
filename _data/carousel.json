@@ -1,39 +1,63 @@
 [ { "slidedeck" : [
-    { "img"      : "portfolio_01.jpg"
+    { "img"      : "blueprint.jpg",
+	  "thumbnail": "blueprint_th.jpg",
     },
-    { "img"      : "portfolio_02.jpg"
+    { "img"      : "blueprint2.jpg",
+	  "thumbnail": "blueprint2_th.jpg",
     },
-    { "img"      : "portfolio_03.jpg"
+    { "img"      : "canyon.jpg",
+	  "thumbnail": "canyon_th.jpg",
     },
-    { "img"      : "portfolio_04.jpg"
+    { "img"      : "city.jpg",
+	  "thumbnail": "city_th.jpg",
     },
-    { "img"      : "portfolio_05.jpg"
+    { "img"      : "city2.jpg",
+	  "thumbnail": "city2_th.jpg",
     },
-    { "img"      : "portfolio_06.jpg"
+    { "img"      : "distance_stylization.jpg",
+	  "thumbnail": "distance_stylization_th.jpg",
     },
-    { "img"      : "portfolio_07.jpg"
+    { "img"      : "edges.jpg",
+	  "thumbnail": "edges_th.jpg",
     },
-    { "img"      : "portfolio_08.jpg"
+    { "img"      : "edges2.jpg",
+	  "thumbnail": "edges2_th.jpg",
+    },
+    { "img"      : "flooding.jpg",
+	  "thumbnail": "flooding_th.jpg",
+    },
+    { "img"      : "interaction.jpg",
+	  "thumbnail": "interaction_th.jpg",
     } ] },
   { "slidedeck" : [
-    { "img"      : "portfolio_08.jpg"
+    { "img"      : "mpvs.jpg",
+	  "thumbnail": "mpvs_th.jpg",
     },
-    { "img"      : "portfolio_07.jpg"
+    { "img"      : "nuremberg.jpg",
+	  "thumbnail": "nuremberg_th.jpg",
     },
-    { "img"      : "portfolio_06.jpg"
+    { "img"      : "roi.jpg",
+	  "thumbnail": "roi_th.jpg",
     },
-    { "img"      : "portfolio_05.jpg"
+    { "img"      : "route.jpg",
+	  "thumbnail": "route_th.jpg",
     },
-    { "img"      : "portfolio_04.jpg"
+    { "img"      : "saliency.jpg",
+	  "thumbnail": "saliency_th.jpg",
     },
-    { "img"      : "portfolio_03.jpg"
+    { "img"      : "sdof.jpg",
+	  "thumbnail": "sdof_th.jpg",
     },
-    { "img"      : "portfolio_02.jpg"
+    { "img"      : "streets.jpg",
+	  "thumbnail": "streets_th.jpg",
     },
-    { "img"      : "portfolio_09.jpg"
+    { "img"      : "streets2.jpg",
+	  "thumbnail": "streets2_th.jpg",
     },
-    { "img"      : "portfolio_08.jpg"
+    { "img"      : "thematic_lens.jpg",
+	  "thumbnail": "thematic_lens_th.jpg",
     },
-    { "img"      : "portfolio_10.jpg"
+    { "img"      : "water.jpg",
+	  "thumbnail": "water_th.jpg",
     } ] }
 ]
