@@ -49,15 +49,9 @@ a.thumbnail {
 	display: block;
 	text-align: center
 }
-    height: 100px;
-    width: 100px;
-    background: red;
-    margin:10px;
-    text-align: center;
-    display:table-cell;
-    vertical-align:middle;
+
 #portfoliowrap h3 {
-	margin-bottom: 5px;
+	margin-bottom: 25px;
 }
 
 .portfolio {
@@ -154,7 +148,7 @@ a.thumbnail {
     display:inline-block;
     }
 	
-.carouselelement {
+	.carouselelement {
     display: block;
     float: left;
     padding: 0px;
