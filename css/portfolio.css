@@ -49,9 +49,15 @@ a.thumbnail {
 	display: block;
 	text-align: center
 }
-
+    height: 100px;
+    width: 100px;
+    background: red;
+    margin:10px;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
 #portfoliowrap h3 {
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 }
 
 .portfolio {
@@ -86,7 +92,10 @@ a.thumbnail {
 	width:100%;
 	background-color: #00b3fe;
 	background-color:rgba(0,179,254,0.9);
+	margin:5px;
 	text-align:center;
+    display:table-cell;
+    vertical-align:middle;
 }
 
 .dmbutton:hover,
