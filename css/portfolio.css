@@ -45,8 +45,7 @@ a.thumbnail {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
+	padding: 0px;
 	display: block;
 	text-align: center
 }
