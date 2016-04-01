@@ -6,7 +6,7 @@
 			<ul id="carousellist" style="width:100%">
 			{% assign carousel = site.data.carousel %}
 			{% for c in carousel %}
-			<li class="sub" style="width:100%;{% if c == carousel.first %} position: relative{% endif %}">
+			<li class="sub" style="width:100%;{% if c == carousel.first %} position: absolute{% endif %}">
 			<div id="portfoliowrap">
 			<div class="portfolio-centered">
 				<div class="recentitems portfolio">
