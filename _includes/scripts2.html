@@ -79,27 +79,27 @@
 		});
 		
 		function getColumnNumber() { 
-			var winWidth = $(carousellist).width(), 
+			var divWidth = $(carousellist).width(), 
 			columnNumber = 1;
 		
-			if (winWidth > 1200) {
+			if (divWidth > 800) {
 				columnNumber = 5;
-			} else if (winWidth > 950) {
+			} else if (divWidth > 600) {
 				columnNumber = 4;
-			} else if (winWidth > 600) {
+			} else if (divWidth > 400) {
 				columnNumber = 3;
-			} else if (winWidth > 400) {
+			} else if (divWidth > 200) {
 				columnNumber = 2;
-			} else if (winWidth > 250) {
+			} else if (divWidth > 100) {
 				columnNumber = 1;
 			}
 				return columnNumber;
 			}       
 			
 			function setColumns() {
-				var winWidth = $(carousellist).width(), 
+				var divWidth = $(carousellist).width(), 
 				columnNumber = getColumnNumber(), 
-				itemWidth = Math.floor(winWidth / columnNumber);
+				itemWidth = Math.floor(divWidth / columnNumber);
 				
 				$container.find('.portfolio-item').each(function() { 
 					$(this).css( { 
