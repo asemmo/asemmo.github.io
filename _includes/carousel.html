@@ -1,8 +1,9 @@
 
 <!-- Carousel -->
 			{% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+			<div class="container">
 			<div class="my-slider">
-			<ul id="carousellist" style="width:60%">
+			<ul id="carousellist" style="width:100%">
 			{% assign carousel = site.data.carousel %}
 			{% for c in carousel %}
 			<li class="sub" style="width:100%;{% if c == carousel.first %} position: relative{% endif %}">
@@ -30,4 +31,5 @@
 			</li>
 			{% endfor %}
 			</ul>
+		</div>
 		</div><!-- portfolio container -->
