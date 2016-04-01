@@ -59,5 +59,18 @@
     },
     { "img"      : "water.jpg",
 	  "thumbnail": "water_th.jpg",
+    } ] },
+	{ "slidedeck" : [
+    { "img"      : "oilpaint.jpg",
+	  "thumbnail": "oilpaint.jpg",
+    },
+    { "img"      : "watercolor.jpg",
+	  "thumbnail": "watercolor.jpg",
+    },
+    { "img"      : "watercolor2.jpg",
+	  "thumbnail": "watercolor2.jpg",
+    },
+    { "img"      : "toon.jpg",
+	  "thumbnail": "toon.jpg",
     } ] }
 ]
