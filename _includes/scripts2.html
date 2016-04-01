@@ -79,7 +79,7 @@
 		});
 		
 		function getColumnNumber() { 
-			var winWidth = $(window).width(), 
+			var winWidth = $(carousellist).width(), 
 			columnNumber = 1;
 		
 			if (winWidth > 1200) {
@@ -97,7 +97,7 @@
 			}       
 			
 			function setColumns() {
-				var winWidth = $(window).width(), 
+				var winWidth = $(carousellist).width(), 
 				columnNumber = getColumnNumber(), 
 				itemWidth = Math.floor(winWidth / columnNumber);
 				
@@ -117,7 +117,7 @@
 			setPortfolio();
 		});
 		
-		$(window).on('resize', function () { 
+		$(carousellist).on('resize', function () { 
 		setPortfolio();          
 	});
 })(jQuery);
