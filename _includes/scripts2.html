@@ -41,13 +41,6 @@
 </script>
 {% endif %}
 <script>
-$(window).load(function() {
-    setPortfolio();
-    initIsotope();
-    $('#listing').animate({opacity: 1.0}, 200);
-});
-</script>
-<script>
 // Carousel
 (function($) {
 	"use strict";
@@ -120,6 +113,10 @@ $(window).load(function() {
 			$container.isotope('reLayout');
 		}
 			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
 		$(carousellist).on('resize', function () { 
 		setPortfolio();          
 	});
