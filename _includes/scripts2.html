@@ -108,11 +108,7 @@
 			});
 			
 			function setHeights() {
-				var h = 0;
-				$container.find('.portfolio').each(function() { 
-					var b = $(this);
-					if (h < b.height()) h = b.height();
-				});
+				var h = 400;
 				$container.find('.portfolio').each(function() { 
 					$(this).css( { 
 					height : h + 'px' 
