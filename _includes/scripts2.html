@@ -41,90 +41,101 @@
 </script>
 {% endif %}
 <script>
-$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-}); 
+$(window).load(function() {
+    setPortfolio();
+    initIsotope();
+    $('#listing').animate({opacity: 1.0}, 200);
+});
 </script>
 <script>
 // Carousel
 (function($) {
 	"use strict";
 	var $container = $('.portfolio'),
-		$items = $container.find('.portfolio-item'),
-		portfolioLayout = 'fitRows';
+	$items = $container.find('.portfolio-item'),
+	portfolioLayout = 'fitRows';
 		
-		if( $container.hasClass('portfolio-centered') ) {
-			portfolioLayout = 'masonry';
-		}
+	if( $container.hasClass('portfolio-centered') ) {
+		portfolioLayout = 'masonry';
+	}
 				
-		$container.isotope({
-			filter: '*',
-			animationEngine: 'best-available',
-			layoutMode: portfolioLayout,
-			animationOptions: {
-			duration: 750,
-			easing: 'linear',
-			queue: false
-		},
-		masonry: {
-		}
-		}, refreshWaypoints());
+	$container.isotope({
+		filter: '*',
+		animationEngine: 'best-available',
+		layoutMode: portfolioLayout,
+		animationOptions: {
+		duration: 750,
+		easing: 'linear',
+		queue: false
+	},
+	masonry: {
+	}
+	}, refreshWaypoints());
 		
-		function refreshWaypoints() {
-			setTimeout(function() {
-			}, 1000);   
-		}
+	function refreshWaypoints() {
+		setTimeout(function() {
+		}, 1000);   
+	}
 				
-		$('nav.portfolio-filter ul a').on('click', function() {
-				var selector = $(this).attr('data-filter');
-				$container.isotope({ filter: selector }, refreshWaypoints());
-				$('nav.portfolio-filter ul a').removeClass('active');
-				$(this).addClass('active');
-				return false;
-		});
+	$('nav.portfolio-filter ul a').on('click', function() {
+			var selector = $(this).attr('data-filter');
+			$container.isotope({ filter: selector }, refreshWaypoints());
+			$('nav.portfolio-filter ul a').removeClass('active');
+			$(this).addClass('active');
+			return false;
+	});
 		
-		function getColumnNumber() { 
-			var divWidth = $(carousellist).width(), 
+	function getColumnNumber() { 
+		var divWidth = $(carousellist).width(), 
+		columnNumber = 1;
+	
+		if (divWidth > 800) {
+			columnNumber = 5;
+		} else if (divWidth > 600) {
+			columnNumber = 4;
+		} else if (divWidth > 400) {
+			columnNumber = 3;
+		} else if (divWidth > 200) {
+			columnNumber = 2;
+		} else if (divWidth > 100) {
 			columnNumber = 1;
-		
-			if (divWidth > 800) {
-				columnNumber = 5;
-			} else if (divWidth > 600) {
-				columnNumber = 4;
-			} else if (divWidth > 400) {
-				columnNumber = 3;
-			} else if (divWidth > 200) {
-				columnNumber = 2;
-			} else if (divWidth > 100) {
-				columnNumber = 1;
-			}
-				return columnNumber;
-			}       
+		}
+			return columnNumber;
+		}       
 			
-			function setColumns() {
-				var divWidth = $(carousellist).width(), 
-				columnNumber = getColumnNumber(), 
-				itemWidth = Math.floor(divWidth / columnNumber);
+		function setColumns() {
+			var divWidth = $(carousellist).width(), 
+			columnNumber = getColumnNumber(), 
+			itemWidth = Math.floor(divWidth / columnNumber);
 				
-				$container.find('.portfolio-item').each(function() { 
-					$(this).css( { 
-					width : itemWidth + 'px' 
-				});
+			$container.find('.portfolio-item').each(function() { 
+				$(this).css( { 
+				width : itemWidth + 'px' 
 			});
-		}
-		
-		function setPortfolio() { 
-			setColumns();
-			$container.isotope('reLayout');
-		}
 			
-		$container.imagesLoaded(function () { 
-			setPortfolio();
+			var h = 0;
+			$container.find('.portfolio-item').each(function() { 
+				var b = $(this);
+				if (h < b.height()) h = b.height();
+			});
+			$container.find('.portfolio-item').each(function() { 
+				$(this).css( { 
+				height : h + 'px' 
+			});
 		});
+	}
 		
-		$(carousellist).on('resize', function () { 
-		setPortfolio();          
+	function setPortfolio() { 
+		setColumns();
+		$container.isotope('reLayout');
+	}
+			
+	$container.imagesLoaded(function () { 
+		setPortfolio();
+	});
+		
+	$(carousellist).on('resize', function () { 
+		setPortfolio();
 	});
 })(jQuery);
 </script>
