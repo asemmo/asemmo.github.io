@@ -106,20 +106,12 @@
 					width : itemWidth + 'px' 
 				});
 			});
-			
-			function setHeights() {
-				var h = 400;
-				$container.find('#portfoliowrap').each(function() { 
-					$(this).css( { 
-					height : h + 'px' 
-			});
 		});
 		}
 		
 		function setPortfolio() { 
 			setColumns();
 			$container.isotope('reLayout');
-			setHeights();
 		}
 			
 		$container.imagesLoaded(function () { 
