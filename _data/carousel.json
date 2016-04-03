@@ -79,7 +79,7 @@
     },
     { "img"      : "saliency.jpg",
 	  "thumbnail": "saliency_th.jpg",
-	  "title":     "Saliency Evalutation"
+	  "title":     "Saliency Evaluation"
     },
     { "img"      : "sdof.jpg",
 	  "thumbnail": "sdof_th.jpg",
