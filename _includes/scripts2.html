@@ -116,11 +116,11 @@ $(window).load(function() {
 		
 		function setHeights() {
 			var h = 0;
-			$container.find('.portfolio-item').each(function() { 
+			$container.find('.portfolio').each(function() { 
 				var b = $(this);
 				if (h < b.height()) h = b.height();
 			});
-			$container.find('.portfolio-item').each(function() { 
+			$container.find('.portfolio').each(function() { 
 				$(this).css( { 
 				height : h + 'px' 
 			});
