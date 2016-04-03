@@ -17,9 +17,11 @@
 						<img src="{{ "/img/carousel/" | prepend: site.baseurl }}{{ s.thumbnail }}" alt="" style="width:100%; height:100%">
 							<div class="he-view">
 								<div class="bg a0" data-animate="fadeIn">
-									<h3 data-animate="fadeInDown">{{ s.title }}</h3>
-									<a data-rel="prettyPhoto" href="{{ "/img/carousel/" | prepend: site.baseurl }}{{ s.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-									<a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+									<div class="carouselitem">
+										<h3 data-animate="fadeInDown">{{ s.title }}</h3>
+										<a data-rel="prettyPhoto" href="{{ "/img/carousel/" | prepend: site.baseurl }}{{ s.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+										<a href="{{  project.url | prepend: site.baseurl }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+									</div>
 								</div>
 							</div>				
 						</div><!-- he wrap -->
