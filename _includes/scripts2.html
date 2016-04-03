@@ -112,7 +112,9 @@ $(window).load(function() {
 				$(this).css( { 
 				width : itemWidth + 'px' 
 			});
-			
+		});
+		
+		function setHeights() {
 			var h = 0;
 			$container.find('.portfolio-item').each(function() { 
 				var b = $(this);
@@ -128,6 +130,7 @@ $(window).load(function() {
 	function setPortfolio() { 
 		setColumns();
 		$container.isotope('reLayout');
+		setHeights();
 	}
 			
 	$container.imagesLoaded(function () { 
