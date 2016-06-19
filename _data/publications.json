@@ -376,5 +376,56 @@
         "desc"  : "Filter Results (Images / ZIP, 191 MiB)"
       }	]
     },
+    
+    { "key"       : "stpd2016",
+      "featured"  : "false",
+      "bibtex"    : "bib/2016-stpd.bib",
+      "title"     : "Interactive Oil Paint Filtering On Mobile Devices",
+      "date"      : "2016-05-01",
+      "authors"   : [ "Amir Semmo", "Mattias Trapp", "Sebastian Pasewaldt", "Jürgen Döllner" ],
+      "published" : "Expressive Poster Session",
+      "caption"   : "Image stylization enjoys a growing popularity on mobile devices to foster casual creativity. However, the implementation and provision of high-quality image filters for artistic rendering is still faced by the inherent limitations of mobile graphics hardware such as computing power and memory resources. This work presents a mobile implementation of a filter that transforms images into an oil paint look, thereby highlighting concepts and techniques on how to perform multi-stage nonlinear image filtering on mobile devices. The proposed implementation is based on OpenGL ES and the OpenGL ES shading language, and supports on-screen painting to interactively adjust the appearance in local image regions, e.g., to vary the level of abstraction, brush, and stroke direction. Evaluations of the implementation indicate interactive performance and results that are of similar aesthetic quality than its original desktop variant.",
+      "thumbnail" : "/img/2016-stpd.jpg",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/304101574_Interactive_Oil_Paint_Filtering_On_Mobile_Devices/links/57667c7708ae1658e2f6ff30.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+    },
+    
+    { "key"       : "stddp2016",
+      "featured"  : "false",
+      "bibtex"    : "bib/2016-stddp.bib",
+      "title"     : "Interactive Multi-scale Oil Paint Filtering on Mobile Devices",
+      "date"      : "2016-07-01",
+      "authors"   : [ "Amir Semmo", "Mattias Trapp", "Tobias Dürschmid", "Jürgen Döllner", "Sebastian Pasewaldt" ],
+      "published" : "SIGGRAPH Posters",
+      "caption"   : "This work presents an interactive mobile implementation of a filter that transforms images into an oil paint look. At this, a multi-scale approach that processes image pyramids is introduced that uses flow-based joint bilateral upsampling to achieve deliberate levels of abstraction at multiple scales and interactive frame rates. The approach facilitates the implementation of interactive tools that adjust the appearance of filtering effects at run-time, which is demonstrated by an on-screen painting interface for per-pixel parameterization that fosters the casual creativity of non-artists.",
+      "thumbnail" : "/img/2016-stddp.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2945078.2945120",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/304101256_Interactive_Multi-scale_Oil_Paint_Filtering_on_Mobile_Devices/links/57667a4a08ae421c448c2d55.pdf",
+        "desc"    : "Paper (PDF)"
+      }	]
+    },
+    
+    { "key"       : "sds2016",
+      "featured"  : "true",
+      "bibtex"    : "bib/2016-sds.bib",
+      "title"     : "BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices",
+      "date"      : "2016-07-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner", "Frank Schlegel" ],
+      "published" : "SIGGRAPH Posters",
+      "caption"   : "BeCasso is a mobile app that enables users to transform photos into an oil paint look that is inspired by traditional painting elements. In contrast to stroke-based approaches, the app uses state-of-the-art nonlinear image filtering techniques based on smoothed structure information to interactively synthesize oil paint renderings with soft color transitions. BeCasso empowers users to easily create aesthetic oil paint renderings by implementing a two-fold strategy. First, it provides parameter presets that may serve as a starting point for a custom stylization based on global parameter adjustments. Second, it introduces a novel interaction approach that operates within the parameter spaces of the stylization effect to facilitate creative control over the visual output: on-screen painting enables users to locally adjust the appearance in image regions, e.g., to vary the level of abstraction, brush and stroke direction. This way, the app provides tools for both higher-level interaction and low-level control to serve the different needs of non-experts and digital artists. ",
+      "thumbnail" : "/img/2016-sds.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2936744.2936750",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/304101445_BeCasso_Image_Stylization_by_Interactive_Oil_Paint_Filtering_on_Mobile_Devices/links/57667af108ae1658e2f6ff17.pdf",
+        "desc"    : "Paper (PDF)"
+      }	]
+    }
 	
  ]
