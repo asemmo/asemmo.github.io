@@ -1,4 +1,16 @@
-[ { "date"      : "2015-11-04 00:00:00",
+[ { "date"      : "2016-07-01 00:00:00",
+    "title"     : "BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices",
+    "location"  : "SIGGRAPH (Appy Hour), Anaheim, CA, USA"
+  },
+  { "date"      : "2016-07-01 00:00:00",
+    "title"     : "Interactive Multi-scale Oil Paint Filtering on Mobile Devices",
+    "location"  : "SIGGRAPH (Poster Session), Anaheim, CA, USA"
+  },
+  { "date"      : "2016-05-01 00:00:00",
+    "title"     : "Interactive Oil Paint Filtering On Mobile Devices",
+    "location"  : "Expressive 2016 (Poster Session), Lisbon, Portugal"
+  },
+  { "date"      : "2015-11-04 00:00:00",
     "title"     : "Konzepte und Techniken für das kartographische Design von 3D geovirtuellen Umgebungen",
     "location"  : "SGK-Herbsttagung, Muttenz, Switzerland"
   },
