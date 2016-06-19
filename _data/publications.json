@@ -416,7 +416,7 @@
       "title"     : "BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices",
       "date"      : "2016-07-01",
       "authors"   : [ "Amir Semmo", "Jürgen Döllner", "Frank Schlegel" ],
-      "published" : "SIGGRAPH Posters",
+      "published" : "SIGGRAPH Appy Hour",
       "caption"   : "BeCasso is a mobile app that enables users to transform photos into an oil paint look that is inspired by traditional painting elements. In contrast to stroke-based approaches, the app uses state-of-the-art nonlinear image filtering techniques based on smoothed structure information to interactively synthesize oil paint renderings with soft color transitions. BeCasso empowers users to easily create aesthetic oil paint renderings by implementing a two-fold strategy. First, it provides parameter presets that may serve as a starting point for a custom stylization based on global parameter adjustments. Second, it introduces a novel interaction approach that operates within the parameter spaces of the stylization effect to facilitate creative control over the visual output: on-screen painting enables users to locally adjust the appearance in image regions, e.g., to vary the level of abstraction, brush and stroke direction. This way, the app provides tools for both higher-level interaction and low-level control to serve the different needs of non-experts and digital artists. ",
       "thumbnail" : "/img/2016-sds.jpg",
       "downloads" : [
