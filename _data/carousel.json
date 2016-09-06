@@ -79,46 +79,5 @@
     { "img"      : "water.jpg",
 	  "thumbnail": "water_th.jpg",
 	  "title":     "Cartography-Oriented Visualization"
-    } ] },
-  { "slidedeck" : [
-    { "img"      : "oilpaint4.jpg",
-	  "thumbnail": "oilpaint4_th.jpg",
-	  "title":     "Oilpaint Filtering"
-    },
-    { "img"      : "oilpaint3.jpg",
-	  "thumbnail": "oilpaint3_th.jpg",
-	  "title":     "Oilpaint Filtering"
-    },
-    { "img"      : "oilpaint.jpg",
-	  "thumbnail": "oilpaint_th.jpg",
-	  "title":     "Oilpaint Filtering"
-    },
-    { "img"      : "watercolor.jpg",
-	  "thumbnail": "watercolor_th.jpg",
-	  "title":     "Watercolor Filtering"
-    },
-    { "img"      : "watercolor4.jpg",
-	  "thumbnail": "watercolor4_th.jpg",
-	  "title":     "Watercolor Filtering"
-    },
-    { "img"      : "watercolor3.jpg",
-	  "thumbnail": "watercolor3_th.jpg",
-	  "title":     "Oilpaint Filtering"
-    },
-    { "img"      : "watercolor2.jpg",
-	  "thumbnail": "watercolor2_th.jpg",
-	  "title":     "Watercolor Filtering"
-    },
-    { "img"      : "toon.jpg",
-	  "thumbnail": "toon_th.jpg",
-	  "title":     "Toon Filtering"
-    },
-    { "img"      : "toon3.jpg",
-	  "thumbnail": "toon3_th.jpg",
-	  "title":     "Toon Filtering"
-    },
-    { "img"      : "toon2.jpg",
-	  "thumbnail": "toon2_th.jpg",
-	  "title":     "Toon Filtering"
     } ] }
 ]
