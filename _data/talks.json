@@ -1,10 +1,14 @@
-[ { "date"      : "2016-07-01 00:00:00",
+[ { "date"      : "2016-12-01 00:00:00",
+    "title"     : "Interactive Image Filtering with Multiple Levels-of-Control on Mobile Devices",
+    "location"  : "ACM SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications, Macao"
+  },
+  { "date"      : "2016-07-01 00:00:00",
     "title"     : "BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices",
-    "location"  : "SIGGRAPH (Appy Hour), Anaheim, CA, USA"
+    "location"  : "ACM SIGGRAPH (Appy Hour), Anaheim, CA, USA"
   },
   { "date"      : "2016-07-01 00:00:00",
     "title"     : "Interactive Multi-scale Oil Paint Filtering on Mobile Devices",
-    "location"  : "SIGGRAPH (Poster Session), Anaheim, CA, USA"
+    "location"  : "ACM SIGGRAPH (Poster Session), Anaheim, CA, USA"
   },
   { "date"      : "2016-05-01 00:00:00",
     "title"     : "Interactive Oil Paint Filtering On Mobile Devices",
