@@ -382,11 +382,14 @@
       "bibtex"    : "bib/2016-stpd.bib",
       "title"     : "Interactive Oil Paint Filtering On Mobile Devices",
       "date"      : "2016-05-01",
-      "authors"   : [ "Amir Semmo", "Mattias Trapp", "Sebastian Pasewaldt", "Jürgen Döllner" ],
+      "authors"   : [ "Amir Semmo", "Matthias Trapp", "Sebastian Pasewaldt", "Jürgen Döllner" ],
       "published" : "Expressive Poster Session",
       "caption"   : "Image stylization enjoys a growing popularity on mobile devices to foster casual creativity. However, the implementation and provision of high-quality image filters for artistic rendering is still faced by the inherent limitations of mobile graphics hardware such as computing power and memory resources. This work presents a mobile implementation of a filter that transforms images into an oil paint look, thereby highlighting concepts and techniques on how to perform multi-stage nonlinear image filtering on mobile devices. The proposed implementation is based on OpenGL ES and the OpenGL ES shading language, and supports on-screen painting to interactively adjust the appearance in local image regions, e.g., to vary the level of abstraction, brush, and stroke direction. Evaluations of the implementation indicate interactive performance and results that are of similar aesthetic quality than its original desktop variant.",
       "thumbnail" : "/img/2016-stpd.jpg",
       "downloads" : [
+      { "href"    : "http://dx.doi.org/10.2312/exp.20161255",
+        "desc"    : "DOI"
+      },
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/304101574_Interactive_Oil_Paint_Filtering_On_Mobile_Devices/links/57667c7708ae1658e2f6ff30.pdf",
         "desc"    : "Paper (PDF)"
       } ]
