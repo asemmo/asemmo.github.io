@@ -1,6 +1,10 @@
 [ { "date"      : "2016-12-01 00:00:00",
     "title"     : "Interactive Image Filtering with Multiple Levels-of-Control on Mobile Devices",
-    "location"  : "ACM SIGGRAPH Asia, Macao"
+    "location"  : "ACM SIGGRAPH Asia MGIA, Macao"
+  },
+  { "date"      : "2016-12-01 00:00:00",
+    "title"     : "BeCasso: Artistic Image Processing and Editing on Mobile Devices",
+    "location"  : "ACM SIGGRAPH Asia MGIA (Demo Session), Macao"
   },
   { "date"      : "2016-07-01 00:00:00",
     "title"     : "BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices",
