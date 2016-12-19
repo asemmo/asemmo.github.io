@@ -465,11 +465,12 @@
       },
       { "href"  : "https://drive.google.com/file/d/0ByqyK4WwkIzQb1F3dC10SUJfV28/view",
         "desc"  : "Filter Results (Images / ZIP, 34 MiB)"
-      },
+      } ]
+   },
       
-      { "key"       : "S2016",
+   { "key"       : "S2016",
       "featured"  : "true",
-      "thesis"  : "true",
+      "thesis"    : "true",
       "title"     : "Interactive Image Filtering with Multiple Levels-of-Control on Mobile Devices",
       "date"      : "2016-12-01",
       "authors"   : [ "Amir Semmo", "Tobias Dürschmid", "Matthias Trapp", "Mandy Klingbeil", "Jürgen Döllner", "Sebastian Pasewaldt" ],
@@ -485,9 +486,7 @@
       },
       { "href"  : "https://drive.google.com/file/d/0ByqyK4WwkIzQb1F3dC10SUJfV28/view",
         "desc"  : "Filter Results (Images / ZIP, 34 MiB)"
-      }
-      
-      ]
+      } ]
     }
    
  ]
