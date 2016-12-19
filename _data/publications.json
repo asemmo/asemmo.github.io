@@ -504,7 +504,7 @@
       "caption"   : "This thesis proposes non-photorealistic rendering techniques that enable both the computation and selection of the abstraction level of 3D geospatial model contents according to user interaction and dynamically changing thematic information. To achieve this goal, the techniques integrate with hardware-accelerated rendering pipelines using shader technologies of graphics processing units for real-time image synthesis. The techniques employ principles of artistic rendering, cartographic generalization, and 3D semiotics—unlike photorealistic rendering—to synthesize illustrative renditions of geospatial feature type entities such as water surfaces, buildings, and infrastructure networks. In addition, this thesis contributes a generic system that enables to integrate different graphic styles—photorealistic and non-photorealistic—and provide their seamless transition according to user tasks, camera view, and image resolution.",
       "thumbnail" : "/img/2016-s.jpg",
       "downloads" : [
-      { "href"    : "http://nbn-resolving.de/urn:nbn:de:kobv:517-opus4- 99525",
+      { "href"    : "http://nbn-resolving.de/urn:nbn:de:kobv:517-opus4-99525",
         "desc"    : "URN"
       },
       { "href"    : "https://publishup.uni-potsdam.de/opus4-ubp/files/9952/semmo_diss.pdf",
