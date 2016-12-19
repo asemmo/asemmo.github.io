@@ -1,5 +1,6 @@
   [ { "key"       : "wsash2010",
     "featured"  : "false",
+    "thesis"    : "false",
     "bibtex"    : "bib/2010-wsash.bib",
     "title"     : "ContextLua: Dynamic Behavioral Variations in Computer Games",
     "date"      : "2010-02-01",
@@ -15,6 +16,7 @@
   	
   { "key"       : "kskd2010",
     "featured"  : "false",
+    "thesis"    : "false",
     "bibtex"    : "bib/2010-kskd.bib",
     "title"     : "Anisotropic Kuwahara Filtering with Polynomial Weighting Functions",
     "date"      : "2010-06-01",
@@ -30,6 +32,7 @@
 	
   {	"key"       : "skd2010",
     "featured"  : "false",
+    "thesis"    : "false",
     "bibtex"    : "bib/2010-skd.bib",
     "title"     : "Automated Image-Based Abstraction of Aerial Images",
     "date"      : "2010-03-01",
@@ -48,6 +51,7 @@
 
     { "key"       : "tsd2011",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2011-tsd.bib",
       "title"     : "Colonia3D",
       "date"      : "2011-05-01",
@@ -63,6 +67,7 @@
 
     { "key"       : "std2011",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2011-std.bib",
       "title"     : "Ansätze zur kartographischen Gestaltung von 3D-Stadtmodellen",
       "date"      : "2011-04-01",
@@ -78,6 +83,7 @@
 
     { "key"       : "shtd2012",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2012-shtd.bib",
       "title"     : "Concepts for Cartography-Oriented Visualization of Virtual 3D City Models",
       "date"      : "2012-06-01",
@@ -96,6 +102,7 @@
 
     { "key"       : "pstd2012",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2012-pstd.bib",
       "title"     : "Towards Comprehensible Digital 3D Maps",
       "date"      : "2012-11-01",
@@ -114,6 +121,7 @@
 	
     { "key"       : "stkd2012",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2012-stkd.bib",
       "title"     : "Interactive Visualization of Generalized Virtual 3D City Models using Level-of-Abstraction Transitions",
       "date"      : "2012-06-01",
@@ -136,6 +144,7 @@
 	
     { "key"       : "tsphdeh2012",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2012-tsphdeh.bib",
       "title"     : "Colonia 3D - Communication of Virtual 3D Reconstructions in Public Spaces",
       "date"      : "2012-01-01",
@@ -154,6 +163,7 @@
 
     { "key"       : "estd2013",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2013-estd.bib",
       "title"     : "Evaluating the Perceptual Impact of Rendering Techniques on Thematic Color Mappings in 3D Virtual Environments",
       "date"      : "2012-06-01",
@@ -172,6 +182,7 @@
 
     { "key"       : "ltsd2013",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2013-ltsd.bib",
       "title"     : "Interactive Projective Texturing for Non-Photorealistic Shading of Technical 3D Models",
       "date"      : "2013-09-01",
@@ -190,6 +201,7 @@
 
     { "key"       : "sktd2013",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2013-sktd.bib",
       "title"     : "Real-Time Rendering of Water Surfaces with Cartography-Oriented Design",
       "date"      : "2013-07-01",
@@ -214,6 +226,7 @@
 
     { "key"       : "sd2014",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2014-sd.bib",
       "title"     : "Image Filtering for Interactive Level-of-Abstraction Visualization of 3D Scenes",
       "date"      : "2014-07-01",
@@ -238,6 +251,7 @@
 
     { "key"       : "sd2014_3",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2014-sd_3.bib",
       "title"     : "An Interaction Framework for Level-of-Abstraction Visualization of 3D Geovirtual Environments",
       "date"      : "2014-11-01",
@@ -253,6 +267,7 @@
 
     { "key"       : "sd2014_2",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2014-sd_2.bib",
       "title"     : "Oil Paint Filtering Using Color Palettes For Colorization",
       "date"      : "2014-08-01",
@@ -268,6 +283,7 @@
 
     { "key"       : "pstd2014",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2014-pstd.bib",
       "title"     : "Multi-Perspective 3D Panoramas",
       "date"      : "2014-08-01",
@@ -286,6 +302,7 @@
 
     { "key"       : "tsd2015",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2015-tsd.bib",
       "title"     : "Interactive Rendering and Stylization of Transportation Networks Using Distance Fields",
       "date"      : "2015-04-01",
@@ -301,6 +318,7 @@
 
     { "key"       : "sd2015",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2015-sd.bib",
       "title"     : "Interactive Image Filtering for Level-of-Abstraction Texturing of Virtual 3D Scenes",
       "date"      : "2015-04-01",
@@ -319,6 +337,7 @@
 	
       { "key"       : "slkd2015",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2015-slkd.bib",
       "title"     : "Image Stylization by Oil Paint Filtering using Color Palettes",
       "date"      : "2015-06-01",
@@ -338,6 +357,7 @@
 	
 	{ "key"       : "stjd2015",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2015-stjd.bib",
       "title"     : "Cartography-Oriented Design of 3D Geospatial Information Visualization - Overview and Techniques",
       "date"      : "2015-07-01",
@@ -357,6 +377,7 @@
     
     { "key"       : "slkd2016",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2016-slkd.bib",
       "title"     : "Image Stylization by Interactive Oil Paint Filtering",
       "date"      : "2016-01-01",
@@ -379,6 +400,7 @@
     
     { "key"       : "stpd2016",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2016-stpd.bib",
       "title"     : "Interactive Oil Paint Filtering On Mobile Devices",
       "date"      : "2016-05-01",
@@ -397,6 +419,7 @@
     
     { "key"       : "stddp2016",
       "featured"  : "false",
+      "thesis"    : "false",
       "bibtex"    : "bib/2016-stddp.bib",
       "title"     : "Interactive Multi-scale Oil Paint Filtering on Mobile Devices",
       "date"      : "2016-07-01",
@@ -415,6 +438,7 @@
     
     { "key"       : "sds2016",
       "featured"  : "true",
+      "thesis"    : "false",
       "bibtex"    : "bib/2016-sds.bib",
       "title"     : "BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices",
       "date"      : "2016-07-01",
@@ -433,6 +457,7 @@
    
    { "key"       : "PTSD2016",
       "featured"  : "false",
+      "thesis"    : "false",
       "title"     : "BeCasso: Artistic Image Processing and Editing on Mobile Devices",
       "date"      : "2016-12-01",
       "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Jürgen Döllner", "Frank Schlegel" ],
@@ -450,6 +475,7 @@
    
    { "key"       : "SDTKDP2016",
       "featured"  : "true",
+      "thesis"    : "false",
       "title"     : "Interactive Image Filtering with Multiple Levels-of-Control on Mobile Devices",
       "date"      : "2016-12-01",
       "authors"   : [ "Amir Semmo", "Tobias Dürschmid", "Matthias Trapp", "Mandy Klingbeil", "Jürgen Döllner", "Sebastian Pasewaldt" ],
