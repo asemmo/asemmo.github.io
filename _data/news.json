@@ -7,7 +7,7 @@
     "icon" : ""
   },
   { "date" : "2016-11-14 00:00:00",
-    "text" : "I successfully defended my doctoral thesis on the &ldquo;Design and Implementation of Non-Photorealistic Rendering Techniques for 3D Geospatial Data&rdquo.",
+    "text" : "I successfully defended my doctoral thesis on the &ldquo;Design and Implementation of Non-Photorealistic Rendering Techniques for 3D Geospatial Data&rdquo;.",
     "icon" : ""
   },
   { "date" : "2016-07-08 00:00:00",
@@ -16,6 +16,14 @@
   },
   { "date" : "2016-07-07 00:00:00",
     "text" : "We presented the demo &ldquo;BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices&rdquo; at <a class='urllink' href='http://s2016.siggraph.org/content/appy-hour' rel='nofollow'>SIGGRAPH 2016 Appy Hour</a>.",
+    "icon" : ""
+  },
+  { "date" : "2016-05-07 00:00:00",
+    "text" : "We presented the poster &ldquo;Interactive Oil Paint Filtering On Mobile Devices&rdquo; at <a class='urllink' href='http://expressive.richardt.name/2016' rel='nofollow'>Expressive 2016</a>.",
+    "icon" : ""
+  },
+  { "date" : "2016-01-07 00:00:00",
+    "text" : "Our journal article on &ldquo;Image Stylization by Interactive Oil Paint Filtering&rdquo; was published in <a class='urllink' href='http://www.journals.elsevier.com/computers-and-graphics' rel='nofollow'>Computers & Graphics</a>.",
     "icon" : ""
   }
 
