@@ -24,7 +24,7 @@
           {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}" target="_blank">{{ download.desc }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}
         </p>
         {% if p.bibtex %}
-        <div class="modal" id="bibtex-{{ p.key }}" tabindex="-1" role="dialog" aria-labelledby="bibtex-{{ p.key }}" aria-hidden="true">
+        <div class="modal" id="bibtex-{{ p.key }}" tabindex="-1" role="dialog" aria-labelledby="bibtex-{{ p.key }}">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
