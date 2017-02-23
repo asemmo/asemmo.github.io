@@ -24,18 +24,18 @@
           {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}" target="_blank">{{ download.desc }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}
         </p>
       </div>
-    </div>
-    {% if p.bibtex %}
-    <div class="collapse bibtex" id="bibtex-{{ p.key }}">
-      <div class="btn-clipboard-parent">
-        <button type="button" data-clipboard-target="#bibtex-data-{{ p.key }}" class="btn btn-sm btn-clipboard">Copy to Clipboard</button> 
+      {% if p.bibtex %}
+      <div class="collapse bibtex" id="bibtex-{{ p.key }}">
+        <div class="btn-clipboard-parent">
+          <button type="button" data-clipboard-target="#bibtex-data-{{ p.key }}" class="btn btn-sm btn-clipboard">Copy to Clipboard</button> 
+        </div>
+        <div class="card card-block">
+          <pre id="bibtex-data-{{ p.key }}">{% include {{ p.bibtex }} %}</pre>
+        </div>
       </div>
-      <div class="card card-block">
-        <pre id="bibtex-data-{{ p.key }}">{% include {{ p.bibtex }} %}</pre>
-      </div>
+      {% endif %}
     </div>
     {% endif %}
-      {% endif %}
-      {% endfor %}
+    {% endfor %}
   </div>
 </section>
