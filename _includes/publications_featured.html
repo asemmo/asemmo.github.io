@@ -25,6 +25,16 @@
         </p>
       </div>
     </div>
+    {% if p.bibtex %}
+    <div class="collapse bibtex" id="bibtex-{{ p.key }}">
+      <div class="btn-clipboard-parent">
+        <button type="button" data-clipboard-target="#bibtex-data-{{ p.key }}" class="btn btn-sm btn-clipboard">Copy to Clipboard</button> 
+      </div>
+      <div class="card card-block">
+        <pre id="bibtex-data-{{ p.key }}">{% include {{ p.bibtex }} %}</pre>
+      </div>
+    </div>
+    {% endif %}
       {% endif %}
       {% endfor %}
   </div>
