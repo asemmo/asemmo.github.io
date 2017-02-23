@@ -23,7 +23,6 @@
           {% if p.bibtex %}<a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTeX</a>{% if p.downloads %}, {% endif %}{% endif %}
           {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}" target="_blank">{{ download.desc }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}
         </p>
-      </div>
       {% if p.bibtex %}
       <div class="collapse bibtex" id="bibtex-{{ p.key }}">
         <div class="btn-clipboard-parent">
@@ -34,6 +33,7 @@
         </div>
       </div>
       {% endif %}
+	  </div>
     </div>
     {% endif %}
     {% endfor %}
