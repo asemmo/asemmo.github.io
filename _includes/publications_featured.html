@@ -23,29 +23,18 @@
           {% if p.bibtex %}<a data-toggle="modal" href="#bibtex-{{ p.key }}">BibTeX</a>{% if p.downloads %}, {% endif %}{% endif %}
           {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}" target="_blank">{{ download.desc }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}
         </p>
-        {% if p.bibtex %}
-        <div class="modal fade" id="bibtex-{{ p.key }}" tabindex="-1" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">BibTeX : {{ p.key }}</h4>
-              </div>
-              <div class="modal-body">
-                <pre id="bibtex-tex-{{ p.key }}">{% include {{ p.bibtex }} %}</pre>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button id="bibtex-select-{{ p.key }}" type="button" class="btn btn-primary">Select</button>
-                <a href="/{{ p.bibtex }}" class="btn btn-primary">Download</a>
-              </div>
-            </div>
-          </div>
+      </div>
+      {% if p.bibtex %}
+      <div class="collapse bibtex" id="bibtex-{{ p.key }}">
+        <div class="btn-clipboard-parent">
+          <button type="button" data-clipboard-target="#bibtex-data-{{ p.key }}" class="btn btn-sm btn-clipboard">Copy to Clipboard</button> 
         </div>
-        {% endif %}
+        <div class="card card-block">
+          <pre id="bibtex-data-{{ p.key }}">{% include /bib/{{ p.bibtex }} %}</pre>
+        </div>
       </div>
     </div>
-	{% endif %}
-    {% endfor %}
+      {% endif %}
+      {% endfor %}
   </div>
 </section>
