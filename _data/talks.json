@@ -1,4 +1,8 @@
-[ { "date"      : "2016-12-02 00:00:00",
+[ { "date"      : "2017-07-30 00:00:00",
+    "title"     : "Neural Style Transfer: A Paradigm Shift for Image-based Artistic Rendering?",
+    "location"  : "Expressive 2017, Los Angeles, CA, USA"
+  },
+  { "date"      : "2016-12-02 00:00:00",
     "title"     : "Interactive Image Filtering with Multiple Levels-of-Control on Mobile Devices",
     "location"  : "ACM SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications, Macao"
   },
