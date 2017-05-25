@@ -516,7 +516,7 @@
       "featured"  : "true",
       "thesis"    : "false",
       "bibtex"    : "bib/2017-sid.bib",
-      "title"     : "Neural Style Transfer: A Paradigm Shif for Image-based Artistic Rendering?",
+      "title"     : "Neural Style Transfer: A Paradigm Shift for Image-based Artistic Rendering?",
       "date"      : "2017-07-01",
       "authors"   : [ "Amir Semmo", "Tobias Isenberg", "Jürgen Döllner" ],
       "published" : "Proceedings International Symposium on Non-Photorealistic Animation and Rendering (NPAR)",
