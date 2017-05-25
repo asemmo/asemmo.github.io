@@ -510,6 +510,25 @@
       { "href"    : "https://publishup.uni-potsdam.de/opus4-ubp/files/9952/semmo_diss.pdf",
         "desc"    : "Thesis (PDF)"
       } ]
+    },
+   
+   { "key"       : "sid2017",
+      "featured"  : "true",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2017-sid.bib",
+      "title"     : "Neural Style Transfer: A Paradigm Shif for Image-based Artistic Rendering?",
+      "date"      : "2017-07-01",
+      "authors"   : [ "Amir Semmo", "Tobias Isenberg", "Jürgen Döllner" ],
+      "published" : "Proceedings International Symposium on Non-Photorealistic Animation and Rendering (NPAR)",
+      "caption"   : "In this meta paper we discuss image-based artistic rendering (IB-AR) based on neural style transfer (NST) and argue, while NST may represent a paradigm shift for IB-AR, that it also has to evolve as an interactive tool that considers the design aspects and mechanisms of artwork production. IB-AR received significant attention in the past decades for visual communication, covering a plethora of techniques to mimic the appeal of artistic media. Example-based rendering represents one the most promising paradigms in IB-AR to (semi-)automatically simulate artistic media with high fidelity, but so far has been limited because it relies on pre-defined image pairs for training or informs only low-level image features for texture transfers. Advancements in deep learning showed to alleviate these limitations by matching content and style statistics via activations of neural network layers, thus making a generalized style transfer practicable. We categorize style transfers within the taxonomy of IB-AR, then propose a semiotic structure to derive a technical research agenda for NSTs with respect to the grand challenges of NPAR. We finally discuss the potentials of NSTs, thereby identifying applications such as casual creativity and art production.",
+      "thumbnail" : "/img/2017-sid.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/3092919.3092920",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/317105787_Neural_Style_Transfer_A_Paradigm_Shift_for_Image-based_Artistic_Rendering/links/5926ac030f7e9b9979963ec9.pdf?ev=pub_int_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
     }
    
  ]
