@@ -537,7 +537,7 @@
       "bibtex"    : "bib/2017-stdk.bib",
       "title"     : "Pictory: Combining Neural Style Transfer and Image Filtering",
       "date"      : "2017-08-01",
-      "authors"   : [ "Amir Semmo", "Matthias Traapp", "Jürgen Döllner", "Mandy Klingbeil" ],
+      "authors"   : [ "Amir Semmo", "Matthias Trapp", "Jürgen Döllner", "Mandy Klingbeil" ],
       "published" : "ACM SIGGRAPH Appy Hour",
       "caption"   : "This work presents Pictory, a mobile app that empowers users to transform photos into artistic renditions by using a combination of neural style transfer with user-controlled state-of-the-art nonlinear image filtering. The combined approach features merits of both artistic rendering paradigms: deep convolutional neural networks can be used to transfer style characteristics at a global scale, while image filtering is able to simulate phenomena of artistic media at a local scale. Thereby, the proposed app implements an interactive two-stage process: first, style presets based on pre-trained feed-forward neural networks are applied using GPU-accelerated compute shaders to obtain initial results. Second, the intermediate output is stylized via oil paint, watercolor, or toon filtering to inject characteristics of traditional painting media such as pigment dispersion (watercolor) as well as soft color blendings (oil paint), and to filter artifacts such as fine-scale noise. Finally, on-screen painting facilitates pixel-precise creative control over the filtering stage, e. g., to vary the brush and color transfer, while joint bilateral upsampling enables outputs at full image resolution suited for printing on real canvas.",
       "thumbnail" : "/img/2017-stdk.jpg",
