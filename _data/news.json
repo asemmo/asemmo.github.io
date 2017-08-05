@@ -1,4 +1,12 @@
-[ { "date" : "2017-05-27 00:00:00",
+[ { "date" : "2017-08-02 00:00:00",
+    "text" : "We presented the demo &ldquo;Pictory: Combining Neural Style Transfer and Image Filtering&rdquo; at <a class='urllink' href='http://s2017.siggraph.org/content/appy-hour' rel='nofollow'>SIGGRAPH 2017 Appy Hour</a>. More information on the public release of &ldquo;Pictory&rdquo; is available <a class='urllink' href='http://www.digitalmasterpieces.com/pictory' rel='nofollow'>here</a>.",
+    "icon" : ""
+  },
+  { "date" : "2017-07-29 00:00:00",
+    "text" : "We presented our paper &ldquo;Neural Style Transfer: A Paradigm Shift for Image-based Artistic Rendering?&rdquo; at the <a class='urllink' href='http://expressivesymposium.com' rel='nofollow'>2017 Symposium on Non-Photorealistic Animation and Rendering (NPAR, part of Expressive)</a>. The presented slides are available <a class='urllink' href='http://www.researchgate.net/publication/318778180_Presentation_Slides_-_Neural_Style_Transfer_A_Paradigm_Shift_for_Image-based_Artistic_Rendering' rel='nofollow'>here</a>.",
+    "icon" : ""
+  },
+  { "date" : "2017-05-27 00:00:00",
     "text" : "Our paper &ldquo;Neural Style Transfer: A Paradigm Shift for Image-based Artistic Rendering?&rdquo; has been accepted as a contribution to the <a class='urllink' href='http://expressivesymposium.com' rel='nofollow'>2017 Symposium on Non-Photorealistic Animation and Rendering (NPAR, part of Expressive)</a>. We will also present the mobile app &ldquo;Pictory: Combining Neural Style Transfer and Image Filtering&rdquo; at <a class='urllink' href='http://s2017.siggraph.org' rel='nofollow'>SIGGRAPH 2017 Appy Hour</a>.",
     "icon" : ""
   },
