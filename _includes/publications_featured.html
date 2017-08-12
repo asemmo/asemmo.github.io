@@ -5,12 +5,11 @@
   
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="page-header">Featured Publications</h2>
+        <h2 class="page-header">Publications</h2>
       </div>
     </div>
     {% assign publications = site.data.publications | sort:"date" %}
     {% for p in publications reversed %}
-	{% if p.featured == "true" and p.thesis == "false" %}
     <div class="row{% if p != publications.first %} not-last{% endif %}">
       <div class="col-sm-2">
         {% include thumbnail.html %}
@@ -40,7 +39,6 @@
       {% endif %}
     </div>
   </div>
-  {% endif %}
   {% endfor %}
   </div>
 </section>
