@@ -24,9 +24,9 @@
           {% if p.downloads %}{% for download in p.downloads %}<a {% if download.video %}class="video-{{ download.video }}" {% endif %}href="{{ download.href }}" target="_blank">{{ download.desc }}</a>{% if download != p.downloads.last %}, {% endif %}{% endfor %}{% endif %}
         </p>
       {% if p.caption %}
-      <div class="collapse abstract" id="abstract-{{ p.key }}">
+      <div class="collapse bibtex" id="abstract-{{ p.key }}">
         <div class="card card-block">
-          <pre id="abstract-data-{{ p.key }}">{% include {{ p.caption }} %}</pre>
+          <pre id="abstract-data-{{ p.key }}">{{ p.caption }}</pre>
         </div>
       </div>
       {% endif %}
