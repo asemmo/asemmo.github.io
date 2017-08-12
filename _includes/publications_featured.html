@@ -9,7 +9,9 @@
       </div>
     </div>
     {% assign publications = site.data.publications | sort:"date" %}
+    {% assign currentyear = '0' %}
     {% for p in publications reversed %}
+    {% if currentyear != p.date | date: '%Y' %}{% assign currentyear = date: '%Y' %}<legend>{{ p.date | date: '%Y' }}</legend>{% endif %}
     <div class="row{% if p != publications.first %} not-last{% endif %}">
       <div class="col-sm-2">
         {% include thumbnail.html %}
