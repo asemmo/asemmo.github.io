@@ -12,13 +12,13 @@
     {% assign previousyear = '0' %}
     {% for p in publications reversed %}
     {% assign currentyear = p.date | date: '%Y' %}
-    {% if currentyear != previousyear %}<div class="col-md-offset-1"><legend>{{ p.date | date: '%Y' }}</legend></div>{% endif %}
+    {% if currentyear != previousyear %}<div class="col-sm-10 col-md-offset-1"><legend>{{ p.date | date: '%Y' }}</legend></div>{% endif %}
     {% assign previousyear = currentyear %}
     <div class="row{% if p != publications.first %} not-last{% endif %}">
       <div class="col-sm-2 col-md-offset-1">
         {% include thumbnail.html %}
       </div>
-      <div class="col-sm-9">
+      <div class="col-sm-8">
         <h4>{{ p.title }}</h4>
         <p>{% for author in p.authors %}{% if author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}<br><span class="text-danger">{{ p.published }} {{ p.date | date: '%Y' }}</span></p>
         <p>
