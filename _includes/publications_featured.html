@@ -12,7 +12,7 @@
     {% assign previousyear = '0' %}
     {% for p in publications reversed %}
     {% assign currentyear = p.date | date: '%Y' %}
-    {% if currentyear != previousyear %}<div class="col-sm-11 col-md-offset-1"><legend>{{ p.date | date: '%Y' }}</legend></div>{% endif %}
+    {% if currentyear != previousyear %}<div class="col-sm-11"><legend>{{ p.date | date: '%Y' }}</legend></div>{% endif %}
     {% assign previousyear = currentyear %}
     <div class="row{% if p != publications.first %} not-last{% endif %}">
       <div class="col-sm-2 col-md-offset-1">
