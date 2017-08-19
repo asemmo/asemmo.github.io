@@ -234,14 +234,14 @@
       "published" : "Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
       "caption"   : "Texture mapping is a key technology in computer graphics for visual design of rendered 3D scenes. An effective information transfer of surface properties, encoded by textures, however, depends significantly on how important information is highlighted and cognitively processed by the user in an application context. Edge-preserving image filtering is a promising approach to address this concern while preserving global salient structures. Much research has focused on applying image filters in a post-process stage to foster an artistically stylized rendering, but these approaches are generally not able to preserve depth cues important for 3D visualization (e.g., texture gradient). To this end, filtering that processes texture data coherently with respect to linear perspective and spatial relationships is required. In this work, we present a system that enables to process textured 3D scenes with perspective coherence by arbitrary image filters. We propose decoupled deferred texturing with (1) caching strategies to interactively perform image filtering prior to texture mapping, and (2) for each mipmap level separately to enable a progressive level of abstraction. We demonstrate the potentials of our methods on several applications, including illustrative visualization, focus+context visualization, geometric detail removal, and depth of field. Our system supports frame-to-frame coherence, order-independent transparency, multitexturing, and content-based filtering.",
       "thumbnail" : "/img/2014-sd.jpg",
-	  "downloads" : [
-	  { "href"    : "http://dx.doi.org/10.1145/2630099.2630101",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2630099.2630101",
         "desc"    : "DOI"
       },
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/264324992_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes/links/53d8df1e0cf2631430c36da2.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       },
-	  { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/264325270_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes_-_Additional_Material/links/53d8df670cf2e38c6331b7b8.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/264325270_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes_-_Additional_Material/links/53d8df670cf2e38c6331b7b8.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
         "desc"    : "Additional Material (PDF)"
       },
       { "href"    : "http://www.youtube.com/watch?v=Vqh3OQbWPpI",
@@ -259,7 +259,10 @@
       "published" : "Proceedings 2nd ACM SIGSPATIAL Workshop on MapInteraction",
       "caption"   : "3D geovirtual environments constitute effective media for the analysis and communication of complex geospatial data. Today, these environments are often visualized using static graphical variants (e.g., 2D maps, 3D photorealistic) from which a user is able to choose from. To serve the different interests of users in specific information, however, the spatial and thematic granularity at which model contents are represented (i.e., level of abstraction) should be dynamically adapted to the user's context, which requires specialized interaction techniques for parameterization. In this work, we present a framework that enables interaction interfaces to parameterize the level-of-abstraction visualization according to spatial, semantic, and thematic data. The framework is implemented in a visualization system that provides image-based rendering techniques for context-aware abstraction and highlighting. Using touch and natural language interfaces, we demonstrate its versatile application to geospatial tasks, including exploration, navigation, and orientation.",
       "thumbnail" : "/img/2014-sd_3.jpg",
-	  "downloads" : [
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2677068.2677072",
+        "desc"    : "DOI"
+      },
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/269762694_An_Interaction_Framework_for_Level-of-Abstraction_Visualization_of_3D_Geovirtual_Environments/links/54eee2f00cf2e2830865bb5a.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       } ]
@@ -291,13 +294,13 @@
       "published" : "International Journal of Geographical Information Science (IJGIS)",
       "caption"   : "This article presents multi-perspective 3D panoramas that focus on visualizing 3D geovirtual environments (3D GeoVEs) for navigation and exploration tasks. Their key element, a multi-perspective view, seamlessly combines what is seen from multiple viewpoints into a single image. This approach facilitates thepresentation of information for virtual 3D city and landscape models, particularly by reducing occlusions, increasing screen-space utilization, and providing additional context within a single image. We complement multi-perspective views with cartographic visualization techniques to stylize features according to their semantics and highlight important or prioritized information. When combined, both techniques constitute the core implementation of interactive, multi-perspective 3D panoramas. They offer a large number of effective means for visual communication of 3D spatial information, a high degree of customization with respect to cartographic design, and manifold applications in different domains. We discuss design decisions of 3D panoramas for the exploration of and navigation in 3D GeoVEs. We also discuss a preliminary user study that indicates that 3D panoramas are a promising approach for navigation systems using 3D GeoVEs.",
       "thumbnail" : "/img/2014-pstd.jpg",
-	  "downloads" : [
-	  { "href"    : "http://dx.doi.org/10.1080/13658816.2014.922686",
+      "downloads" : [
+	{ "href"    : "http://dx.doi.org/10.1080/13658816.2014.922686",
         "desc"    : "DOI"
-      },
-      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/262566376_Multi-Perspective_3D_Panoramas/links/0f31753b2a3de554d4000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        },
+        { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/262566376_Multi-Perspective_3D_Panoramas/links/0f31753b2a3de554d4000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
-      }	  ]
+       } ]
 	},
 
     { "key"       : "tsd2015",
@@ -310,8 +313,11 @@
       "published" : "Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP)",
       "caption"   : "Transportation networks, such as streets, railroads or metro systems, constitute primary elements in cartography for reckoning and navigation. In recent years, they have become an increasingly important part of 3D virtual environments for the interactive analysis and communication of complex hierarchical information, for example in routing, logistics optimization, and disaster management. A variety of rendering techniques have been proposed that deal with integrating transportation networks within these environments, but have so far neglected the many challenges of an interactive design process to adapt their spatial and thematic granularity (i.e., level-of-detail and level-of-abstraction) according to a user's context. This paper presents an efficient real-time rendering technique for the view-dependent rendering of geometrically complex transportation networks within 3D virtual environments. Our technique is based on distance fields using deferred texturing that shifts the design process to the shading stage for real-time stylization. We demonstrate and discuss our approach by means of street networks using cartographic design principles for context-aware stylization, including view-dependent scaling for clutter reduction, contour-lining to provide figure-ground, handling of street crossings via shading-based blending, and task-dependent colorization. Finally, we present potential usage scenarios and applications together with a performance evaluation of our implementation.",
       "thumbnail" : "/img/2015-tsd.jpg",
-	  "downloads" : [
-	  { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/269697434_Interactive_Rendering_and_Stylization_of_Transportation_Networks_Using_Distance_Fields/links/5506a7d50cf2d60c0e6d3a09.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.5220/0005310502070219",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/269697434_Interactive_Rendering_and_Stylization_of_Transportation_Networks_Using_Distance_Fields/links/5506a7d50cf2d60c0e6d3a09.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       }	]
 	},
@@ -347,6 +353,9 @@
       "thumbnail" : "/img/2015-slkd.jpg",
       "flickr"    : "72157652814171753",
       "downloads" : [
+      { "href"    : "http://dx.doi.org/10.2312/exp.20151188",
+        "desc"    : "DOI"
+      },
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/277531015_Image_Stylization_by_Oil_Paint_Filtering_using_Color_Palettes/links/556c35b208aeccd7773a2f85.pdf?ev=pub_int_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       },
@@ -355,7 +364,7 @@
       } ]
     },
 	
-	{ "key"       : "stjd2015",
+    { "key"       : "stjd2015",
       "featured"  : "true",
       "thesis"    : "false",
       "bibtex"    : "bib/2015-stjd.bib",
@@ -366,6 +375,9 @@
       "caption"   : "In economy, society and personal life map-based, interactive geospatial visualization becomes a natural element of a growing number of applications and systems. The visualization of 3D geospatial information, however, raises the question how to represent the information in an effective way. Considerable research has been done in technology-driven directions in the fields of cartography and computer graphics (e.g., design principles, visualization techniques). Here, non-photorealistic rendering represents a promising visualization category–situated between both fields–that offers a large number of degrees for the cartography-oriented visual design of complex 2D and 3D geospatial information for a given application context. Still today, however, specifications and techniques for mapping cartographic design principles to the state-of-the-art rendering pipeline of 3D computer graphics remain to be explored. This paper revisits cartographic design principles for 3D geospatial visualization and introduces an extended 3D semiotic model that complies with the general, interactive visualization pipeline. Based on this model, we propose non-photorealistic rendering techniques to interactively synthesize cartographic renditions of basic feature types, such as terrain, water, and buildings. In particular, it includes a novel iconification concept to seamlessly interpolate between photorealistic and cartographic representations of 3D landmarks. Our work concludes with a discussion of open challenges in this field of research, including topics such as user interaction and evaluation.",
       "thumbnail" : "/img/2015-stjd.jpg",
       "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1080/00087041.2015.1119462",
+        "desc"    : "DOI"
+      },
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/278685987_Cartography-Oriented_Design_of_3D_Geospatial_Information_Visualization_-_Overview_and_Techniques/links/558fc25308ae47a3490daaff.pdf?ev=pub_int_doc_dl&origin=publication_detail",
         "desc"    : "Paper / Preprint (PDF)"
       },
@@ -458,6 +470,7 @@
    { "key"       : "PTSD2016",
       "featured"  : "false",
       "thesis"    : "false",
+      "bibtex"    : "bib/2016-ptsd.bib",
       "title"     : "BeCasso: Artistic Image Processing and Editing on Mobile Devices",
       "date"      : "2016-12-01",
       "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Jürgen Döllner", "Frank Schlegel" ],
@@ -476,6 +489,7 @@
    { "key"       : "SDTKDP2016",
       "featured"  : "true",
       "thesis"    : "false",
+      "bibtex"    : "bib/2016-sdtkdp.bib",
       "title"     : "Interactive Image Filtering with Multiple Levels-of-Control on Mobile Devices",
       "date"      : "2016-12-01",
       "authors"   : [ "Amir Semmo", "Tobias Dürschmid", "Matthias Trapp", "Mandy Klingbeil", "Jürgen Döllner", "Sebastian Pasewaldt" ],
@@ -497,6 +511,7 @@
    { "key"       : "S2016",
       "featured"  : "true",
       "thesis"    : "true",
+      "bibtex"    : "bib/2016-s.bib",
       "title"     : "Design and Implementation of Non-Photorealistic Rendering Techniques for 3D Geospatial Data",
       "date"      : "2016-11-14",
       "authors"   : [ "Amir Semmo" ],
