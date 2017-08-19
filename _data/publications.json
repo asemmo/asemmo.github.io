@@ -467,10 +467,10 @@
       }	]
     },
    
-   { "key"       : "PTSD2016",
+   { "key"       : "#2016",
       "featured"  : "false",
       "thesis"    : "false",
-      "bibtex"    : "bib/2016-ptsd.bib",
+      "bibtex"    : "bib/2016-psds.bib",
       "title"     : "BeCasso: Artistic Image Processing and Editing on Mobile Devices",
       "date"      : "2016-12-01",
       "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Jürgen Döllner", "Frank Schlegel" ],
