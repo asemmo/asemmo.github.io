@@ -575,7 +575,7 @@
       "title"     : "Demo: Pictory - Neural Style Transfer and Editing with CoreML",
       "date"      : "2017-11-01",
       "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Mandy Klingbeil", "Jürgen Döllner" ],
-      "published" : "SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications",
+      "published" : "SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications (Demo)",
       "caption"   : "This work presents advances in the design and implementation of Pictory, an iOS app for artistic neural style transfer and interactive image editing using the CoreML and Metal APIs. Pictory combines the benefits of neural style transfer, e.g., high degree of abstraction on a global scale, with the interactivity of GPU-accelerated stateof-the-art image-based artistic rendering on a local scale. Thereby, the user is empowered to create high-resolution, abstracted renditions in a two-stage approach. First, a photo is transformed using a pre-trained convolutional neural network to obtain an intermediate stylized representation. Second, image-based artistic rendering techniques (e.g., watercolor, oil paint or toon filtering) are used to further stylize the image. Thereby, fine-scale texture noise—introduced by the style transfer—is filtered and interactive means are provided to individually adjust the stylization effects at run-time. Based on qualitative and quantitative user studies, Pictory has been redesigned and optimized to support casual users as well as mobile artists by providing effective, yet easy to understand, tools to facilitate image editing at multiple levels of control.",
       "thumbnail" : "/img/2017-pskd.jpg",
       "downloads" : [
