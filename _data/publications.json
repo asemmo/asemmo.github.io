@@ -582,6 +582,38 @@
       { "href"    : "http://dx.doi.org/10.1145/3132787.3132815",
         "desc"    : "DOI"
       } ]
+    },
+   
+   { "key"       : "kpsd2017",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2017-kpsd.bib",
+      "title"     : "Challenges in User Experience Design of Image Filtering Apps",
+      "date"      : "2017-11-02",
+      "authors"   : [ "Mandy Klingbeil", "Sebastian Pasewaldt", "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications",
+      "caption"   : "Photo filtering apps successfully deliver image-based stylization techniques to a broad audience, in particular in the ubiquitous domain (e.g., smartphones, tablet computers). Interacting with these inherently complex techniques has so far mostly been approached in two different ways: (1) by exposing many (technical) parameters to the user, resulting in a professional application that typically requires expert domain knowledge, or (2) by hiding the complexity via presets that only allows the application of filters but prevents creative expression thereon. In this work, we outline challenges of and present approaches for providing interactive image filtering on mobile devices, thereby focusing on how to make them usable for people in their daily life. This is discussed by the example of BeCasso, a user-centric app for assisted image stylization that targets two user groups: mobile artists and users seeking casual creativity. Through user research, qualitative and quantitative user studies, we identify and outline usability issues that showed to prevent both user groups from reaching their objectives when using the app. On the one hand, user-group-targeting has been improved by an optimized user experience design. On the other hand, multiple level of controls have been implemented to ease the interaction and hide the underlying complex technical parameters. Evaluations underline that the presented approach can increase the usability of complex image stylization techniques for mobile apps.",
+      "thumbnail" : "/img/2017-kpsd.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/3132787.3132803",
+        "desc"    : "DOI"
+      } ]
+    },
+   
+   { "key"       : "dsstd2017",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2017-dsstd.bib",
+      "title"     : "ProsumerFX: Mobile Design of Image Stylization Components",
+      "date"      : "2017-11-03",
+      "authors"   : [ "Tobias Dürschmid", "Maximilian Söchting", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications",
+      "caption"   : "With the continuous advances of mobile graphics hardware, high-quality image stylization—e.g., based on image filtering, stroke-based rendering, and neural style transfer—is becoming feasible and increasingly used in casual creativity apps. The creative expression facilitated by these mobile apps, however, is typically limited with respect to the usage and application of pre-defined visual styles, which ultimately do not include their design and composition—an inherent requirement of prosumers. We present ProsumerFX, a GPU-based app that enables to interactively design parameterizable image stylization components on-device by reusing building blocks of image processing effects and pipelines. Furthermore, the presentation of the effects can be customized by modifying the icons, names, and order of parameters and presets. Thereby, the customized visual styles are defined as platform-independent effects and can be shared with other users via a web-based platform and database. Together with the presented mobile app, this system approach supports collaborative works for designing visual styles, including their rapid prototyping, A/B testing, publishing, and distribution. Thus, it satisfies the needs for creative expression of both professionals as well as the general public.",
+      "thumbnail" : "/img/2017-dsstd.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/3132787.3139208",
+        "desc"    : "DOI"
+      } ]
     }
    
  ]
