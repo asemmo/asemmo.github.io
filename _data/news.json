@@ -1,4 +1,8 @@
-[ { "date" : "2017-08-02 00:00:00",
+[ { "date" : "2017-10-28 00:00:00",
+    "text" : "Three contributions have been accepted for presentation at the <a class='urllink' href='http://sa2017.siggraph.org/attendees/symposium-on-mobile-graphics-interactive-applications' rel='nofollow'>SIGGRAPH Asia 2017 Symposium on Mobile Graphics and Interactive Applications</a>: The technical paper &ldquo;ProsumerFX: Mobile Design of Image Stylization Components&rdquo;, the industry case &ldquo;Challenges in User Experience Design of Image Filtering Apps&rdquo;, and the demo &ldquo;Pictory - Neural Style Transfer and Editing with CoreML&rdquo;.",
+    "icon" : ""
+  },
+  { "date" : "2017-08-02 00:00:00",
     "text" : "We presented the demo &ldquo;Pictory: Combining Neural Style Transfer and Image Filtering&rdquo; at <a class='urllink' href='http://s2017.siggraph.org/content/appy-hour' rel='nofollow'>SIGGRAPH 2017 Appy Hour</a>. More information on the public release of &ldquo;Pictory&rdquo; is available <a class='urllink' href='http://www.digitalmasterpieces.com/pictory' rel='nofollow'>here</a>.",
     "icon" : ""
   },
