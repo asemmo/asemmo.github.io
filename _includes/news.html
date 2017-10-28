@@ -10,7 +10,7 @@
     </div>
     {% assign curDate = site.time | date: '%s' %}
     {% assign news = (site.data.news | sort:"date") | reverse %}
-    {% for n in news limit:10 %}
+    {% for n in news limit:4 %}
     <div class="row">
       <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
         <h4>{{ n.date | date : "%B %Y" }}</h4>
