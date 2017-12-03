@@ -1,4 +1,9 @@
-[ { "date" : "2017-10-28 00:00:00",
+[ 
+  { "date" : "2017-11-28 00:00:00",
+    "text" : "We are honored to receive the best paper award for &ldquo;ProsumerFX: Mobile Design of Image Stylization Components&rdquo; and the best demo award for &ldquo;Pictory - Neural Style Transfer and Editing with CoreML&rdquo; at the the <a class='urllink' href='http://sa2017.siggraph.org/attendees/symposium-on-mobile-graphics-interactive-applications' rel='nofollow'>SIGGRAPH Asia 2017 Symposium on Mobile Graphics and Interactive Applications</a>.",
+    "icon" : "<img src='/img/award.png'>"
+  },
+  { "date" : "2017-10-28 00:00:00",
     "text" : "Three contributions have been accepted for presentation at the <a class='urllink' href='http://sa2017.siggraph.org/attendees/symposium-on-mobile-graphics-interactive-applications' rel='nofollow'>SIGGRAPH Asia 2017 Symposium on Mobile Graphics and Interactive Applications</a>: The technical paper &ldquo;ProsumerFX: Mobile Design of Image Stylization Components&rdquo;, the industry case &ldquo;Challenges in User Experience Design of Image Filtering Apps&rdquo;, and the demo &ldquo;Pictory - Neural Style Transfer and Editing with CoreML&rdquo;.",
     "icon" : ""
   },
