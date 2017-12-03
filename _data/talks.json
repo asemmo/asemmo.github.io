@@ -1,4 +1,9 @@
-[ { "date"      : "2017-08-01 00:00:00",
+[  
+  { "date"      : "2017-11-01 00:00:00",
+    "title"     : "Pictory - Neural Style Transfer and Editing with CoreML",
+    "location"  : "ACM SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications (Demo Session), Bangkok, Thailand"
+  },
+  { "date"      : "2017-08-01 00:00:00",
     "title"     : "Pictory: Combining Neural Style Transfer and Image Filtering",
     "location"  : "ACM SIGGRAPH (Appy Hour), Los Angeles, CA, USA"
   },
