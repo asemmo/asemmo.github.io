@@ -1,4 +1,7 @@
-[ 
+[ { "date" : "2018-03-30 00:00:00",
+    "text" : "Our paper &ldquo;Teaching Image-Processing Programming for Mobile Devices: A Software Development Perspective&rdquo; has been accepted as a contribution to the <a class='urllink' href='https://www.eurographics2018.nl' rel='nofollow'>Eurographics 2018</a> Education Papers track.",
+    "icon" : ""
+  },
   { "date" : "2017-11-28 00:00:00",
     "text" : "We are honored to receive the best paper award for &ldquo;ProsumerFX: Mobile Design of Image Stylization Components&rdquo; and the best demo award for &ldquo;Pictory - Neural Style Transfer and Editing with CoreML&rdquo; at the <a class='urllink' href='http://sa2017.siggraph.org/attendees/symposium-on-mobile-graphics-interactive-applications' rel='nofollow'>SIGGRAPH Asia 2017 Symposium on Mobile Graphics and Interactive Applications</a>.",
     "icon" : "<img src='/img/award.png'>"
