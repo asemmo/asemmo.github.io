@@ -630,6 +630,18 @@
       { "href"    : "http://dx.doi.org/10.2312/eged.20181002",
         "desc"    : "DOI"
       } ]
+    },
+   
+    { "key"       : "rssdt2018",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2018-rssdt.bib",
+      "title"     : "Service-based Processing and Provisioning of Image-Abstraction Techniques",
+      "date"      : "2018-05-15",
+      "authors"   : [ "Marvin Richter", "Maximilian Söchting", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "International Conference on Computer Graphics, Visualization and Computer Vision (WSCG)",
+      "caption"   : "Digital images and image streams represent two major categories of media captured, delivered, and shared on the Web. Techniques for their analysis, classification, and processing are fundamental building blocks in today's digital media applications ranging from mobile image transformation apps to professional digital production suites. To efficiently process such digital media (1) independent of hardware requirements, (2) at different data complexity scales, (3) to yield high-quality results, poses several challenges for software frameworks and hardware systems, in particular for mobile devices. With respect to these aspects, using service-based architectures are a common approach to strive for. However, unlike geodata, there is currently no standard approach for service definition, implementation, and orchestration in the domain of digital images and videos. This paper presents an approach for service-based image processing and provisioning of processing techniques by the example of image-abstraction techniques. The generality and feasibility of the proposed system is demonstrated by different client applications that have been implemented for the Android Operation System, for Google's G-Suite Software-as-a-Service Infrastructure, as well as for Desktop systems. The performance of the system is discussed at the example of complex, resource-intensive image abstraction techniques, such as watercolor rendering.",
+      "thumbnail" : "/img/2018-rssdt.jpg"
     }
    
    
