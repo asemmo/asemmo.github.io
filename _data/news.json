@@ -1,4 +1,8 @@
-[ { "date" : "2018-05-15 00:00:00",
+[ { "date" : "2018-05-20 00:00:00",
+    "text" : "Two papers have been accepted as a contribution to the <a class='urllink' href='http://expressive.graphics/2018' rel='nofollow'>Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive 2018)</a>. The paper &ldquo;MNPR: A Framework for Real-Time Expressive Non-Photorealistic Rendering of 3D Computer Graphics&rdquo; and the paper &ldquo;Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization&rdquo;.",
+    "icon" : ""
+  },
+  { "date" : "2018-05-15 00:00:00",
     "text" : "Our paper &ldquo;Service-based Processing and Provisioning of Image-Abstraction Techniques&rdquo; has been accepted as a contribution to <a class='urllink' href='http://www.wscg.eu' rel='nofollow'>WSCG 2018</a>.",
     "icon" : ""
   },
