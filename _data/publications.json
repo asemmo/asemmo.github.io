@@ -654,7 +654,42 @@
       "published" : "International Conference on Computer Graphics, Visualization and Computer Vision (WSCG)",
       "caption"   : "Digital images and image streams represent two major categories of media captured, delivered, and shared on the Web. Techniques for their analysis, classification, and processing are fundamental building blocks in today's digital media applications ranging from mobile image transformation apps to professional digital production suites. To efficiently process such digital media (1) independent of hardware requirements, (2) at different data complexity scales, (3) to yield high-quality results, poses several challenges for software frameworks and hardware systems, in particular for mobile devices. With respect to these aspects, using service-based architectures are a common approach to strive for. However, unlike geodata, there is currently no standard approach for service definition, implementation, and orchestration in the domain of digital images and videos. This paper presents an approach for service-based image processing and provisioning of processing techniques by the example of image-abstraction techniques. The generality and feasibility of the proposed system is demonstrated by different client applications that have been implemented for the Android Operation System, for Google's G-Suite Software-as-a-Service Infrastructure, as well as for Desktop systems. The performance of the system is discussed at the example of complex, resource-intensive image abstraction techniques, such as watercolor rendering.",
       "thumbnail" : "/img/2018-rssdt.jpg"
-    }
+    },
    
+    { "key"       : "rspkd2018",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2018-rspkd.bib",
+      "title"     : "MaeSTrO: Mobile-Style Transfer Orchestration Using Adaptive Neural Networks",
+      "date"      : "2018-04-30",
+      "authors"   : [ "Max Reimann", "Amir Semmo", "Sebastian Pasewaldt", "Mandy Klingbeil", "Jürgen Döllner" ],
+      "published" : "ACM SIGGRAPH Appy Hour",
+      "caption"   : "We present MaeSTrO, a mobile app for image stylization that empowers users to direct, edit and perform a neural style transfer with creative control. The app uses iterative style transfer, multi-style generative and adaptive networks to compute and apply flexible yet comprehensive style models of arbitrary images at run-time. Compared to other mobile applications, MaeSTrO introduces an interactive user interface that empowers users to orchestrate style transfers in a two-stage process for an individual visual expression: first, initial semantic segmentation of a style image can be complemented by on-screen painting to direct sub-styles in a spatially-aware manner. Second, semantic masks can be virtually drawn on top of a content image to adjust neural activations within local image regions, and thus direct the transfer of learned sub-styles. This way, the general feed-forward neural style transfer is evolved towards an interactive tool that is able to consider composition variables and mechanisms of general artwork production, such as color, size and location-based filtering. MaeSTrO additionally enables users to define new styles directly on a device and synthesize high-quality images based on prior segmentations via a service-based implementation of compute-intensive iterative style transfer techniques.",
+      "thumbnail" : "/img/2018-rspkd.jpg"
+    },
+   
+    { "key"       : "bsbfpstid2018",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2018-bsbfpstid.bib",
+      "title"     : "Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization",
+      "date"      : "2018-05-20",
+      "authors"   : [ "Lonni Besançon", "Amir Semmo", "David Biau", "Bruno Frachet", "Virginie Pineau", "El Hadi Ariali", "Rabah Taouachi", "Tobias Isenberg", "Pierre Dragicevic" ],
+      "published" : "Proceedings of the Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive)",
+      "caption"   : "We present the first empirical study on using color manipulation and stylization to make surgery images more palatable. While aversion to such images is natural, it limits many people's ability to satisfy their curiosity, educate themselves, and make informed decisions. We selected a diverse set of image processing techniques, and tested them both on surgeons and lay people. While many artistic methods were found unusable by surgeons, edge-preserving image smoothing gave good results both in terms of preserving information (as judged by surgeons) and reducing repulsiveness (as judged by lay people). Color manipulation turned out to be not as effective.",
+      "thumbnail" : "/img/2018-bsbfpstid.jpg"
+    },
+   
+    { "key"       : "mssbvtb2018",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2018-mssbvtb.bib",
+      "title"     : "MNPR: A Framework for Real-Time Expressive Non-Photorealistic Rendering of 3D Computer Graphics",
+      "date"      : "2018-05-20",
+      "authors"   : [ "Santiago Montesdeoca", "Amir Semmo", "Hock Soon Seah", "Pierre Bénard", "Joelle Thollot", "Romain Vergne", "Davide Benvenuti" ],
+      "published" : "Proceedings of the Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive)",
+      "caption"   : "We propose a framework for expressive non-photorealistic rendering of 3D computer graphics. Our work focuses on enabling stylization pipelines with a wide range of control, thereby covering the interaction spectrum with real-time feedback. In addition, we introduce control semantics that allow cross-stylistic art-direction, which is demonstrated through our implemented watercolor, oil and charcoal stylizations. Our generalized control semantics and their style-specific mappings are designed to be extrapolated to other styles, by adhering to the same control scheme. We then share our implementation details by breaking down the framework and elaborating on its inner workings. Finally, we evaluate the usefulness of each level of control through a user study involving 20 experienced artists and engineers in the industry, who have collectively spent over 245 hours using our system. Our framework is implemented in Autodesk Maya and open-sourced through this publication, to facilitate adoption by artists and further development by the expressive research and development community.",
+      "thumbnail" : "/img/2018-mssbvtb.jpg"
+    }
    
  ]
