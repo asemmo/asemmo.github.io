@@ -1,4 +1,8 @@
-[ { "date" : "2018-05-20 00:00:00",
+[ { "date" : "2018-06-13 00:00:00",
+    "text" : "We will also present the poster &ldquo;Approaches for Local Control of Mobile Style Transfer&rdquo; at <a class='urllink' href='http://expressive.graphics/2018' rel='nofollow'>Expressive 2018</a>.",
+    "icon" : ""
+  }, 
+  { "date" : "2018-05-20 00:00:00",
     "text" : "Two papers have been accepted as a contribution to the <a class='urllink' href='http://expressive.graphics/2018' rel='nofollow'>Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive 2018)</a> entitled &ldquo;MNPR: A Framework for Real-Time Expressive Non-Photorealistic Rendering of 3D Computer Graphics&rdquo; and &ldquo;Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization&rdquo;.",
     "icon" : ""
   },
