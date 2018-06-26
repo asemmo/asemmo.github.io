@@ -686,7 +686,7 @@
       "title"     : "Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization",
       "date"      : "2018-05-20",
       "authors"   : [ "Lonni Besançon", "Amir Semmo", "David Biau", "Bruno Frachet", "Virginie Pineau", "El Hadi Ariali", "Rabah Taouachi", "Tobias Isenberg", "Pierre Dragicevic" ],
-      "published" : "Proceedings of the Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive)",
+      "published" : "Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive)",
       "caption"   : "We present the first empirical study on using color manipulation and stylization to make surgery images more palatable. While aversion to such images is natural, it limits many people's ability to satisfy their curiosity, educate themselves, and make informed decisions. We selected a diverse set of image processing techniques, and tested them both on surgeons and lay people. While many artistic methods were found unusable by surgeons, edge-preserving image smoothing gave good results both in terms of preserving information (as judged by surgeons) and reducing repulsiveness (as judged by lay people). Color manipulation turned out to be not as effective.",
       "thumbnail" : "/img/2018-bsbfpstid.jpg",
       "downloads" : [
@@ -705,7 +705,7 @@
       "title"     : "MNPR: A Framework for Real-Time Expressive Non-Photorealistic Rendering of 3D Computer Graphics",
       "date"      : "2018-05-20",
       "authors"   : [ "Santiago Montesdeoca", "Hock Soon Seah", "Amir Semmo", "Pierre Bénard", "Romain Vergne", "Joelle Thollot", "Davide Benvenuti" ],
-      "published" : "Proceedings of the Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive)",
+      "published" : "Joint Symposium on Computational Aesthetics, Sketch-Based Interfaces and Modeling, and Non-Photorealistic Animation and Rendering (Expressive)",
       "caption"   : "We propose a framework for expressive non-photorealistic rendering of 3D computer graphics. Our work focuses on enabling stylization pipelines with a wide range of control, thereby covering the interaction spectrum with real-time feedback. In addition, we introduce control semantics that allow cross-stylistic art-direction, which is demonstrated through our implemented watercolor, oil and charcoal stylizations. Our generalized control semantics and their style-specific mappings are designed to be extrapolated to other styles, by adhering to the same control scheme. We then share our implementation details by breaking down the framework and elaborating on its inner workings. Finally, we evaluate the usefulness of each level of control through a user study involving 20 experienced artists and engineers in the industry, who have collectively spent over 245 hours using our system. Our framework is implemented in Autodesk Maya and open-sourced through this publication, to facilitate adoption by artists and further development by the expressive research and development community.",
       "thumbnail" : "/img/2018-mssbvtb.jpg",
       "downloads" : [
@@ -731,6 +731,18 @@
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/325796179_MaeSTrO_Mobile_Style_Transfer_Orchestration_using_Adaptive_Neural_Networks/links/5b24d286a6fdcc697467b021/MaeSTrO-Mobile-Style-Transfer-Orchestration-using-Adaptive-Neural-Networks.pdf?ev=pub_int_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       } ]
-    }
+    },
+   
+    { "key"       : "rkpsdt2018_2",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2018-rkpsdt2.bib",
+      "title"     : "MaeSTrO: A Mobile App for Style Transfer Orchestration using Neural Networks",
+      "date"      : "2018-05-20",
+      "authors"   : [ "Max Reimann", "Mandy Klingbeil", "Sebastian Pasewaldt", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "International Conference on Cyberworlds",
+      "caption"   : "Mobile expressive rendering gained increasing popularity amongst users seeking casual creativity by image stylization and supports the development of mobile artists as a new user group. In particular, the neural style transfer has advanced as a core technology to emulate characteristics of manifold artistic styles and media without deep prior knowledge of photo processing or editing. However, when it comes to creative expression, the technology still faces inherent limitations in providing low-level controls for localized image stylization, e.g., with respect to image feature semantics or the user's ideas and interest. The goal of this work is to implement and enhance state-of-the-art neural style transfer techniques, providing a generalized user interface with interactive tools for local control that facilitate a creative editing process on mobile devices. At this, we first propose a problem characterization consisting of three goals that represent a trade-off between visual quality, run-time performance and ease of control. We then present MaeSTrO, a mobile app for orchestration of three neural style transfer techniques using iterative, multi-style generative and adaptive neural networks that can be locally controlled by on-screen painting metaphors to direct a semantics-based composition and perform location-based filtering. Based on first user tests, we conclude with insights, showing different levels of satisfaction for the implemented techniques and user interaction design, pointing out directions for future research.",
+      "thumbnail" : "/img/2018-rkpsdt2.jpg"
+    },
    
  ]
