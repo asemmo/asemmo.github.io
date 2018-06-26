@@ -1,4 +1,8 @@
-[ { "date" : "2018-06-16 00:00:00",
+[ { "date" : "2018-06-26 00:00:00",
+    "text" : "Our paper &ldquo;MaeSTrO: A Mobile App for Style Transfer Orchestration using Neural Networks&rdquo; has been accepted as a contribution to <a class='urllink' href='http://www.cyberworlds-conference.org' rel='nofollow'>Cyberworlds 2018</a>.",
+    "icon" : ""
+  },
+  { "date" : "2018-06-16 00:00:00",
     "text" : "We will present the demo &ldquo;MaeSTrO: Mobile-Style Transfer Orchestration Using Adaptive Neural Networks&rdquo; at <a class='urllink' href='http://s2018.siggraph.org/content/appy-hour' rel='nofollow'>SIGGRAPH 2018 Appy Hour</a>.",
     "icon" : ""
   },
