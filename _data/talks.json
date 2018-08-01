@@ -1,4 +1,8 @@
-[ { "date"      : "2018-08-12 00:00:00",
+[ { "date"      : "2018-08-18 00:00:00",
+    "title"     : "Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization",
+    "location"  : "Expressive 2018, Victoria, BC, Canada"
+  },
+  { "date"      : "2018-08-12 00:00:00",
     "title"     : "MaeSTrO: Mobile-Style Transfer Orchestration Using Adaptive Neural Networks",
     "location"  : "SIGGRAPH (Appy Hour), Vancouver, BC, Canada"
   },
