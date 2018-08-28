@@ -1,4 +1,8 @@
-[ { "date"      : "2018-08-18 00:00:00",
+[ { "date"      : "2018-10-03 00:00:00",
+    "title"     : "MaeSTrO: A Mobile App for Style Transfer Orchestration using Neural Networks",
+    "location"  : "Cyberworlds 2018, Singapore"
+  },
+  { "date"      : "2018-08-18 00:00:00",
     "title"     : "Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization",
     "location"  : "Expressive 2018, Victoria, BC, Canada"
   },
