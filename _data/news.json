@@ -1,4 +1,12 @@
-[ { "date" : "2018-06-26 00:00:00",
+[ { "date" : "2018-08-28 00:00:00",
+    "text" : "We are honored to receive the best paper award for &ldquo;MNPR: A Framework for Real-Time Expressive Non-Photorealistic Rendering of 3D Computer Graphics&rdquo; at <a class='urllink' href='http://expressive.graphics/2018' rel='nofollow'>Expressive 2018</a>. MNPR enables stylization pipelines with a wide range of control, thereby covering the interaction spectrum with real-time feedback. Its open-source release is available from <a class='urllink' href='http://github.com/semontesdeoca/MNPR' rel='nofollow'>GitHub</a>.",
+    "icon" : "<img src='/img/award.png'>"
+  },
+  { "date" : "2018-08-28 00:00:00",
+    "text" : "We presented the paper &ldquo;Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization&rdquo; at <a class='urllink' href='http://expressive.graphics/2018' rel='nofollow'>Expressive 2018</a>. The presentation slides are available <a class='urllink' href='https://tobias.isenberg.cc/personal/papers/Besancon_2018_RAR_Slides.pdf' rel='nofollow'>here</a>.",
+    "icon" : ""
+  },
+  { "date" : "2018-06-26 00:00:00",
     "text" : "Our paper &ldquo;MaeSTrO: A Mobile App for Style Transfer Orchestration using Neural Networks&rdquo; has been accepted as a contribution to <a class='urllink' href='http://www.cyberworlds-conference.org' rel='nofollow'>Cyberworlds 2018</a>.",
     "icon" : ""
   },
