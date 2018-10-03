@@ -742,7 +742,11 @@
       "authors"   : [ "Max Reimann", "Mandy Klingbeil", "Sebastian Pasewaldt", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
       "published" : "International Conference on Cyberworlds",
       "caption"   : "Mobile expressive rendering gained increasing popularity amongst users seeking casual creativity by image stylization and supports the development of mobile artists as a new user group. In particular, the neural style transfer has advanced as a core technology to emulate characteristics of manifold artistic styles and media without deep prior knowledge of photo processing or editing. However, when it comes to creative expression, the technology still faces inherent limitations in providing low-level controls for localized image stylization, e.g., with respect to image feature semantics or the user's ideas and interest. The goal of this work is to implement and enhance state-of-the-art neural style transfer techniques, providing a generalized user interface with interactive tools for local control that facilitate a creative editing process on mobile devices. At this, we first propose a problem characterization consisting of three goals that represent a trade-off between visual quality, run-time performance and ease of control. We then present MaeSTrO, a mobile app for orchestration of three neural style transfer techniques using iterative, multi-style generative and adaptive neural networks that can be locally controlled by on-screen painting metaphors to direct a semantics-based composition and perform location-based filtering. Based on first user tests, we conclude with insights, showing different levels of satisfaction for the implemented techniques and user interaction design, pointing out directions for future research.",
-      "thumbnail" : "/img/2018-rkpsdt2.jpg"
+      "thumbnail" : "/img/2018-rkpsdt2.jpg",
+      "downloads" : [
+      { "href"    : "https://www.researchgate.net/profile/Amir_Semmo/publication/328048530_Presentation_Slides_-_MaeSTrO_A_Mobile_App_for_Style_Transfer_Orchestration_using_Neural_Networks/data/5bb4ce59299bf13e605d8e0c/cw2018-slides.pdf",
+        "desc"    : "Presentation Slides (PDF)"
+      } ]
     },
    
  ]
