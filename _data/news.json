@@ -1,6 +1,6 @@
 [ { "date" : "2018-10-09 00:00:00",
     "text" : "We are very honored to receive the best full paper award for &ldquo;MaeSTrO: A Mobile App for Style Transfer Orchestration using Neural Networkss&rdquo; at <a class='urllink' href='http://www.cyberworlds-conference.org/' rel='nofollow'>Cyberworlds 2018</a>. MaeSTrO is a mobile app for orchestration of neural style transfer techniques using iterative, multi-style generative and adaptive neural networks that can be locally controlled by on-screen painting metaphors. The presentation slides are available from <a class='urllink' href='https://www.researchgate.net/profile/Amir_Semmo/publication/328048530_Presentation_Slides_-_MaeSTrO_A_Mobile_App_for_Style_Transfer_Orchestration_using_Neural_Networks/data/5bb4ce59299bf13e605d8e0c/cw2018-slides.pdf' rel='nofollow'>here</a>. MaeSTrO can be downloaded for iPads via Apple's Testflight from <a class='urllink' href='https://testflight.apple.com/join/7Srf3p2m' rel='nofollow'>here</a>.",
-    "icon" : ""
+    "icon" : "<img src='/img/award.png'>"
   },
   { "date" : "2018-08-28 00:00:00",
     "text" : "We also presented the paper &ldquo;Reducing Affective Responses to Surgical Images through Color Manipulation and Stylization&rdquo; at <a class='urllink' href='http://expressive.graphics/2018' rel='nofollow'>Expressive 2018</a>. The presentation slides are available from <a class='urllink' href='https://tobias.isenberg.cc/personal/papers/Besancon_2018_RAR_Slides.pdf' rel='nofollow'>here</a>.",
