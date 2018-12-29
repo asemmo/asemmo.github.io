@@ -715,7 +715,7 @@
       { "href"    : "http://dx.doi.org/10.1145/3229147.3229162",
         "desc"    : "DOI"
       },
-      { "href"    : "http://dl.acm.org/authorize?N660611",
+      { "href"    : "https://dl.acm.org/authorize?N675020",
         "desc"    : "Paper (PDF)"
       },
       { "href"    : "http://github.com/semontesdeoca/MNPR",
