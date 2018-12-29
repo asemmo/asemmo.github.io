@@ -4,7 +4,7 @@ timezone: Europe/Berlin
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://amirsemmo.de" # the base hostname & protocol for your site
 
-title: Interactive Graphics Engineer
+title: Computer Graphics Engineer
 author: Amir Semmo
 authortitle: Dr.
 portrait: "/img/amir-semmo-2018.jpg"
@@ -13,9 +13,9 @@ flickr_user: "131006004@N06"
 flickr_api_key: adb4be93419edab991522b4fa92b7029
 
 description: > # this means to ignore newlines until "baseurl:"
-    Interactive graphics engineer and post-doctoral researcher in the Computer Graphics Systems group at the Hasso Plattner Institute / University of Potsdam, Germany.
+    Computer graphics engineer and post-doctoral researcher in the Computer Graphics Systems group at the Hasso Plattner Institute / University of Potsdam, Germany.
 subheading: > # this means to ignore newlines until "baseurl:"
-    <span class="text-danger">Interactive graphics engineer</span> and <span class="text-danger">post-doctoral researcher</span> in the Computer Graphics Systems group at the <a href="http://www.hpi.de" target="_blank">Hasso Plattner Institute</a> / <a href="http://www.uni-potsdam.de" target="_blank">University of Potsdam</a>, Germany.<br><br>Specialized in real-time rendering and shading, non-photorealistic rendering, computational aesthetics / cartographic design, and geovisualization.
+    <span class="text-danger">Computer graphics engineer</span> and <span class="text-danger">post-doctoral researcher</span> in the Computer Graphics Systems group at the <a href="http://www.hpi.de" target="_blank">Hasso Plattner Institute</a> / <a href="http://www.uni-potsdam.de" target="_blank">University of Potsdam</a>, Germany.<br><br>Specialized in real-time rendering and shading, non-photorealistic rendering, computational aesthetics / cartographic design, and geovisualization.
 
 # Handling Reading
 safe: true
