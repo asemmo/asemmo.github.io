@@ -655,6 +655,9 @@
       "caption"   : "Digital images and image streams represent two major categories of media captured, delivered, and shared on the Web. Techniques for their analysis, classification, and processing are fundamental building blocks in today's digital media applications ranging from mobile image transformation apps to professional digital production suites. To efficiently process such digital media (1) independent of hardware requirements, (2) at different data complexity scales, (3) to yield high-quality results, poses several challenges for software frameworks and hardware systems, in particular for mobile devices. With respect to these aspects, using service-based architectures are a common approach to strive for. However, unlike geodata, there is currently no standard approach for service definition, implementation, and orchestration in the domain of digital images and videos. This paper presents an approach for service-based image processing and provisioning of processing techniques by the example of image-abstraction techniques. The generality and feasibility of the proposed system is demonstrated by different client applications that have been implemented for the Android Operation System, for Google's G-Suite Software-as-a-Service Infrastructure, as well as for Desktop systems. The performance of the system is discussed at the example of complex, resource-intensive image abstraction techniques, such as watercolor rendering.",
       "thumbnail" : "/img/2018-rssdt.jpg",
       "downloads" : [
+      { "href"    : "http://dx.doi.org/10.24132/CSRN.2018.2802.13",
+        "desc"    : "DOI"
+      },
       { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/325415513_Service-based_Processing_and_Provisioning_of_Image-Abstraction_Techniques/links/5b0cf6daaca2725783ec6170/Service-based-Processing-and-Provisioning-of-Image-Abstraction-Techniques.pdf?ev=pub_int_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       } ]
@@ -711,6 +714,15 @@
       "downloads" : [
       { "href"    : "http://dx.doi.org/10.1145/3229147.3229162",
         "desc"    : "DOI"
+      },
+      { "href"    : "http://dl.acm.org/authorize?N660611",
+        "desc"    : "Paper (PDF)"
+      },
+      { "href"    : "http://github.com/semontesdeoca/MNPR",
+        "desc"    : "Source Code (GitHub)"
+      },
+      { "href"    : "http://artineering.io/articles/MNPR",
+        "desc"    : "Project Page (artineering.io)"
       } ]
     },
    
