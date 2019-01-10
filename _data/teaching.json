@@ -77,11 +77,7 @@
         "type"   : "seminar (MA)",
         "role"   : "tutor"
       },
-      { "course" : "Computergraphics I",
-        "type"   : "lecture (BA)",
-        "role"   : "tutor"
-      },
-      { "course" : "Computergraphics II",
+      { "course" : "Computergraphics I & Computergraphics II",
         "type"   : "lecture (BA)",
         "role"   : "tutor"
       } ]
