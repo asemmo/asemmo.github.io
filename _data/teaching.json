@@ -1,4 +1,4 @@
-[ {  "term" : "2018/19 : Winter Term / Summer Term",
+[ { "term" : "2018/19 : Winter Term / Summer Term",
     "courses" : 
     [ { "course" : "Digital Image Processing (Seminar)",
         "type"   : "seminar (BA)",
@@ -9,14 +9,14 @@
         "role"   : "tutor"
       } ]
   },
-  {  "term" : "2017/18 : Winter Term / Summer Term",
+  { "term" : "2017/18 : Winter Term / Summer Term",
     "courses" : 
     [ { "course" : "Video Abstraction Techniques (Seminar)",
         "type"   : "seminar (MA)",
         "role"   : "tutor"
       } ]
   },
-  {  "term" : "2016/17 : Winter Term / Summer Term",
+  { "term" : "2016/17 : Winter Term / Summer Term",
     "courses" : 
     [ { "course" : "Image & Video Processing Techniques (Seminar)",
         "type"   : "seminar (MA)",
@@ -27,14 +27,14 @@
         "role"   : "tutor"
       } ]
   },
-  {  "term" : "2015/16 : Winter Term / Summer Term",
+  { "term" : "2015/16 : Winter Term / Summer Term",
     "courses" : 
     [ { "course" : "Image and Video Processing with OpenGL ES (Seminar)",
         "type"   : "seminar (BA)",
         "role"   : "tutor"
       } ]
   },
-  {  "term" : "2014/15 : Winter Term / Summer Term",
+  { "term" : "2014/15 : Winter Term / Summer Term",
     "courses" : 
     [ { "course" : "Geovisualization",
         "type"   : "seminar (MA)",
