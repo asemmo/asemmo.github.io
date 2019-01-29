@@ -1,0 +1,7 @@
+.bg-dark {
+	background-color: #333333;
+}
+
+span[data-live-photo] {
+	vertical-align: middle; width: 270px; height: 360px;
+}
