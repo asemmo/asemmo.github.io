@@ -776,7 +776,7 @@
       "authors"   : [ "Max Reimann", "Mandy Klingbeil", "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "The Visual Computer",
       "caption"   : "Mobile expressive rendering gained increasing popularity among users seeking casual creativity by image stylization and supports the development of mobile artists as a new user group. In particular, neural style transfer has advanced as a core technology to emulate characteristics of manifold artistic styles. However, when it comes to creative expression, the technology still faces inherent limitations in providing low-level controls for localized image stylization. In this work, we first propose a problem characterization of interactive style transfer representing a trade-off between visual quality, run-time performance, and user control. We then present MaeSTrO, a mobile app for orchestration of neural style transfer techniques using iterative, multi-style generative and adaptive neural networks that can be locally controlled by on-screen painting metaphors. At this, we enhance state-of-the-art neural style transfer techniques by mask-based loss-terms that can be interactively parameterized by a generalized user interface to facilitate a creative and localized editing process. We report on a usability study and an online survey that demonstrate the ability of our app to transfer styles at improved semantic plausibility.",
-      "thumbnail" : "/img/2018-rkpsdt2.jpg",
+      "thumbnail" : "/img/2019-rkpstd.jpg",
       "downloads" : [
       { "href"    : "http://dx.doi.org/10.1007/s00371-019-01654-1",
         "desc"    : "DOI"
