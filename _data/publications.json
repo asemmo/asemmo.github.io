@@ -792,7 +792,11 @@
       "authors"   : [ "Amir Semmo", "Max Reimann", "Mandy Klingbeil", "Sebastian Pasewaldt", "Sumit Shekhar", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "ACM SIGGRAPH Appy Hour",
       "caption"   : "We present ViVid, a mobile app for iOS that empowers users to express dynamics in stylized Live Photos. This app uses state-of-the-art computer-vision techniques based on convolutional neural networks to estimate motion in the video footage that is captured together with a photo. Based on these analytics and best practices of contemporary art, photos can be stylized as a pencil drawing or cartoon look that includes design elements to visually suggest motion, such as ghosts, motion lines and halos. Its interactive parameterizations enable users to filter and art-direct composition variables, such as color, size and opacity, of the stylization process. ViVid is based on Apple's CoreML, Metal and PhotoKit APIs for optimized on-device processing. Thus, the motion estimation is scheduled to utilize the dedicated neural engine and GPU in parallel, while shading-based image stylization is able to process the video footage in real-time. This way, the app provides a unique tool for creating lively photo stylizations with ease.",
-      "thumbnail" : "/img/2019-srkpstd.jpg"
+      "thumbnail" : "/img/2019-srkpstd.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/3305365.3329726",
+        "desc"    : "DOI"
+      } ]
     },
    
  ]
