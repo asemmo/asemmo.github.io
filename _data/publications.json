@@ -780,6 +780,9 @@
       "downloads" : [
       { "href"    : "http://dx.doi.org/10.1007/s00371-019-01654-1",
         "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/332483320_Locally_controllable_neural_style_transfer_on_mobile_devices/links/5d765ed3299bf1cb8093e918/Locally-controllable-neural-style-transfer-on-mobile-devices.pdf?ev=pub_int_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
       } ]
     },
    
