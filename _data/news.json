@@ -1,4 +1,8 @@
-[ { "date" : "2019-05-01 00:00:00",
+[ { "date" : "2019-09-30 00:00:00",
+    "text" : "Our paper &ldquo;Consistent Filtering Of Videos And Dense Light-Fields Without Optic-Flow&rdquo; has been accepted as a contribution to <a class='urllink' href='http://www.vmv2019.uni-rostock.de' rel='nofollow'>Vision, Modeling and Visualization 2019</a>. VMV 2019 will take place from 30th September to 2nd October at the University of Rostock, Germany.",
+    "icon" : ""
+  },
+  { "date" : "2019-05-01 00:00:00",
     "text" : "Our submission &ldquo;ViVid: Depicting Dynamics in Stylized Live Photos&rdquo; has been accepted to the <a class='urllink' href='https://s2019.siggraph.org/conference/programs-events/appy-hour/'>SIGGRAPH 2019 Appy Hour</a> program. SIGGRAPH 2019 will take place from 28th July to 1st August in Los Angeles, USA.",
     "icon" : ""
   },
