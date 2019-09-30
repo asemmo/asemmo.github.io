@@ -805,7 +805,7 @@
       } ]
     },
    
-    { "key"       : "srkpstd2019",
+    { "key"       : "ssttpmd2019",
       "featured"  : "false",
       "thesis"    : "false",
       "bibtex"    : "bib/2019-ssttpmd.bib",
