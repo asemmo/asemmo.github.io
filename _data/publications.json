@@ -833,7 +833,17 @@
       "authors"   : [ "Lonni Besançon", "Amir Semmo", "David Biau", "Bruno Frachet", "Virginie Pineau", "El Hadi Sariali", "Marc Soubeyrand", "Rabah Taouachi", "Tobias Isenberg", "Pierre Dragicevic" ],
       "published" : "Computer Graphics Forum",
       "caption"   : "We present the first empirical study on using color manipulation and stylization to make surgery images/videos more palatable. While aversion to such material is natural, it limits many people's ability to satisfy their curiosity, educate themselves, and make informed decisions. We selected a diverse set of image processing techniques to test them both on surgeons and lay people. While color manipulation techniques and many artistic methods were found unusable by surgeons, edge-preserving image smoothing yielded good results both for preserving information (as judged by surgeons) and reducing repulsiveness (as judged by lay people). We then conducted a second set of interview with surgeons to assess whether these methods could also be used on videos and derive good default parameters for information preservation. We provide extensive supplemental material at osf.io/4pfes/.",
-      "thumbnail" : "/img/2020-bsbfpsstid.jpg"
+      "thumbnail" : "/img/2020-bsbfpsstid.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1111/cgf.13886",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://hal.inria.fr/hal-01795744",
+        "desc"    : "Paper (PDF)"
+      },
+      { "href"    : "http://youtu.be/pDHomZ8FEoU",
+        "desc"    : "TEDx Talk by Lonni Besançon"
+      } ]
     },
    
  ]
