@@ -4,7 +4,7 @@ timezone: Europe/Berlin
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://amirsemmo.de" # the base hostname & protocol for your site
 
-title: Computer Graphics Engineer
+title: Computer Graphics Engineer, Researcher and Technical Artist
 author: Amir Semmo
 authortitle: Dr.
 portrait: "/img/amir-semmo-2018.jpg"
