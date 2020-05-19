@@ -2,7 +2,72 @@
 <!-- Page Header -->
 <header class="intro-header">
   <div class="container">
+   
+	<div class="row">
+	  <div class="col-xs-4 col-md-2 form-group">
+	    <img class="img-responsive img-thumbnail center-block" src="{{ site.portrait }}" alt="portrait">
+	  </div>
+	  <div class="col-xs-8 col-md-4 form-group">
+	    <h1>{{ site.authortitle }} {{ site.author }}</h1>
+		<h4>{{ site.title }}</h4>
+		<br>
+		<div class="row">
+		  <div class="col-xs-12 form-group">
+		    <p><strong>E:</strong> {{ site.data.contact.email_text }} (<a href="mailto:{{ site.data.contact.email }}">mailto</a>) | {{ site.data.contact.email2_text }} (<a href="mailto:{{ site.data.contact.email2 }}">mailto</a>)</p>
+			
+			<p><strong>A:</strong> {{ site.data.contact.address }}</p>
+			
+			<p><strong>A:</strong> {{ site.data.contact.address2 }}</p>
+			
+			<p><strong>T:</strong> {{ site.data.contact.phone }}</p>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="col-xs-12 col-md-3 form-group">
+	    <p>{{ site.description }}</p>
+		
+		<p><strong>Current research focus:</strong> {{ site.research_topics }}</p>
 
+	  </div>
+	  
+	  <div class="col-md-3">
+	  
+	    <div class="row">
+		    <div class="col-xs-3 col-md-9 form-group text-right" style="line-height:90%">
+		      <small>Digital Masterpieces GmbH<br>Head of R&D<br>Aug. 2019 - now</small>
+		    </div>
+		    <div class="col-xs-1 col-md-3 form-group">
+		      <img alt="" src="/img/dm.png" width="100%">
+		    </div>
+		    
+	        <div class="col-xs-3 col-md-9 form-group text-right" style="line-height:90%">
+		      <small>Hasso Plattner Institute<br>University of Potsdam, Germany<br>Post-doctoral Researcher<br>Nov. 2016 - now</span></small>
+		    </div>
+		    <div class="col-xs-1 col-md-3 form-group">
+		      <img alt="" src="/img/hpi.png" width="100%">
+		    </div>
+		    
+		    <div class="col-xs-3 col-md-9 form-group text-right" style="line-height:90%">
+		      <small>Nanyang Technological University<br>Singapore<br>Visiting Fellow<br>Feb. 2018 - Apr. 2018</small>
+		    </div>
+		    <div class="col-xs-1 col-md-3 form-group">
+		      <img alt="" src="/img/ntu.png" width="100%">
+		    </div>
+			
+		    <div class="col-xs-3 col-md-9 form-group text-right" style="line-height:90%">
+		      <small>Hasso Plattner Institute<br>University of Potsdam, Germany<br>1997-2008<br>Dr. rer. nat., 2016<br>M. Sc., 2011<br>B. Sc., 2009<br></small>
+		    </div>
+		    <div class="col-xs-1 col-md-3">
+		      <img alt="" src="/img/hpi.png" width="100%">
+		    </div>
+		  
+		</div>
+	  	
+	  </div>
+	</div>
+
+	<!--
     <div class="row portrait">
       <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
         <img class="img-responsive img-thumbnail center-block" src="{{ site.portrait }}" alt="portrait">
@@ -17,6 +82,7 @@
         <p class="lead">{{ site.subheading }}</p>
       </div>
     </div>
+	-->
 
     <noscript>
       <div class="row">

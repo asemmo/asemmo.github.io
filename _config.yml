@@ -7,15 +7,17 @@ url: "http://amirsemmo.de" # the base hostname & protocol for your site
 title: Computer Graphics Engineer, Researcher and Technical Artist
 author: Amir Semmo
 authortitle:
-portrait: "/img/amir-semmo-2018.jpg"
+portrait: "/img/amir-semmo-2018b.jpg"
 
 flickr_user: "131006004@N06"
 flickr_api_key: adb4be93419edab991522b4fa92b7029
 
 description: > # this means to ignore newlines until "baseurl:"
-    Head of R&D at Digital Masterpieces GmbH and post-doctoral researcher in the Computer Graphics Systems group at the Hasso Plattner Institute / University of Potsdam, Germany.
+    My research topics are related to image and video processing, computer vision and GPU computing. I am particularly interested in expressive rendering under the umbrella of interactive casual creativity, and stylization of multi-dimensional image and video data.
 subheading: > # this means to ignore newlines until "baseurl:"
     <span class="text-danger">Head of R&D</span> at <a href="http://www.digitalmasterpieces.com" target="_blank">Digital Masterpieces GmbH</a> and <span class="text-danger">post-doctoral researcher</span> in the Computer Graphics Systems group at the <a href="http://www.hpi.de" target="_blank">Hasso Plattner Institute</a> / <a href="http://www.uni-potsdam.de" target="_blank">University of Potsdam</a>, Germany.<br><br>Specialized in real-time rendering and shading, non-photorealistic rendering, computational aesthetics, image stylization, cartographic design, and geovisualization.
+research_topics: > # this means to ignore newlines until "baseurl:"
+    computational aesthetics, non-photorealistic rendering, image and video abstraction, convolutional neural networks for image stylization
 
 # Handling Reading
 safe: true

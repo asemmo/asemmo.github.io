@@ -1,8 +1,11 @@
 { "email" : "amir.semmo@digitalmasterpieces.com",
+  "email_text" : "amir.semmo (at) digitalmasterpieces.com",
   "email2" : "amir.semmo@hpi.de",
-  "phone" : "(+49) 0331 5509 3909",
+  "email2_text" : "amir.semmo (at) hpi.de",
+  "phone" : "+49 (0)30 34408 1778",
   "fax" : "(+49) 0331 5509 172",
-  "address" : "Hasso-Plattner-Institut<br>Prof.-Dr.-Helmert-Strasse 2-3<br>14482 Potsdam, Germany<br><br>Room H-2.26",
+  "address" : "<a href='https://www.digitalmasterpieces.com'>Digital Masterpieces GmbH</a>, August-Bebel-Str. 26-53, 14482 Potsdam, Germany",
+  "address2" : "<a href='https://www.hpi3d.de'>Hasso-Plattner-Institut</a>, Prof.-Dr.-Helmert-Str. 2-3, 14482 Potsdam, Germany",
   "work_handle" : "asemmo",
   "work_handle_info" : "GitHub, Bitbucket, ..."
 }
