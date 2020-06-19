@@ -1,4 +1,8 @@
-[ { "date" : "2019-12-01 00:00:00",
+[ { "date" : "2020-06-19 00:00:00",
+    "text" : "Our submission &ldquo;Graphite: Interactive Photo-to-Drawing Stylization on Mobile Devices&rdquo; has been accepted to the <a class='urllink' href='https://s2020.siggraph.org/conference/program-events/appy-hour/'>SIGGRAPH 2020 Appy Hour</a> program. SIGGRAPH 2020 will take place in August as a virtual event.",
+    "icon" : ""
+  },
+  { "date" : "2019-12-01 00:00:00",
     "text" : "<a class='urllink' href='http://lonnibesancon.me' rel='nofollow'>Lonni Besançon</a> gave a <a class='urllink' href='http://youtu.be/pDHomZ8FEoU' rel='nofollow'>TEDx talk</a> on our work on &ldquo;Reducing Affective Responses to Surgical Images and Videos through Stylization&rdquo;.",
     "icon" : ""
   },
