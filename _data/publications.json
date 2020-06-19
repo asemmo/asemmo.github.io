@@ -846,4 +846,20 @@
       } ]
     },
    
+    { "key"       : "sp2020",
+      "featured"  : "true",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2020-sp.bib",
+      "title"     : "Graphite: Interactive Photo-to-Drawing Stylization on Mobile Devices",
+      "date"      : "2019-05-01",
+      "authors"   : [ "Amir Semmo", "Sebastian Pasewaldt" ],
+      "published" : "ACM SIGGRAPH Appy Hour",
+      "caption"   : "We present Graphite, an iOS mobile app that enables users to transform photos into drawings and illustrations with ease. Graphite implements a novel flow-aligned rendering approach that is based on the analysis of local image-feature directions. A stroke-based image stylization pipeline is parameterized to compute realistic directional hatching and contouring effects in real-time. Its art-direction enables users to selectively and locally fine-tune design mechanisms and variables—such as the level of detail, stroke granularity, degree of smudging, and sketchiness—using the Apple Pencil or touch gestures. In this respect, the looks of manifold artistic media can be simulated, including pencil, pen-and-ink, pastel, and blueprint illustrations. Graphite is based on Apple's CoreML, Metal and PhotoKit APIs for optimized on-device processing. Thus, interactive editing can be performed in real-time by utilizing the dedicated Neural Engine and GPU. Providing an in-app printing service, Graphite serves as a unique tool for creating personalized prints of the user's own digital artworks.",
+      "thumbnail" : "/img/2020-sp.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/3388529.3407306",
+        "desc"    : "DOI"
+      } ]
+    },
+   
  ]
