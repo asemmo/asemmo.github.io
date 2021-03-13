@@ -862,28 +862,28 @@
       } ]
     },
    
-    { "key"       : "srmtspd2021",
+    { "key"       : "rwpstd2021",
       "featured"  : "false",
       "thesis"    : "false",
-      "bibtex"    : "bib/2021-srmtspd.bib",
+      "bibtex"    : "bib/2021-rwpstd.bib",
       "title"     : "Teaching Data-driven Video Processing via Crowdsourced Data Collection",
       "date"      : "2021-02-06",
       "authors"   : [ "Max Reimann", "Ole Wegen", "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
       "published" : "Eurographics Education Papers",
       "caption"   : "This paper presents the concept and experience of teaching an undergraduate course on data-driven image and video processing. When designing visual effects that make use of Machine Learning (ML) models for image-based analysis or processing, the availability of training data typically represents a key limitation when it comes to feasibility and effect quality. The goal of our course is to enable students to implement new kinds of visual effects by acquiring datasets via crowdsourcing that are used to train ML models as part of an video processing pipeline. First, we propose our course structure and best practices that are involved with crowdsourced data acquisitions. We then discuss the key insights we gathered from an exceptional undergraduate seminar project that tackles the challenging domain of video annotation and learning. In particular, we focus on how to practically develop annotation tools and collect high-quality datasets using Amazon Mechanical Turk (MTurk) in the budget- and time-constrained classroom environment. We observe that implementing the full acquisition and learning pipeline is entirely feasible for a seminar project, imparts hands-on problem solving skills, and promotes undergraduate research.",
-      "thumbnail" : "/img/2021-srmtspd.jpg"
+      "thumbnail" : "/img/2021-rwpstd.jpg"
     },
    
-    { "key"       : "rwpstd2021",
+    { "key"       : "srmtspd2021",
       "featured"  : "false",
       "thesis"    : "false",
-      "bibtex"    : "bib/2021-rwpstd.bib",
+      "bibtex"    : "bib/2021-srmtspd.bib",
       "title"     : "Interactive Photo Editing on Smartphones via Intrinsic Decomposition",
       "date"      : "2021-02-26",
       "authors"   : [ "Sumit Shekhar", "Maximilian Mayer", "Matthias Trapp", "Amir Semmo", "Sebastian Pasewaldt", "Jürgen Döllner" ],
       "published" : "Computer Graphics Forum (Proceedings Eurographics)",
       "caption"   : "Intrinsic decomposition refers to the problem of estimating scene characteristics, such as albedo and shading, when one view or multiple views of a scene are provided. The inverse problem setting, where multiple unknowns are solved given a single known pixel-value, is highly under-constrained. When provided with correlating image and depth data, intrinsic scene decomposition can be facilitated using depth-based priors, which nowadays is easy to acquire with high-end smartphones by utilizing their depth sensors. In this work, we present a system for intrinsic decomposition of RGB-D images on smartphones and the algorithmic as well as design choices therein. Unlike state-of-the-art methods that assume only diffuse reflectance, we consider both diffuse and specular pixels. For this purpose, we present a novel specularity extraction algorithm based on a multi-scale intensity decomposition and chroma inpainting. At this, the diffuse component is further decomposed into albedo and shading components. We use an inertial proximal algorithm for non-convex optimization (iPiano) to ensure albedo sparsity. Our GPU- based visual processing is implemented on iOS via the Metal API and enables interactive performance on an iPhone 11 Pro. Further, a qualitative evaluation shows that we are able to obtain high-quality outputs. Furthermore, our proposed approach for specularity removal outperforms state-of-the-art approaches for real-world images, while our albedo and shading layer decomposition is faster than the prior work at a comparable output quality. Manifold applications such as recoloring, retexturing, relighting, appearance editing, and stylization are shown, each using the intrinsic layers obtained with our method and/or the corresponding depth data.",
-      "thumbnail" : "/img/2021-rwpstd.jpg"
+      "thumbnail" : "/img/2021-srmtspd.jpg"
     },
    
  ]
