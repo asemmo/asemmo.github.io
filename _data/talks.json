@@ -1,4 +1,8 @@
-[ { "date"      : "2018-10-03 00:00:00",
+[ { "date"      : "2020-08-26 00:00:00",
+    "title"     : "Graphite: Interactive Photo-to-Drawing Stylization on Mobile Devices",
+    "location"  : "SIGGRAPH (Appy Hour), Virtual Event"
+  },
+  { "date"      : "2018-10-03 00:00:00",
     "title"     : "MaeSTrO: A Mobile App for Style Transfer Orchestration using Neural Networks",
     "location"  : "Cyberworlds 2018, Singapore"
   },
