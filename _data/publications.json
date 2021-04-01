@@ -819,6 +819,9 @@
       { "href"    : "http://dx.doi.org/10.2312/vmv.20191326",
         "desc"    : "DOI"
       },
+      { "href"    : "https://mdvmp.hpi3d.de/cfvl",
+        "desc"    : "Project Page"
+      },
       { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/335692559_Consistent_Filtering_of_Videos_and_Dense_Light-Fields_Without_Optic-Flow/links/5d91cc7b299bf10cff1a2006/Consistent-Filtering-of-Videos-and-Dense-Light-Fields-Without-Optic-Flow.pdf?ev=pub_int_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       } ]
@@ -883,7 +886,20 @@
       "authors"   : [ "Sumit Shekhar", "Max Reimann", "Maximilian Mayer", "Amir Semmo", "Sebastian Pasewaldt", "Jürgen Döllner", "Matthias Trapp" ],
       "published" : "Computer Graphics Forum (Proceedings Eurographics)",
       "caption"   : "Intrinsic decomposition refers to the problem of estimating scene characteristics, such as albedo and shading, when one view or multiple views of a scene are provided. The inverse problem setting, where multiple unknowns are solved given a single known pixel-value, is highly under-constrained. When provided with correlating image and depth data, intrinsic scene decomposition can be facilitated using depth-based priors, which nowadays is easy to acquire with high-end smartphones by utilizing their depth sensors. In this work, we present a system for intrinsic decomposition of RGB-D images on smartphones and the algorithmic as well as design choices therein. Unlike state-of-the-art methods that assume only diffuse reflectance, we consider both diffuse and specular pixels. For this purpose, we present a novel specularity extraction algorithm based on a multi-scale intensity decomposition and chroma inpainting. At this, the diffuse component is further decomposed into albedo and shading components. We use an inertial proximal algorithm for non-convex optimization (iPiano) to ensure albedo sparsity. Our GPU-based visual processing is implemented on iOS via the Metal API and enables interactive performance on an iPhone 11 Pro. Further, a qualitative evaluation shows that we are able to obtain high-quality outputs. Furthermore, our proposed approach for specularity removal outperforms state-of-the-art approaches for real-world images, while our albedo and shading layer decomposition is faster than the prior work at a comparable output quality. Manifold applications such as recoloring, retexturing, relighting, appearance editing, and stylization are shown, each using the intrinsic layers obtained with our method and/or the corresponding depth data.",
-      "thumbnail" : "/img/2021-srmtspd.jpg"
+      "thumbnail" : "/img/2021-srmtspd.jpg",
+      "downloads" : [
+      { "href"    : "https://mdvmp.hpi3d.de/ipesid",
+        "desc"    : "Project Page"
+      },
+      { "href"    : "https://mdvmp.hpi3d.de/ipesid/other/ipesid_eg2021_main.pdf",
+        "desc"    : "Paper - HQ (PDF)"
+      },
+      { "href"    : "https://mdvmp.hpi3d.de/ipesid/other/ipesid_eg2021_main_compressed.pdf",
+        "desc"    : "Paper - Optimized (PDF)"
+      },
+      { "href"    : "https://mdvmp.hpi3d.de/ipesid/other/ipesid_eg2021_sup.pdf",
+        "desc"    : "Supplemental Material (PDF)"
+      } ]
     },
    
  ]
