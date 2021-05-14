@@ -1,8 +1,8 @@
-[ { "date" : "2020-05-10 00:00:00",
+[ { "date" : "2021-05-10 00:00:00",
     "text" : "Our paper &ldquo;Service-based Analysis and Abstraction for Content Moderation of Digital Images&rdquo; has been accepted to <a class='urllink' href='https://graphicsinterface.org/conference/2021/'>Graphics Interface 2021</a>. GI 2021 will take place in May as a virtual event.",
     "icon" : ""
   },
-  { "date" : "2020-05-07 00:00:00",
+  { "date" : "2021-05-07 00:00:00",
     "text" : "Our submission &ldquo;MotionViz: Artistic Visualization of Human Motion on Mobile Devices&rdquo; has been accepted to the <a class='urllink' href='https://s2021.siggraph.org/conference/program-events/appy-hour/'>SIGGRAPH 2021 Appy Hour</a> program. SIGGRAPH 2021 will take place in August as a virtual event.",
     "icon" : ""
   },
