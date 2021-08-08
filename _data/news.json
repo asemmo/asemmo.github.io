@@ -1,4 +1,8 @@
 [ { "date" : "2021-05-10 00:00:00",
+    "text" : "We updated our mobile iOS app Graphite to version 1.4. Learn more about the new features in this video: <a class='urllink' href='https://www.youtube.com/watch?v=p8AJIVQwZtA'>Graphite 1.4 Showreel @ YouTube</a>. Graphite is available from the <a class='urllink' href='https://apple.co/Graphite'>Graphite @ App Store</a>",
+    "icon" : ""
+  },
+  { "date" : "2021-05-10 00:00:00",
     "text" : "Our paper &ldquo;Service-based Analysis and Abstraction for Content Moderation of Digital Images&rdquo; has been accepted to <a class='urllink' href='https://graphicsinterface.org/conference/2021/'>Graphics Interface 2021</a>. GI 2021 will take place in May as a virtual event.",
     "icon" : ""
   },
