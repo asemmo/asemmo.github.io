@@ -902,4 +902,20 @@
       } ]
     },
    
+    { "key"       : "mtpkdts2021",
+      "featured"  : "true",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2021-mtpkdts.bib",
+      "title"     : "MotionViz: Artistic Visualization of Human Motion on Mobile Devices",
+      "date"      : "2021-08-01",
+      "authors"   : [ "Maximilian Mayer", "Philipp Trenz", "Sebastian Pasewaldt", "Mandy Klingbeil", "Jürgen Döllner", "Matthias Trapp", "Amir Semmo" ],
+      "published" : "ACM SIGGRAPH Appy Hour",
+      "caption"   : "We present MotionViz, an interactive iOS mobile app that enables users to amplify motion and dynamics in videos. MotionViz implements novel augmented reality and expressive rendering techniques in an end-to-end processing pipeline: multi-dimensional video data is captured, analyzed, and processed to render animated graphical elements that help express figures and actions. Through an easy-to-use graphical user interface, users can choose from a curated list of artistic motion visualization effects, including the overlay of animated silhouettes, halos, and contour lines. MotionViz is based on Apple’s LiDAR technology, accelerated image processing APIs, and dedicated Neural Engine for real-time on-device processing.",
+      "thumbnail" : "/img/2021-mtpkdts.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/3450415.3464398",
+        "desc"    : "DOI"
+      } ]
+    }
+   
  ]
