@@ -935,6 +935,25 @@
       { "href"    : "10.1109/CW52790.2021.00009",
         "desc"    : "DOI"
       } ]
+    },
+   
+    { "key"       : "htrsbdt2021",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2021-htrsbdt.bib",
+      "title"     : "Service-based Analysis and Abstraction for Content Moderation of Digital Images",
+      "date"      : "2021-05-12",
+      "authors"   : [ "Moritz Hilscher", "Hendrik Tjabben", "Hendrik Rätz", "Amir Semmo", "Lonni Besançon", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "Graphics Interface",
+      "caption"   : "This paper presents a service-based approach towards content moderation of digital visual media while browsing web pages. It enables the automatic analysis and classification of possibly offensive content, such as images of violence, nudity, or surgery, and applies common image abstraction techniques at different levels of abstraction to these to lower their affective impact. The system is implemented using a microservice architecture that is accessible via a browser extension, which can be installed in most modern web browsers. It can be used to facilitate content moderation of digital visual media such as digital images or to enable parental control for child protection.",
+      "thumbnail" : "/img/2021-htrsbdt.jpg",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Matthias-Trapp-2/publication/352021111_Service-based_Analysis_and_Abstraction_for_Content_Moderation_of_Digital_Images/links/60b6253ba6fdcc476bdb77e5/Service-based-Analysis-and-Abstraction-for-Content-Moderation-of-Digital-Images.pdf?ev=pub_int_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      },
+      { "href"    : "https://openreview.net/forum?id=4j3avB-mrk",
+        "desc"    : "URL (OpenReview)"
+      } ]
     }
    
  ]
