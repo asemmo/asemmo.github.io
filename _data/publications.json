@@ -922,6 +922,9 @@
       "downloads" : [
       { "href"    : "http://dx.doi.org/10.1145/3450415.3464398",
         "desc"    : "DOI"
+      },
+      { "href"    : "https://youtu.be/Zs6mCRCCQg0",
+        "desc"    : "Video (YouTube)"
       } ]
     },
    
@@ -955,12 +958,31 @@
       "caption"   : "This paper presents a service-based approach towards content moderation of digital visual media while browsing web pages. It enables the automatic analysis and classification of possibly offensive content, such as images of violence, nudity, or surgery, and applies common image abstraction techniques at different levels of abstraction to these to lower their affective impact. The system is implemented using a microservice architecture that is accessible via a browser extension, which can be installed in most modern web browsers. It can be used to facilitate content moderation of digital visual media such as digital images or to enable parental control for child protection.",
       "thumbnail" : "/img/2021-htrsbdt.jpg",
       "downloads" : [
+      { "href"    : "http://dx.doi.org/10.20380/GI2021.03",
+        "desc"    : "DOI"
+      },    
       { "href"    : "http://www.researchgate.net/profile/Matthias-Trapp-2/publication/352021111_Service-based_Analysis_and_Abstraction_for_Content_Moderation_of_Digital_Images/links/60b6253ba6fdcc476bdb77e5/Service-based-Analysis-and-Abstraction-for-Content-Moderation-of-Digital-Images.pdf?ev=pub_int_doc_dl&origin=publication_detail",
         "desc"    : "Paper (PDF)"
       },
       { "href"    : "https://openreview.net/forum?id=4j3avB-mrk",
         "desc"    : "URL (OpenReview)"
       } ]
-    }
+    },
+   
+    { "key"       : "isdt2022",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2022-isdt.bib",
+      "title"     : "Design Space of Geometry-based Image Abstraction Techniques with Vectorization Applications",
+      "date"      : "2022-05-01",
+      "authors"   : [ "Lisa Ihde", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "International Conference on Computer Graphics, Visualization and Computer Vision (WSCG)",
+      "caption"   : "The paper presents a new approach of optimized vectorization to generate stylized artifacts such as drawings with a plotter or cutouts with a laser cutter. For this, we developed a methodology for transformations between raster and vector space. More over, we identify semiotic aspects of Geometry-based Stylization Techniques (GSTs) and the combination with raster-based stylization techniques. Therefore, the system enables also Fused Stylization Techniques (FSTs).",
+      "thumbnail" : "/img/2022-isdt.jpg",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Matthias-Trapp-2/publication/361183341_Design_Space_of_Geometry-based_Image_Abstraction_Techniques_with_Vectorization_Applications/links/62a1a6d66886635d5ccbb832/Design-Space-of-Geometry-based-Image-Abstraction-Techniques-with-Vectorization-Applications.pdf?ev=pub_int_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"       
+      } ]
+    },
    
  ]
