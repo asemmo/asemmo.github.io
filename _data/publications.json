@@ -995,6 +995,44 @@
       "published" : "European Conference on Computer Vision (ECCV)",
       "caption"   : "Image-based artistic rendering can synthesize a variety of expressive styles using algorithmic image filtering. In contrast to deep learning-based methods, these heuristics-based filtering techniques can operate on high-resolution images, are interpretable, and can be parameterized according to various design aspects. However, adapting or extending these techniques to produce new styles is often a tedious and error-prone task that requires expert knowledge. We propose a new paradigm to alleviate this problem: implementing algorithmic image filtering techniques as differentiable operations that can learn parametrizations aligned to certain reference styles. To this end, we present WISE, an example-based image-processing system that can handle a multitude of stylization techniques, such as watercolor, oil, or cartoon stylization, within a common framework. By training parameter prediction networks for global and local filter parameterizations, we can simultaneously adapt effects to reference styles and image content, e.g., to enhance facial features. Our method can be optimized in a style-transfer framework or learned in a generative-adversarial setting for image-to-image translation. We demonstrate that jointly training an xDoG filter and a CNN for postprocessing can achieve comparable results to a state-of-the-art GAN-based method.",
       "thumbnail" : "/img/2022-lrbsdt.jpg"
-    }
+    },
+   
+    { "key"       : "rbsdt2022",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2022-rbsdt.bib",
+      "title"     : "Controlling Strokes in Fast Neural Style Transfer using Content Transforms",
+      "date"      : "2022-06-08",
+      "authors"   : [ "Max Reimann", "Benito Buchheim", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "The Visual Computer",
+      "caption"   : "Fast style transfer methods have recently gained popularity in art-related applications as they make a generalized real-time stylization of images practicable. However, they are mostly limited to one-shot stylizations concerning the interactive adjustment of style elements. In particular, the expressive control over stroke sizes or stroke orientations remains an open challenge. To this end, we propose a novel stroke-adjustable fast style transfer network that enables simultaneous control over the stroke size and intensity, and allows a wider range of expressive editing than current approaches by utilizing the scale-variance of convolutional neural networks. Furthermore, we introduce a network-agnostic approach for style-element editing by applying reversible input transformations that can adjust strokes in the stylized output. At this, stroke orientations can be adjusted, and warping-based effects can be applied to stylistic elements, such as swirls or waves. To demonstrate the real-world applicability of our approach, we present StyleTune, a mobile app for interactive editing of neural style transfers at multiple levels of control. Our app allows stroke adjustments on a global and local level. It furthermore implements an on-device patch-based upsampling step that enables users to achieve results with high output fidelity and resolutions of more than 20 megapixels. Our approach allows users to art-direct their creations and achieve results that are not possible with current style transfer applications.",
+      "thumbnail" : "/img/2022-rbsdt.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1007/s00371-022-02518-x",
+        "desc"    : "DOI"
+      },
+      { "href"    : "https://link.springer.com/content/pdf/10.1007/s00371-022-02518-x.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+    },
+   
+    { "key"       : "bessdt2022",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2022-bessdt.bib",
+      "title"     : "CERVI: Collaborative Editing of Raster and Vector Images",
+      "date"      : "2022-06-23",
+      "authors"   : [ "Ulrike Bath", "Julian Egbert", "Julian Schmidt", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "The Visual Computer",
+      "caption"   : "Various web-based image-editing tools and web-based collaborative tools exist in isolation. Research focusing to bridge the gap between these two domains is sparse. We respond to the above and develop prototype groupware for real-time collaborative editing of raster and vector images in a web browser. To better understand the requirements, we conduct a preliminary user study and establish communication and synchronization as key elements. The existing groupware for text documents or presentations handles the above through well-established techniques. However, those cannot be extended as it is for raster or vector graphics manipulation. To this end, we develop a document model that is maintained by a server and is delivered and synchronized to multiple clients. Our prototypical implementation is based on a scalable client–server architecture: using WebGL for interactive browser-based rendering and WebSocket connections to maintain synchronization. We evaluate our work qualitatively through a post-deployment user study for three different scenarios. For quantitative evaluation, we perform a thorough performance measure on both client and server side, thereby identifying design recommendations for future concurrent image-editing software(s).",
+      "thumbnail" : "/img/2022-bessdt.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1007/s00371-022-02522-1",
+        "desc"    : "DOI"
+      },
+      { "href"    : "https://link.springer.com/content/pdf/10.1007/s00371-022-02522-1.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+    },
    
  ]
