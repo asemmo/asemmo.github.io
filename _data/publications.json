@@ -1052,6 +1052,22 @@
       { "href"    : "https://link.springer.com/content/pdf/10.1007/s41095-021-0255-3.pdf",
         "desc"    : "Paper (PDF)"
       } ]
-    }
+    },
+   
+    { "key"       : "bstspdt2022",
+      "featured"  : "true",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2022-bstspdt.bib",
+      "title"     : "MotionViz: Artistic Visualization of Human Motion on Mobile Devices",
+      "date"      : "2022-08-01",
+      "authors"   : [ "Ulrike Bath", "Sumit Shekhar", "Hendrik Tjabben", "Amir Semmo", "Sebastian Pasewaldt", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "ACM SIGGRAPH Appy Hour",
+      "caption"   : "3D photography has emerged as a medium that provides an immersive dimension to 2D photos. We present Trios, an interactive mobile app that combines the vividness of image-based artistic rendering with 3D photos by implementing an end-to-end pipeline for their generation and stylization. Trios uses Apple’s accelerated image-processing APIs and dedicated Neural Engine for depth-generation and learning-based artistic rendering. The pipeline runs at interactive frame rates and outputs a compact video, which can easily be shared. Thus, it serves as a unique interactive tool for digital artists interested in creating immersive artistic content.",
+      "thumbnail" : "/img/2022-bstspdt.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/3532723.3535467",
+        "desc"    : "DOI"
+      } ]
+    },
    
  ]
