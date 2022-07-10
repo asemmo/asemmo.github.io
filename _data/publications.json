@@ -1058,7 +1058,7 @@
       "featured"  : "true",
       "thesis"    : "false",
       "bibtex"    : "bib/2022-bstspdt.bib",
-      "title"     : "MotionViz: Artistic Visualization of Human Motion on Mobile Devices",
+      "title"     : "Trios: Stylistic Rendering of 3D Photos",
       "date"      : "2022-08-01",
       "authors"   : [ "Ulrike Bath", "Sumit Shekhar", "Hendrik Tjabben", "Amir Semmo", "Sebastian Pasewaldt", "Jürgen Döllner", "Matthias Trapp" ],
       "published" : "ACM SIGGRAPH Appy Hour",
