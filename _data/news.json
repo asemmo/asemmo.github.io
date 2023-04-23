@@ -1,4 +1,8 @@
-[ { "date" : "2021-09-30 00:00:00",
+[ { "date" : "2022-11-01 00:00:00",
+    "text" : "We updated our mobile iOS apps Oilbrush and Waterbrush with their updated Rendering Core. Learn more about the new features in this blog post: <a class='urllink' href='https://digitalmasterpieces.com/2022/08/26/ournewrenderingcore/'>Our New Rendering Core</a>. Both apps are available from the <a class='urllink' href='https://apps.apple.com/developer/digital-masterpieces-gmbh/id874345609'>App Store</a>",
+    "icon" : ""
+  },
+  { "date" : "2021-09-30 00:00:00",
     "text" : "We are very honored to receive the Best Paper award for &ldquo;Interactive Multi-level Stroke Control for Neural Style Transfer&rdquo; at <a class='urllink' href='https://cyberworlds2021.sciencesconf.org' rel='nofollow'>Cyberworlds 2021</a>.",
     "icon" : "<img src='/img/award.png'>"
   },
