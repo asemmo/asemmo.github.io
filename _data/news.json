@@ -1,4 +1,8 @@
-[ { "date" : "2022-11-01 00:00:00",
+[ { "date" : "2023-06-12 00:00:00",
+    "text" : "Our paper &ldquo;Interactive Control over Temporal Consistency while Stylizing Video Streams&rdquo; has been accepted to the <a class='urllink' href='https://conferences.eg.org/egsr2023/'>Eurographics Symposium on Rendering</a> and will be published in a special issue of Computer Graphics Forum. The code is available from <a class='urllink' href='https://maxreimann.github.io/stream-consistency/'>here</a> EGSR 2023 will take place from 28th of June to 30th of June in Delft, Netherlands.",
+    "icon" : ""
+  },
+  { "date" : "2022-11-01 00:00:00",
     "text" : "We updated our mobile iOS apps Oilbrush and Waterbrush with a new Rendering Core. Learn more about the new features in this blog post: <a class='urllink' href='https://digitalmasterpieces.com/2022/08/26/ournewrenderingcore/'>Our New Rendering Core</a>. Both apps are available from the <a class='urllink' href='https://apps.apple.com/developer/digital-masterpieces-gmbh/id874345609'>App Store</a>.",
     "icon" : ""
   },
