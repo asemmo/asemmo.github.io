@@ -1,9 +1,13 @@
 [ { "date" : "2023-06-12 00:00:00",
-    "text" : "Our paper &ldquo;Interactive Control over Temporal Consistency while Stylizing Video Streams&rdquo; has been accepted to the <a class='urllink' href='https://conferences.eg.org/egsr2023/'>Eurographics Symposium on Rendering</a> and will be published in a special issue of Computer Graphics Forum. The code is available from <a class='urllink' href='https://maxreimann.github.io/stream-consistency/'>here</a> EGSR 2023 will take place from 28th of June to 30th of June in Delft, Netherlands.",
+    "text" : "Our paper &ldquo;Interactive Control over Temporal Consistency while Stylizing Video Streams&rdquo; has been accepted to the <a class='urllink' href='https://conferences.eg.org/egsr2023/'>Eurographics Symposium on Rendering</a> and will be published in a special issue of Computer Graphics Forum. The code is available from <a class='urllink' href='https://maxreimann.github.io/stream-consistency/'>here</a>. EGSR 2023 will take place from 28th of June to 30th of June in Delft, Netherlands.",
     "icon" : ""
   },
   { "date" : "2022-11-01 00:00:00",
     "text" : "We updated our mobile iOS apps Oilbrush and Waterbrush with a new Rendering Core. Learn more about the new features in this blog post: <a class='urllink' href='https://digitalmasterpieces.com/2022/08/26/ournewrenderingcore/'>Our New Rendering Core</a>. Both apps are available from the <a class='urllink' href='https://apps.apple.com/developer/digital-masterpieces-gmbh/id874345609'>App Store</a>.",
+    "icon" : ""
+  },
+  { "date" : "2022-10-17 00:00:00",
+    "text" : "Our paper &ldquo;WISE: Whitebox Image Stylization by Example-based Learning&rdquo; has been accepted to the <a class='urllink' href='https://eccv2022.ecva.net'>European Conference for Computer Vision</a>. The code is available from <a class='urllink' href='https://github.com/winfried-ripken/wise'>here</a>. ECCV 2022 will take place from 23rd of October to 27th of October in Tel Aviv.",
     "icon" : ""
   },
   { "date" : "2021-09-30 00:00:00",
