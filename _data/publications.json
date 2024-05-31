@@ -1109,7 +1109,7 @@
       "title"     : "Art-directable Stroke-based Rendering on Mobile Devices",
       "date"      : "2023-09-27",
       "authors"   : [ "Ronja Wagner", "Sebastian Schulz", "Max Reimann", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
-      "published" : "Proceedings International Conference on Cyberworlds",
+      "published" : "Proceedings Vision, Modeling, and Visualization (VMV)",
       "caption"   : "This paper introduces an art-directable stroke-based rendering technique for transforming photos into painterly renditions on mobile devices. Unlike previous approaches that rely on time-consuming iterative computations and explicit brush-stroke geometry, our method offers a interactive image-based implementation tailored to the capabilities of modern mobile devices. The technique places curved brush strokes in multiple passes, leveraging a texture bombing algorithm. To maintain and highlight essential details for stylization, we incorporate additional information such as image salience, depth, and facial landmarks as parameters. Our technique enables a user to control and manipulate using a wide range of parameters and masks during editing to adjust and refine the stylized image. The result is an interactive painterly stylization tool that supports high-resolution input images, providing users with an immersive and engaging artistic experience on their mobile devices.",
       "thumbnail" : "/img/2023-wsrsdt.jpg",
       "downloads" : [
