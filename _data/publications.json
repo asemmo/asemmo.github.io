@@ -1086,6 +1086,54 @@
       } ]
     },
 
+    { "key"       : "brbsdt2023",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2023-brbsdt.bib",
+      "title"     : "Controlling Geometric Abstraction and Texture for Artistic Images",
+      "date"      : "2023-10-03",
+      "authors"   : [ "Martin Büßemeyer", "Max Reimann", "Benito Buchheim", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "Proceedings International Conference on Cyberworlds",
+      "caption"   : "We present a novel method for the interactive control of geometric abstraction and texture in artistic images. Previous example-based stylization methods often entangle shape, texture, and color, while generative methods for image synthesis generally either make assumptions about the input image, such as only allowing faces or do not offer precise editing controls. By contrast, our holistic approach spatially decomposes the input into shapes and a parametric representation of high-frequency details comprising the image’s texture, thus enabling independent control of color and texture. Each parameter in this representation controls painterly attributes of a pipeline of differentiable stylization filters. The proposed decoupling of shape and texture enables various options for stylistic editing, including interactive global and local adjustments of shape, stroke, and painterly attributes such as surface relief and contours. Additionally, we demonstrate optimization-based texture style-transfer in the parametric space using reference images and text prompts, as well as the training of single- and arbitrary style parameter prediction networks for real-time texture decomposition.",
+      "thumbnail" : "/img/2023-brbsdt.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1109/CW58918.2023.00011",
+        "desc"    : "DOI"
+      } ]
+    },
+
+    { "key"       : "wsrsdt2023",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2023-wsrsdt.bib",
+      "title"     : "Art-directable Stroke-based Rendering on Mobile Devices",
+      "date"      : "2023-09-27",
+      "authors"   : [ "Ronja Wagner", "Sebastian Schulz", "Max Reimann", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "Proceedings International Conference on Cyberworlds",
+      "caption"   : "This paper introduces an art-directable stroke-based rendering technique for transforming photos into painterly renditions on mobile devices. Unlike previous approaches that rely on time-consuming iterative computations and explicit brush-stroke geometry, our method offers a interactive image-based implementation tailored to the capabilities of modern mobile devices. The technique places curved brush strokes in multiple passes, leveraging a texture bombing algorithm. To maintain and highlight essential details for stylization, we incorporate additional information such as image salience, depth, and facial landmarks as parameters. Our technique enables a user to control and manipulate using a wide range of parameters and masks during editing to adjust and refine the stylized image. The result is an interactive painterly stylization tool that supports high-resolution input images, providing users with an immersive and engaging artistic experience on their mobile devices.",
+      "thumbnail" : "/img/2023-wsrsdt.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.2312/vmv.20231240",
+        "desc"    : "DOI"
+      } ]
+    },
+
+    { "key"       : "srwsdt2023",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2023-srwsdt.bib",
+      "title"     : "ALIVE: Adaptive Chromaticity for Interactive Low-light Image and Video Enhancement",
+      "date"      : "2023-05-15",
+      "authors"   : [ "Sumit Shekhar", "Max Reimann", "Jobin Wattasseril", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "International Conference on Computer Graphics, Visualization and Computer Vision (WSCG)",
+      "caption"   : "Image acquisition in low-light conditions suffers from poor quality and significant degradation in visual aesthetics. This affects the visual perception of the acquired image and the performance of computer vision and image pro- cessing algorithms applied after acquisition. Especially for videos, the additional temporal domain makes it more challenging, wherein quality is required to be preserved in a temporally coherent manner. We present a simple yet effective approach for low-light image and video enhancement. To this end, we introduce Adaptive Chromaticity, which refers to an adaptive computation of image chromaticity. The above adaptivity avoids the costly step of low-light image decomposition into illumination and reflectance, employed by many existing techniques. Subse- quently, we achieve interactive performance, even for high resolution images. Moreover, all stages in our method consists of only point-based operations and high-pass or low-pass filtering, thereby ensuring that the amount of temporal incoherence is negligible when applied on a per-frame basis for videos. Our results on standard low-light image datasets show the efficacy of our method and its qualitative and quantitative superiority over several state- of-the-art approaches. We perform a user study to demonstrate the preference for our method in comparison to state-of-the-art approaches for videos captured in the wild.",
+      "thumbnail" : "/img/2023-srwsdt.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.24132/JWSCG.2023.2",
+        "desc"    : "DOI"
+      } ]
+    },
+
     { "key"       : "srhsdt2023",
       "featured"  : "false",
       "thesis"    : "false",
