@@ -1161,5 +1161,21 @@
         "desc"    : "Code (GitHub)"
       } ]
     },
+
+    { "key"       : "rbbsdt2024",
+      "featured"  : "false",
+      "thesis"    : "false",
+      "bibtex"    : "bib/2024-rbbsdt.bib",
+      "title"     : "Artistic style decomposition for texture and shape editing",
+      "date"      : "2024-07-01",
+      "authors"   : [ "Max Reimann", "Martin Büßemeyer", "Benito Buchheim", "Amir Semmo", "Jürgen Döllner", "Matthias Trapp" ],
+      "published" : "The Visual Computer",
+      "caption"   : "While methods for generative image synthesis and example-based stylization produce impressive results, their black-box style representation intertwines shape, texture, and color aspects, limiting precise stylistic control and editing of artistic images. We introduce a novel method for decomposing the style of an artistic image that enables interactive geometric shape abstraction and texture control. We spatially decompose the input image into geometric shapes and an overlaying parametric texture representation, facilitating independent manipulation of color and texture. The parameters in this texture representation, comprising the image’s high-frequency details, control painterly attributes in a series of differentiable stylization filters. Shape decomposition is achieved using either segmentation or stroke-based neural rendering techniques. We demonstrate that our shape and texture decoupling enables diverse stylistic edits, including adjustments in shape, stroke, and painterly attributes such as contours and surface relief. Moreover, we demonstrate shape and texture style transfer in the parametric space using both reference images and text prompts and accelerate these by training networks for single- and arbitrary-style parameter prediction.",
+      "thumbnail" : "/img/2024-rbbsdt.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1007/s00371-024-03521-0",
+        "desc"    : "DOI"
+      } ]
+    },
    
  ]
