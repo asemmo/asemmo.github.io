@@ -17,7 +17,15 @@
   { "date" : "2024-01-22 00:00:00",
     "text" : "We introduced Custom Styles across the BeCasso app family. Create, fine-tune, and save parametric style presets, synchronized across all devices. <a class='urllink' href='https://digitalmasterpieces.com/2024/01/22/craft-your-unique-vision-introducing-custom-styles/'>Learn more</a>.",
     "icon" : ""
-  }, 
+  },
+  { "date" : "2024-07-01 00:00:00",
+    "text" : "Our extended paper &ldquo;Artistic Style Decomposition for Texture and Shape Editing&rdquo; has been published in a special issue of <a class='urllink' href='https://link.springer.com/article/10.1007/s00371-024-03521-0'>The Visual Computer</a>.",
+    "icon" : ""
+  },
+  { "date" : "2023-10-03 00:00:00",
+    "text" : "We are very honored to receive the Best Paper Award for &ldquo;Controlling Geometric Abstraction and Texture for Artistic Images&rdquo; at <a class='urllink' href='https://cw2023.ieee-cw.org/'>Cyberworlds 2023</a>. CW 2023 took place from 3rd of October to 5th of October in Sousse, Tunisia.",
+    "icon" : "<img src='/img/award.png'>"
+  },
   { "date" : "2023-06-12 00:00:00",
     "text" : "Our paper &ldquo;Interactive Control over Temporal Consistency while Stylizing Video Streams&rdquo; has been accepted to the <a class='urllink' href='https://conferences.eg.org/egsr2023/'>Eurographics Symposium on Rendering</a> and will be published in a special issue of Computer Graphics Forum. The code is available from <a class='urllink' href='https://maxreimann.github.io/stream-consistency/'>here</a>. EGSR 2023 will take place from 28th of June to 30th of June in Delft, Netherlands.",
     "icon" : ""
