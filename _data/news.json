@@ -1,4 +1,24 @@
-[ { "date" : "2023-06-12 00:00:00",
+[ { "date" : "2025-09-29 00:00:00",
+    "text" : "BeCasso, Clip2Comic, Graphite, Oilbrush, and Waterbrush have been updated for iOS 26, iPadOS 26, and macOS 26 with Apple&rsquo;s new Liquid Glass design language, improved canvas handling, and performance optimizations. All apps are available from the <a class='urllink' href='https://apps.apple.com/developer/digital-masterpieces-gmbh/id874345609'>App Store</a>.",
+    "icon" : ""
+  },
+  { "date" : "2025-04-24 00:00:00",
+    "text" : "We added over 20 new Custom Magic Styles to BeCasso based on Arbitrary Neural Style Transfer, expanding the ML-powered artistic style transfer capabilities with new oil painting, watercolor, and pencil effects. BeCasso is available from the <a class='urllink' href='https://apps.apple.com/app/becasso-photo-to-painting-app/id1125534178'>App Store</a>.",
+    "icon" : ""
+  },
+  { "date" : "2024-10-30 00:00:00",
+    "text" : "BeCasso now integrates Apple Image Playground, enabling users to generate images via Apple Intelligence and transform them into high-resolution artwork directly within the app. Available on devices supporting <a class='urllink' href='https://www.apple.com/apple-intelligence/'>Apple Intelligence</a>.",
+    "icon" : ""
+  },
+  { "date" : "2024-05-28 00:00:00",
+    "text" : "We launched Magic Eraser in BeCasso &mdash; an on-device ML-powered object removal feature that runs entirely on the iPhone, iPad and Mac. Remove unwanted objects from photos before turning them into art. <a class='urllink' href='https://digitalmasterpieces.com/2024/05/28/major-update-introducing-magic-eraser/'>Learn more</a>.",
+    "icon" : ""
+  },
+  { "date" : "2024-01-22 00:00:00",
+    "text" : "We introduced Custom Styles across the BeCasso app family. Create, fine-tune, and save your own parametric style presets &mdash; synchronized across all devices. <a class='urllink' href='https://digitalmasterpieces.com/2024/01/22/craft-your-unique-vision-introducing-custom-styles/'>Learn more</a>.",
+    "icon" : ""
+  }, 
+  { "date" : "2023-06-12 00:00:00",
     "text" : "Our paper &ldquo;Interactive Control over Temporal Consistency while Stylizing Video Streams&rdquo; has been accepted to the <a class='urllink' href='https://conferences.eg.org/egsr2023/'>Eurographics Symposium on Rendering</a> and will be published in a special issue of Computer Graphics Forum. The code is available from <a class='urllink' href='https://maxreimann.github.io/stream-consistency/'>here</a>. EGSR 2023 will take place from 28th of June to 30th of June in Delft, Netherlands.",
     "icon" : ""
   },
